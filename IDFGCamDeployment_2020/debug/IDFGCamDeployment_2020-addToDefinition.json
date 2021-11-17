@@ -1,0 +1,810 @@
+{
+    "layers": [
+        {
+            "allowGeometryUpdates": true,
+            "capabilities": "Query,Editing,Create,Update,Delete",
+            "copyrightText": "",
+            "defaultVisibility": true,
+            "description": "",
+            "displayField": "objectid",
+            "drawingInfo": {
+                "labelingInfo": null,
+                "renderer": {
+                    "description": "Survey Data Locations",
+                    "label": "IDFGCamDeployment_2020",
+                    "symbol": {
+                        "angle": 0,
+                        "color": [
+                            255,
+                            0,
+                            0,
+                            255
+                        ],
+                        "outline": {
+                            "color": [
+                                255,
+                                255,
+                                0,
+                                255
+                            ],
+                            "width": 1
+                        },
+                        "size": 8,
+                        "style": "esriSMSCircle",
+                        "type": "esriSMS",
+                        "xoffset": 0,
+                        "yoffset": 0
+                    },
+                    "type": "simple"
+                },
+                "transparency": 0
+            },
+            "extent": {
+                "spatialReference": {
+                    "wkid": 4326
+                },
+                "type": "extent",
+                "xmax": 180,
+                "xmin": -180,
+                "ymax": 90,
+                "ymin": -90
+            },
+            "fields": [
+                {
+                    "alias": "ObjectID",
+                    "defaultValue": null,
+                    "domain": null,
+                    "editable": false,
+                    "name": "objectid",
+                    "nullable": false,
+                    "type": "esriFieldTypeOID"
+                },
+                {
+                    "alias": "GlobalID",
+                    "defaultValue": null,
+                    "domain": null,
+                    "editable": false,
+                    "length": 38,
+                    "name": "globalid",
+                    "nullable": false,
+                    "sqlType": "sqlTypeGUID",
+                    "type": "esriFieldTypeGlobalID"
+                },
+                {
+                    "alias": "Camera Project",
+                    "domain": {
+                        "codedValues": [
+                            {
+                                "code": "EOE2020",
+                                "name": "EOE2020 (Ecology of everything)"
+                            },
+                            {
+                                "code": "CAMLN2020",
+                                "name": "CAMLN2020 (Caribou mountain lions)"
+                            },
+                            {
+                                "code": "SWWLF2020",
+                                "name": "SWWLF2020 (Statewide wolf)"
+                            },
+                            {
+                                "code": "SWUNG2020",
+                                "name": "SWUNG2020 (Statewide ungulate)"
+                            }
+                        ],
+                        "name": "cvd_project",
+                        "type": "codedValue"
+                    },
+                    "editable": true,
+                    "length": 255,
+                    "name": "project",
+                    "nullable": true,
+                    "type": "esriFieldTypeString",
+                    "visible": true
+                },
+                {
+                    "alias": "Type of Camera",
+                    "domain": {
+                        "codedValues": [
+                            {
+                                "code": "wolf_a",
+                                "name": "Wolf abundance"
+                            },
+                            {
+                                "code": "wolf_o",
+                                "name": "Wolf occupancy"
+                            },
+                            {
+                                "code": "wolf_b",
+                                "name": "Wolf abundance and occupancy (combination camera)"
+                            }
+                        ],
+                        "name": "cvd_wolf_type",
+                        "type": "codedValue"
+                    },
+                    "editable": true,
+                    "length": 255,
+                    "name": "wolf_type",
+                    "nullable": true,
+                    "type": "esriFieldTypeString",
+                    "visible": true
+                },
+                {
+                    "alias": "Style of Setup",
+                    "domain": {
+                        "codedValues": [
+                            {
+                                "code": "neo_pred",
+                                "name": "Predator/neonate"
+                            },
+                            {
+                                "code": "ung",
+                                "name": "Ungulate"
+                            }
+                        ],
+                        "name": "cvd_eoe_style",
+                        "type": "codedValue"
+                    },
+                    "editable": true,
+                    "length": 255,
+                    "name": "eoe_style",
+                    "nullable": true,
+                    "type": "esriFieldTypeString",
+                    "visible": true
+                },
+                {
+                    "alias": "cam_style",
+                    "domain": null,
+                    "editable": true,
+                    "length": 255,
+                    "name": "cam_style",
+                    "nullable": true,
+                    "type": "esriFieldTypeString",
+                    "visible": true
+                },
+                {
+                    "alias": "Photo Batch",
+                    "domain": null,
+                    "editable": true,
+                    "length": 255,
+                    "name": "photo_batch",
+                    "nullable": true,
+                    "type": "esriFieldTypeInteger",
+                    "visible": true
+                },
+                {
+                    "alias": "Deployment Date",
+                    "domain": null,
+                    "editable": true,
+                    "length": 255,
+                    "name": "dep_date",
+                    "nullable": true,
+                    "type": "esriFieldTypeDate",
+                    "visible": true
+                },
+                {
+                    "alias": "Deployer's Last Name(s)",
+                    "domain": null,
+                    "editable": true,
+                    "length": 255,
+                    "name": "deployer",
+                    "nullable": true,
+                    "type": "esriFieldTypeString",
+                    "visible": true
+                },
+                {
+                    "alias": "Region",
+                    "domain": {
+                        "codedValues": [
+                            {
+                                "code": "1",
+                                "name": "1"
+                            },
+                            {
+                                "code": "2",
+                                "name": "2"
+                            },
+                            {
+                                "code": "3",
+                                "name": "3"
+                            },
+                            {
+                                "code": "4",
+                                "name": "4"
+                            },
+                            {
+                                "code": "5",
+                                "name": "5"
+                            },
+                            {
+                                "code": "6",
+                                "name": "6"
+                            },
+                            {
+                                "code": "7",
+                                "name": "7"
+                            }
+                        ],
+                        "name": "cvd_region",
+                        "type": "codedValue"
+                    },
+                    "editable": true,
+                    "length": 255,
+                    "name": "region",
+                    "nullable": true,
+                    "type": "esriFieldTypeString",
+                    "visible": true
+                },
+                {
+                    "alias": "Game Management Unit",
+                    "domain": null,
+                    "editable": true,
+                    "length": 255,
+                    "name": "gmu",
+                    "nullable": true,
+                    "type": "esriFieldTypeString",
+                    "visible": true
+                },
+                {
+                    "alias": "RSF Level",
+                    "domain": {
+                        "codedValues": [
+                            {
+                                "code": "low",
+                                "name": "Low"
+                            },
+                            {
+                                "code": "high",
+                                "name": "High"
+                            }
+                        ],
+                        "name": "cvd_rsf",
+                        "type": "codedValue"
+                    },
+                    "editable": true,
+                    "length": 255,
+                    "name": "rsf",
+                    "nullable": true,
+                    "type": "esriFieldTypeString",
+                    "visible": true
+                },
+                {
+                    "alias": "Cell ID",
+                    "domain": null,
+                    "editable": true,
+                    "length": 255,
+                    "name": "cellid_number",
+                    "nullable": true,
+                    "type": "esriFieldTypeInteger",
+                    "visible": true
+                },
+                {
+                    "alias": "Formatted Cell ID:",
+                    "domain": null,
+                    "editable": true,
+                    "length": 255,
+                    "name": "cell_id",
+                    "nullable": true,
+                    "type": "esriFieldTypeString",
+                    "visible": true
+                },
+                {
+                    "alias": "Camera ID",
+                    "domain": null,
+                    "editable": true,
+                    "length": 4,
+                    "name": "cam_id",
+                    "nullable": true,
+                    "type": "esriFieldTypeString",
+                    "visible": true
+                },
+                {
+                    "alias": "Python Lock(s) Key Number",
+                    "domain": {
+                        "codedValues": [
+                            {
+                                "code": "3918",
+                                "name": "3918"
+                            },
+                            {
+                                "code": "2264",
+                                "name": "2264"
+                            },
+                            {
+                                "code": "small_lock",
+                                "name": "Small lock combo (enter below)"
+                            }
+                        ],
+                        "name": "cvd_lock_id",
+                        "type": "codedValue"
+                    },
+                    "editable": true,
+                    "length": 255,
+                    "name": "lock_id",
+                    "nullable": true,
+                    "type": "esriFieldTypeString",
+                    "visible": true
+                },
+                {
+                    "alias": "Small Lock Combo",
+                    "domain": null,
+                    "editable": true,
+                    "length": 255,
+                    "name": "sm_lck_cmbo",
+                    "nullable": true,
+                    "type": "esriFieldTypeString",
+                    "visible": true
+                },
+                {
+                    "alias": "lat_auto",
+                    "domain": null,
+                    "editable": true,
+                    "length": 255,
+                    "name": "lat_auto",
+                    "nullable": true,
+                    "type": "esriFieldTypeString",
+                    "visible": true
+                },
+                {
+                    "alias": "lon_auto",
+                    "domain": null,
+                    "editable": true,
+                    "length": 255,
+                    "name": "lon_auto",
+                    "nullable": true,
+                    "type": "esriFieldTypeString",
+                    "visible": true
+                },
+                {
+                    "alias": "GPS Accuracy (m)",
+                    "domain": null,
+                    "editable": true,
+                    "length": 255,
+                    "name": "gps_accuracy",
+                    "nullable": true,
+                    "type": "esriFieldTypeDouble",
+                    "visible": true
+                },
+                {
+                    "alias": "Latitude",
+                    "domain": null,
+                    "editable": true,
+                    "length": 255,
+                    "name": "lat_manual",
+                    "nullable": true,
+                    "type": "esriFieldTypeDouble",
+                    "visible": true
+                },
+                {
+                    "alias": "Longitude",
+                    "domain": null,
+                    "editable": true,
+                    "length": 255,
+                    "name": "lon_manual",
+                    "nullable": true,
+                    "type": "esriFieldTypeDouble",
+                    "visible": true
+                },
+                {
+                    "alias": "General Location",
+                    "domain": null,
+                    "editable": true,
+                    "length": 100,
+                    "name": "gen_loc",
+                    "nullable": true,
+                    "type": "esriFieldTypeString",
+                    "visible": true
+                },
+                {
+                    "alias": "Notes on navigation to site",
+                    "domain": null,
+                    "editable": true,
+                    "length": 255,
+                    "name": "nav_notes",
+                    "nullable": true,
+                    "type": "esriFieldTypeString",
+                    "visible": true
+                },
+                {
+                    "alias": "Camera Height (m)",
+                    "domain": null,
+                    "editable": true,
+                    "length": 255,
+                    "name": "cam_height",
+                    "nullable": true,
+                    "type": "esriFieldTypeDouble",
+                    "visible": true
+                },
+                {
+                    "alias": "Distance to Marker A (m)",
+                    "domain": null,
+                    "editable": true,
+                    "length": 255,
+                    "name": "dist_a",
+                    "nullable": true,
+                    "type": "esriFieldTypeDouble",
+                    "visible": true
+                },
+                {
+                    "alias": "Type of Marker A",
+                    "domain": {
+                        "codedValues": [
+                            {
+                                "code": "flag_tree",
+                                "name": "Flagging on tree"
+                            },
+                            {
+                                "code": "flag_shrub",
+                                "name": "Flagging on shrub"
+                            },
+                            {
+                                "code": "paint_x",
+                                "name": "Painted X"
+                            },
+                            {
+                                "code": "stake",
+                                "name": "Reflective stake"
+                            }
+                        ],
+                        "name": "cvd_type_a",
+                        "type": "codedValue"
+                    },
+                    "editable": true,
+                    "length": 255,
+                    "name": "type_a",
+                    "nullable": true,
+                    "type": "esriFieldTypeString",
+                    "visible": true
+                },
+                {
+                    "alias": "Distance to Marker B (m)",
+                    "domain": null,
+                    "editable": true,
+                    "length": 255,
+                    "name": "dist_b",
+                    "nullable": true,
+                    "type": "esriFieldTypeDouble",
+                    "visible": true
+                },
+                {
+                    "alias": "Type of Marker B",
+                    "domain": {
+                        "codedValues": [
+                            {
+                                "code": "flag_tree",
+                                "name": "Flagging on tree"
+                            },
+                            {
+                                "code": "flag_shrub",
+                                "name": "Flagging on shrub"
+                            },
+                            {
+                                "code": "paint_x",
+                                "name": "Painted X"
+                            },
+                            {
+                                "code": "stake",
+                                "name": "Reflective stake"
+                            }
+                        ],
+                        "name": "cvd_type_b",
+                        "type": "codedValue"
+                    },
+                    "editable": true,
+                    "length": 255,
+                    "name": "type_b",
+                    "nullable": true,
+                    "type": "esriFieldTypeString",
+                    "visible": true
+                },
+                {
+                    "alias": "Distance to Marker C (m)",
+                    "domain": null,
+                    "editable": true,
+                    "length": 255,
+                    "name": "dist_c",
+                    "nullable": true,
+                    "type": "esriFieldTypeDouble",
+                    "visible": true
+                },
+                {
+                    "alias": "Type of Marker C",
+                    "domain": {
+                        "codedValues": [
+                            {
+                                "code": "flag_tree",
+                                "name": "Flagging on tree"
+                            },
+                            {
+                                "code": "flag_shrub",
+                                "name": "Flagging on shrub"
+                            },
+                            {
+                                "code": "paint_x",
+                                "name": "Painted X"
+                            },
+                            {
+                                "code": "stake",
+                                "name": "Reflective stake"
+                            }
+                        ],
+                        "name": "cvd_type_c",
+                        "type": "codedValue"
+                    },
+                    "editable": true,
+                    "length": 255,
+                    "name": "type_c",
+                    "nullable": true,
+                    "type": "esriFieldTypeString",
+                    "visible": true
+                },
+                {
+                    "alias": "Distance to NEAR EDGE of road/trail (m)",
+                    "domain": null,
+                    "editable": true,
+                    "length": 255,
+                    "name": "dist_near",
+                    "nullable": true,
+                    "type": "esriFieldTypeDouble",
+                    "visible": true
+                },
+                {
+                    "alias": "Distance to FAR EDGE of road/trail (m)",
+                    "domain": null,
+                    "editable": true,
+                    "length": 255,
+                    "name": "dist_far",
+                    "nullable": true,
+                    "type": "esriFieldTypeDouble",
+                    "visible": true
+                },
+                {
+                    "alias": "WIDTH of Walk Test (m)",
+                    "domain": null,
+                    "editable": true,
+                    "length": 255,
+                    "name": "walk_width",
+                    "nullable": true,
+                    "type": "esriFieldTypeDouble",
+                    "visible": true
+                },
+                {
+                    "alias": "DEPTH of Walk Test (m)",
+                    "domain": null,
+                    "editable": true,
+                    "length": 255,
+                    "name": "walk_depth",
+                    "nullable": true,
+                    "type": "esriFieldTypeDouble",
+                    "visible": true
+                },
+                {
+                    "alias": "What is the camera facing?",
+                    "domain": {
+                        "codedValues": [
+                            {
+                                "code": "game",
+                                "name": "Game trail"
+                            },
+                            {
+                                "code": "hiking",
+                                "name": "Established hiking trail"
+                            },
+                            {
+                                "code": "atv",
+                                "name": "ATV trail"
+                            },
+                            {
+                                "code": "road",
+                                "name": "Lightly used dirt road"
+                            },
+                            {
+                                "code": "other",
+                                "name": "Other (describe briefly)"
+                            }
+                        ],
+                        "name": "cvd_cam_facing",
+                        "type": "codedValue"
+                    },
+                    "editable": true,
+                    "length": 255,
+                    "name": "cam_facing",
+                    "nullable": true,
+                    "type": "esriFieldTypeString",
+                    "visible": true
+                },
+                {
+                    "alias": "Other viewshed feature",
+                    "domain": null,
+                    "editable": true,
+                    "length": 255,
+                    "name": "cam_facing_other",
+                    "nullable": true,
+                    "type": "esriFieldTypeString",
+                    "visible": true
+                },
+                {
+                    "alias": "Dominant Habitat Type",
+                    "domain": {
+                        "codedValues": [
+                            {
+                                "code": "wet_forest",
+                                "name": "Wet forest (cedar/hemlock/fir)"
+                            },
+                            {
+                                "code": "dry_forest",
+                                "name": "Dry forest (Douglas fir/pine/larch)"
+                            },
+                            {
+                                "code": "riparian",
+                                "name": "Riparian (willow/hydrophilic vegetation)"
+                            },
+                            {
+                                "code": "aspen",
+                                "name": "Aspen"
+                            },
+                            {
+                                "code": "juniper",
+                                "name": "Juniper"
+                            },
+                            {
+                                "code": "mtn_shrub",
+                                "name": "Mountain shrub (maple, mahogany, ceanothus, etc.)"
+                            },
+                            {
+                                "code": "sage_steppe",
+                                "name": "Sagebrush-steppe"
+                            },
+                            {
+                                "code": "grass-mdw",
+                                "name": "Grassland/meadow"
+                            },
+                            {
+                                "code": "other",
+                                "name": "Other (describe briefly)"
+                            }
+                        ],
+                        "name": "cvd_habitat_type",
+                        "type": "codedValue"
+                    },
+                    "editable": true,
+                    "length": 255,
+                    "name": "habitat_type",
+                    "nullable": true,
+                    "type": "esriFieldTypeString",
+                    "visible": true
+                },
+                {
+                    "alias": "Other Habitat Type",
+                    "domain": null,
+                    "editable": true,
+                    "length": 50,
+                    "name": "habitat_other",
+                    "nullable": true,
+                    "type": "esriFieldTypeString",
+                    "visible": true
+                },
+                {
+                    "alias": "Topography",
+                    "domain": {
+                        "codedValues": [
+                            {
+                                "code": "ridge",
+                                "name": "Ridge/saddle"
+                            },
+                            {
+                                "code": "hill",
+                                "name": "Hillside"
+                            },
+                            {
+                                "code": "flat",
+                                "name": "Flat ground"
+                            },
+                            {
+                                "code": "drain",
+                                "name": "Drainage bottom"
+                            },
+                            {
+                                "code": "other",
+                                "name": "Other (describe briefly)"
+                            }
+                        ],
+                        "name": "cvd_topography",
+                        "type": "codedValue"
+                    },
+                    "editable": true,
+                    "length": 255,
+                    "name": "topography",
+                    "nullable": true,
+                    "type": "esriFieldTypeString",
+                    "visible": true
+                },
+                {
+                    "alias": "Other Topography",
+                    "domain": null,
+                    "editable": true,
+                    "length": 50,
+                    "name": "topo_other",
+                    "nullable": true,
+                    "type": "esriFieldTypeString",
+                    "visible": true
+                },
+                {
+                    "alias": "Canopy Cover",
+                    "domain": {
+                        "codedValues": [
+                            {
+                                "code": "25",
+                                "name": "0-25%"
+                            },
+                            {
+                                "code": "50",
+                                "name": "26-50%"
+                            },
+                            {
+                                "code": "75",
+                                "name": "51-75%"
+                            },
+                            {
+                                "code": "100",
+                                "name": "76-100%"
+                            }
+                        ],
+                        "name": "cvd_canopy_cover",
+                        "type": "codedValue"
+                    },
+                    "editable": true,
+                    "length": 255,
+                    "name": "canopy_cover",
+                    "nullable": true,
+                    "type": "esriFieldTypeString",
+                    "visible": true
+                },
+                {
+                    "alias": "Comments",
+                    "domain": null,
+                    "editable": true,
+                    "length": 255,
+                    "name": "comments",
+                    "nullable": true,
+                    "type": "esriFieldTypeString",
+                    "visible": true
+                }
+            ],
+            "geometryType": "esriGeometryPoint",
+            "globalIdField": "globalid",
+            "hasAttachments": true,
+            "hasM": false,
+            "hasStaticData": false,
+            "hasZ": false,
+            "htmlPopupType": "esriServerHTMLPopupTypeAsHTMLText",
+            "id": 0,
+            "indexes": [
+                {
+                    "description": "GlobalID index",
+                    "fields": "globalid",
+                    "isAscending": false,
+                    "isUnique": true,
+                    "name": "GlobalIDIndex"
+                }
+            ],
+            "isDataVersioned": false,
+            "maxRecordCount": 1000,
+            "maxScale": 0,
+            "minScale": 0,
+            "name": "title_idfg_cam_dep",
+            "objectIdField": "objectid",
+            "relationships": [
+            ],
+            "supportedQueryFormats": "JSON",
+            "supportsAdvancedQueries": true,
+            "supportsRollbackOnFailureParameter": true,
+            "supportsStatistics": true,
+            "templates": [
+            ],
+            "type": "Feature Layer",
+            "typeIdField": "",
+            "types": [
+            ]
+        }
+    ]
+}

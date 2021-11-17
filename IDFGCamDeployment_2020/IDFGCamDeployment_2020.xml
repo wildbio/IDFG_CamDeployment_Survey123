@@ -1,0 +1,1944 @@
+<?xml version="1.0"?>
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:esri="http://esri.com/xforms" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:jr="http://openrosa.org/javarosa" xmlns:odk="http://www.opendatakit.org/xforms" xmlns:orx="http://openrosa.org/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <h:head>
+    <h:title>IDFG Camera Deployment</h:title>
+    <model>
+      <itext>
+        <translation default="true()" lang="default">
+          <text id="static_instance-gmu-18">
+            <value>15</value>
+          </text>
+          <text id="static_instance-gmu-19">
+            <value>16</value>
+          </text>
+          <text id="static_instance-gmu-16">
+            <value>13</value>
+          </text>
+          <text id="static_instance-gmu-17">
+            <value>14</value>
+          </text>
+          <text id="static_instance-gmu-14">
+            <value>11A</value>
+          </text>
+          <text id="static_instance-gmu-15">
+            <value>12</value>
+          </text>
+          <text id="static_instance-gmu-12">
+            <value>10A</value>
+          </text>
+          <text id="static_instance-gmu-13">
+            <value>11</value>
+          </text>
+          <text id="static_instance-gmu-10">
+            <value>8A</value>
+          </text>
+          <text id="static_instance-gmu-11">
+            <value>10</value>
+          </text>
+          <text id="static_instance-wolf_type-0">
+            <value>Wolf abundance</value>
+          </text>
+          <text id="static_instance-wolf_type-1">
+            <value>Wolf occupancy</value>
+          </text>
+          <text id="static_instance-wolf_type-2">
+            <value>Wolf abundance and occupancy (combination camera)</value>
+          </text>
+          <text id="static_instance-region-3">
+            <value>4</value>
+          </text>
+          <text id="static_instance-project-2">
+            <value>SWWLF2020 (Statewide wolf)</value>
+          </text>
+          <text id="static_instance-project-3">
+            <value>SWUNG2020 (Statewide ungulate)</value>
+          </text>
+          <text id="static_instance-project-0">
+            <value>EOE2020 (Ecology of everything)</value>
+          </text>
+          <text id="static_instance-project-1">
+            <value>CAMLN2020 (Caribou mountain lions)</value>
+          </text>
+          <text id="static_instance-gmu-96">
+            <value>36A</value>
+          </text>
+          <text id="static_instance-gmu-97">
+            <value>36B</value>
+          </text>
+          <text id="static_instance-gmu-94">
+            <value>30A</value>
+          </text>
+          <text id="static_instance-gmu-95">
+            <value>36</value>
+          </text>
+          <text id="static_instance-gmu-92">
+            <value>29</value>
+          </text>
+          <text id="static_instance-gmu-93">
+            <value>30</value>
+          </text>
+          <text id="static_instance-gmu-90">
+            <value>27</value>
+          </text>
+          <text id="static_instance-gmu-91">
+            <value>28</value>
+          </text>
+          <text id="static_instance-facing-4">
+            <value>Other (describe briefly)</value>
+          </text>
+          <text id="static_instance-facing-0">
+            <value>Game trail</value>
+          </text>
+          <text id="static_instance-facing-1">
+            <value>Established hiking trail</value>
+          </text>
+          <text id="static_instance-facing-2">
+            <value>ATV trail</value>
+          </text>
+          <text id="static_instance-facing-3">
+            <value>Lightly used dirt road</value>
+          </text>
+          <text id="static_instance-gmu-52">
+            <value>53</value>
+          </text>
+          <text id="static_instance-gmu-53">
+            <value>54</value>
+          </text>
+          <text id="static_instance-topo-4">
+            <value>Other (describe briefly)</value>
+          </text>
+          <text id="static_instance-yes_no-1">
+            <value>No</value>
+          </text>
+          <text id="static_instance-yes_no-0">
+            <value>Yes</value>
+          </text>
+          <text id="static_instance-topo-0">
+            <value>Ridge/saddle</value>
+          </text>
+          <text id="static_instance-topo-1">
+            <value>Hillside</value>
+          </text>
+          <text id="static_instance-topo-2">
+            <value>Flat ground</value>
+          </text>
+          <text id="static_instance-topo-3">
+            <value>Drainage bottom</value>
+          </text>
+          <text id="static_instance-gmu-85">
+            <value>67</value>
+          </text>
+          <text id="static_instance-mark_type-4">
+            <value>Other (describe in comments section)</value>
+          </text>
+          <text id="static_instance-gmu-87">
+            <value>69</value>
+          </text>
+          <text id="static_instance-gmu-51">
+            <value>52A</value>
+          </text>
+          <text id="static_instance-mark_type-1">
+            <value>Flagging on shrub</value>
+          </text>
+          <text id="static_instance-mark_type-0">
+            <value>Flagging on tree</value>
+          </text>
+          <text id="static_instance-mark_type-3">
+            <value>Reflective stake</value>
+          </text>
+          <text id="static_instance-mark_type-2">
+            <value>Painted X</value>
+          </text>
+          <text id="static_instance-gmu-56">
+            <value>57</value>
+          </text>
+          <text id="static_instance-gmu-89">
+            <value>21A</value>
+          </text>
+          <text id="static_instance-gmu-88">
+            <value>21</value>
+          </text>
+          <text id="static_instance-gmu-57">
+            <value>66A</value>
+          </text>
+          <text id="static_instance-style-0">
+            <value>Predator/neonate</value>
+          </text>
+          <text id="static_instance-style-1">
+            <value>Ungulate</value>
+          </text>
+          <text id="static_instance-gmu-30">
+            <value>25</value>
+          </text>
+          <text id="static_instance-gmu-31">
+            <value>26</value>
+          </text>
+          <text id="static_instance-gmu-32">
+            <value>32</value>
+          </text>
+          <text id="static_instance-gmu-33">
+            <value>32</value>
+          </text>
+          <text id="static_instance-gmu-34">
+            <value>32A</value>
+          </text>
+          <text id="static_instance-gmu-35">
+            <value>33</value>
+          </text>
+          <text id="static_instance-gmu-36">
+            <value>34</value>
+          </text>
+          <text id="static_instance-gmu-37">
+            <value>35</value>
+          </text>
+          <text id="static_instance-gmu-8">
+            <value>8</value>
+          </text>
+          <text id="static_instance-gmu-9">
+            <value>8</value>
+          </text>
+          <text id="/IDFGCamDeployment_2020/deploy_info/generated_note_name_10:label">
+            <value form="image">jr://images/neopred_setup.PNG</value>
+            <value>&lt;font size=2&gt;&lt;b&gt;PREDATOR/NEONATE SETUP INSTRUCTIONS:&lt;/b&gt;&lt;ol&gt;
+&lt;li&gt;Sturdy tree within 2000 m of navigation point&lt;/li&gt;
+&lt;li&gt;Jeep/ATV/closed-road &gt; hiking trail &gt; well-used game trail&lt;/li&gt;
+&lt;li&gt;Optimal height: ~3 m high, depends on situation&lt;/li&gt;
+&lt;li&gt;Optimal distance: 11 m from trail, 8 m from edge of road (min 5 m, max 20)&lt;/li&gt;
+&lt;li&gt;Perpendicular to trail&lt;/li&gt;
+&lt;li&gt;Angled so trail is in bottom ½ -⅓ of image&lt;/li&gt;
+&lt;li&gt;Similar surrounding habitat as ungulate cam (EOE paired cameras only)&lt;/li&gt;
+&lt;li&gt;WALK TEST&lt;/li&gt;
+&lt;li&gt;REFERENCE-ITEM PHOTO at NEAR EDGE of trail/road&lt;/li&gt;
+&lt;li&gt;Placard photo with CAM ID and SITE Number&lt;/li&gt;&lt;/ol&gt;
+&lt;em&gt;*No flagging necessary (only ungulate cams)&lt;/em&gt;&lt;/font&gt;</value>
+          </text>
+          <text id="static_instance-gmu-84">
+            <value>66</value>
+          </text>
+          <text id="static_instance-gmu-4">
+            <value>4A</value>
+          </text>
+          <text id="static_instance-gmu-5">
+            <value>5</value>
+          </text>
+          <text id="static_instance-gmu-6">
+            <value>6</value>
+          </text>
+          <text id="static_instance-gmu-7">
+            <value>7</value>
+          </text>
+          <text id="static_instance-gmu-0">
+            <value>1</value>
+          </text>
+          <text id="static_instance-gmu-1">
+            <value>2</value>
+          </text>
+          <text id="static_instance-gmu-2">
+            <value>3</value>
+          </text>
+          <text id="static_instance-gmu-3">
+            <value>4</value>
+          </text>
+          <text id="static_instance-pred_loc_check-4">
+            <value>Tree &gt; 8in diameter for camera &gt; 2.5m (8.5ft)</value>
+          </text>
+          <text id="static_instance-gmu-86">
+            <value>68</value>
+          </text>
+          <text id="static_instance-pred_loc_check-1">
+            <value>3-6m (10-20ft) off trail/low-use road</value>
+          </text>
+          <text id="static_instance-pred_loc_check-0">
+            <value>Within 500m of assigned location</value>
+          </text>
+          <text id="static_instance-pred_loc_check-3">
+            <value>Trail in mid-to-lower 1/3 of viewshed</value>
+          </text>
+          <text id="static_instance-pred_loc_check-2">
+            <value>Viewshed perpendicular to trail</value>
+          </text>
+          <text id="static_instance-gmu-81">
+            <value>63A</value>
+          </text>
+          <text id="static_instance-canopy-1">
+            <value>26-50%</value>
+          </text>
+          <text id="static_instance-gmu-80">
+            <value>63</value>
+          </text>
+          <text id="static_instance-gmu-83">
+            <value>65</value>
+          </text>
+          <text id="static_instance-gmu-82">
+            <value>64</value>
+          </text>
+          <text id="static_instance-gmu-27">
+            <value>22</value>
+          </text>
+          <text id="static_instance-gmu-26">
+            <value>20A</value>
+          </text>
+          <text id="static_instance-gmu-25">
+            <value>19A</value>
+          </text>
+          <text id="static_instance-gmu-24">
+            <value>20</value>
+          </text>
+          <text id="static_instance-gmu-23">
+            <value>19</value>
+          </text>
+          <text id="static_instance-gmu-22">
+            <value>18</value>
+          </text>
+          <text id="static_instance-gmu-21">
+            <value>17</value>
+          </text>
+          <text id="static_instance-gmu-20">
+            <value>16A</value>
+          </text>
+          <text id="static_instance-gmu-50">
+            <value>52</value>
+          </text>
+          <text id="static_instance-gmu-29">
+            <value>24</value>
+          </text>
+          <text id="static_instance-gmu-28">
+            <value>23</value>
+          </text>
+          <text id="/IDFGCamDeployment_2020/view_info/generated_note_name_39:label">
+            <value form="image">jr://images/viewcone_measurements.PNG</value>
+          </text>
+          <text id="static_instance-region-6">
+            <value>7</value>
+          </text>
+          <text id="static_instance-gmu-38">
+            <value>38</value>
+          </text>
+          <text id="static_instance-region-4">
+            <value>5</value>
+          </text>
+          <text id="static_instance-region-5">
+            <value>6</value>
+          </text>
+          <text id="static_instance-region-2">
+            <value>3</value>
+          </text>
+          <text id="/IDFGCamDeployment_2020/deploy_info/generated_note_name_9:label">
+            <value form="image">jr://images/ungulate_setup.PNG</value>
+            <value>&lt;font size=2&gt;&lt;b&gt;UNGULATE SETUP INSTRUCTIONS:&lt;/b&gt;&lt;ol&gt;
+&lt;li&gt;Go to Navigation Point&lt;/li&gt;
+&lt;li&gt;Determine habitat comp of 10 m Reference Area&lt;/li&gt;
+&lt;li&gt;Select tree (or T-post location) within 30 m of Navigation Point where camera will point toward habitat similar to Reference Area&lt;/li&gt;
+&lt;li&gt;Clear vegetation, tree limbs and nearby shrubs&lt;/li&gt;
+&lt;li&gt;Position camera, pointing in any direction, about 2 m high (elk eye level)&lt;/li&gt;
+&lt;li&gt;Aim parallel to topography&lt;/li&gt;
+&lt;li&gt;DISTANCE-REFERENCE flagging along center line&lt;/li&gt;
+&lt;li&gt;REFERENCE-ITEM PHOTO at 10 m&lt;/li&gt;
+&lt;li&gt;Placard photo with CAM ID &amp; SITE Number&lt;/li&gt;&lt;/ol&gt;
+&lt;em&gt;*NO WALK TEST (only predator cams)&lt;/em&gt;&lt;/font&gt;</value>
+          </text>
+          <text id="static_instance-region-0">
+            <value>1</value>
+          </text>
+          <text id="static_instance-region-1">
+            <value>2</value>
+          </text>
+          <text id="static_instance-ung_loc_check-1">
+            <value>Viewshed visible to 30m</value>
+          </text>
+          <text id="static_instance-ung_loc_check-0">
+            <value>Within 30m of assigned location</value>
+          </text>
+          <text id="static_instance-ung_loc_check-3">
+            <value>Minimal vegetation</value>
+          </text>
+          <text id="static_instance-ung_loc_check-2">
+            <value>Consistent topography in viewshed</value>
+          </text>
+          <text id="static_instance-ung_loc_check-5">
+            <value>Camera pointed &gt;270° or &lt;90°</value>
+          </text>
+          <text id="static_instance-ung_loc_check-4">
+            <value>Live tree &gt;8in diameter at 5-6ft</value>
+          </text>
+          <text id="static_instance-gmu-54">
+            <value>55</value>
+          </text>
+          <text id="static_instance-ung_loc_check-6">
+            <value>Not selectively placed on trail/road</value>
+          </text>
+          <text id="static_instance-gmu-58">
+            <value>68</value>
+          </text>
+          <text id="static_instance-gmu-59">
+            <value>68A</value>
+          </text>
+          <text id="static_instance-rsf-0">
+            <value>Low</value>
+          </text>
+          <text id="static_instance-rsf-1">
+            <value>High</value>
+          </text>
+          <text id="static_instance-hab_type-4">
+            <value>Juniper</value>
+          </text>
+          <text id="static_instance-hab_type-5">
+            <value>Mountain shrub (maple, mahogany, ceanothus, etc.)</value>
+          </text>
+          <text id="static_instance-hab_type-6">
+            <value>Sagebrush-steppe</value>
+          </text>
+          <text id="static_instance-hab_type-7">
+            <value>Grassland/meadow</value>
+          </text>
+          <text id="static_instance-hab_type-0">
+            <value>Wet forest (cedar/hemlock/fir)</value>
+          </text>
+          <text id="static_instance-hab_type-1">
+            <value>Dry forest (Douglas fir/pine/larch)</value>
+          </text>
+          <text id="static_instance-hab_type-2">
+            <value>Riparian (willow/hydrophilic vegetation)</value>
+          </text>
+          <text id="static_instance-hab_type-3">
+            <value>Aspen</value>
+          </text>
+          <text id="static_instance-hab_type-8">
+            <value>Other (describe briefly)</value>
+          </text>
+          <text id="static_instance-gmu-41">
+            <value>41</value>
+          </text>
+          <text id="static_instance-gmu-40">
+            <value>40</value>
+          </text>
+          <text id="static_instance-gmu-43">
+            <value>43</value>
+          </text>
+          <text id="static_instance-gmu-42">
+            <value>42</value>
+          </text>
+          <text id="static_instance-gmu-45">
+            <value>45</value>
+          </text>
+          <text id="static_instance-gmu-44">
+            <value>44</value>
+          </text>
+          <text id="static_instance-gmu-47">
+            <value>47</value>
+          </text>
+          <text id="static_instance-gmu-46">
+            <value>46</value>
+          </text>
+          <text id="static_instance-gmu-49">
+            <value>49</value>
+          </text>
+          <text id="static_instance-gmu-48">
+            <value>48</value>
+          </text>
+          <text id="static_instance-canopy-2">
+            <value>51-75%</value>
+          </text>
+          <text id="static_instance-gmu-55">
+            <value>56</value>
+          </text>
+          <text id="static_instance-gmu-98">
+            <value>37</value>
+          </text>
+          <text id="static_instance-gmu-99">
+            <value>37A</value>
+          </text>
+          <text id="static_instance-canopy-3">
+            <value>76-100%</value>
+          </text>
+          <text id="static_instance-gmu-78">
+            <value>62</value>
+          </text>
+          <text id="static_instance-gmu-79">
+            <value>62A</value>
+          </text>
+          <text id="static_instance-gmu-74">
+            <value>59A</value>
+          </text>
+          <text id="static_instance-gmu-75">
+            <value>60</value>
+          </text>
+          <text id="static_instance-gmu-76">
+            <value>60a</value>
+          </text>
+          <text id="static_instance-gmu-77">
+            <value>61</value>
+          </text>
+          <text id="static_instance-gmu-70">
+            <value>50</value>
+          </text>
+          <text id="static_instance-gmu-71">
+            <value>51</value>
+          </text>
+          <text id="static_instance-gmu-72">
+            <value>58</value>
+          </text>
+          <text id="static_instance-gmu-73">
+            <value>59</value>
+          </text>
+          <text id="static_instance-canopy-0">
+            <value>0-25%</value>
+          </text>
+          <text id="static_instance-gmu-39">
+            <value>39</value>
+          </text>
+          <text id="/IDFGCamDeployment_2020/view_info/generated_note_name_40:label">
+            <value form="image">jr://images/pred_measurements.PNG</value>
+          </text>
+          <text id="static_instance-gmu-69">
+            <value>78</value>
+          </text>
+          <text id="static_instance-gmu-68">
+            <value>77</value>
+          </text>
+          <text id="static_instance-gmu-63">
+            <value>73</value>
+          </text>
+          <text id="static_instance-gmu-62">
+            <value>72</value>
+          </text>
+          <text id="static_instance-gmu-61">
+            <value>71</value>
+          </text>
+          <text id="static_instance-gmu-60">
+            <value>70</value>
+          </text>
+          <text id="static_instance-gmu-67">
+            <value>76</value>
+          </text>
+          <text id="static_instance-gmu-66">
+            <value>75</value>
+          </text>
+          <text id="static_instance-gmu-65">
+            <value>74</value>
+          </text>
+          <text id="static_instance-gmu-64">
+            <value>73A</value>
+          </text>
+          <text id="static_instance-units-0">
+            <value>Meters</value>
+          </text>
+          <text id="static_instance-units-1">
+            <value>Feet (only if absolutely necessary)</value>
+          </text>
+          <text id="static_instance-key-0">
+            <value>3918</value>
+          </text>
+          <text id="static_instance-key-1">
+            <value>2264</value>
+          </text>
+          <text id="static_instance-key-2">
+            <value>Small lock combo (enter below)</value>
+          </text>
+        </translation>
+      </itext>
+      <instance>
+        <IDFGCamDeployment_2020 id="title_idfg_cam_dep">
+          <deploy_info>
+            <project/>
+            <wolf_type/>
+            <eoe_style/>
+            <cam_style/>
+            <photo_batch>1</photo_batch>
+            <generated_note_name_9/>
+            <generated_note_name_10/>
+            <generated_note_name_11/>
+            <cam_info>
+              <dep_date>today()</dep_date>
+              <deployer/>
+              <region/>
+              <gmu/>
+              <rsf/>
+              <cellid_number/>
+              <cell_id/>
+              <cam_id>0000</cam_id>
+              <generated_note_name_21/>
+              <lock_id/>
+              <sm_lck_cmbo/>
+              <gps_auto/>
+              <generated_note_name_25/>
+              <lat_auto/>
+              <lon_auto/>
+              <gps_accuracy/>
+              <lat_manual/>
+              <lon_manual/>
+              <generated_note_name_31/>
+              <generated_note_name_32/>
+              <gen_loc/>
+              <nav_notes/>
+            </cam_info>
+          </deploy_info>
+          <view_info>
+            <generated_note_name_39/>
+            <generated_note_name_40/>
+            <cam_height/>
+            <dist_a/>
+            <type_a/>
+            <dist_b/>
+            <type_b/>
+            <dist_c/>
+            <type_c/>
+            <dist_near/>
+            <dist_far/>
+            <walk_width/>
+            <walk_depth/>
+            <cam_facing/>
+            <cam_facing_other/>
+            <habitat_type/>
+            <habitat_other/>
+            <topography/>
+            <topo_other/>
+            <canopy_cover/>
+            <cam_diagram/>
+            <comments/>
+          </view_info>
+          <end_dep>
+            <generated_note_name_64/>
+            <generated_note_name_65/>
+            <generated_note_name_66/>
+            <generated_note_name_67/>
+          </end_dep>
+          <meta>
+            <instanceID/>
+          </meta>
+        </IDFGCamDeployment_2020>
+      </instance>
+      <instance id="@geopoint" src="jr://file-csv/@geopoint.csv">
+        <root>
+          <item>
+            <name>_</name>
+            <label>_</label>
+          </item>
+        </root>
+      </instance>
+      <instance id="facing">
+        <root>
+          <item>
+            <itextId>static_instance-facing-0</itextId>
+            <name>game</name>
+          </item>
+          <item>
+            <itextId>static_instance-facing-1</itextId>
+            <name>hiking</name>
+          </item>
+          <item>
+            <itextId>static_instance-facing-2</itextId>
+            <name>atv</name>
+          </item>
+          <item>
+            <itextId>static_instance-facing-3</itextId>
+            <name>road</name>
+          </item>
+          <item>
+            <itextId>static_instance-facing-4</itextId>
+            <name>other</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="style">
+        <root>
+          <item>
+            <itextId>static_instance-style-0</itextId>
+            <name>neo_pred</name>
+          </item>
+          <item>
+            <itextId>static_instance-style-1</itextId>
+            <name>ung</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="hab_type">
+        <root>
+          <item>
+            <itextId>static_instance-hab_type-0</itextId>
+            <name>wet_forest</name>
+          </item>
+          <item>
+            <itextId>static_instance-hab_type-1</itextId>
+            <name>dry_forest</name>
+          </item>
+          <item>
+            <itextId>static_instance-hab_type-2</itextId>
+            <name>riparian</name>
+          </item>
+          <item>
+            <itextId>static_instance-hab_type-3</itextId>
+            <name>aspen</name>
+          </item>
+          <item>
+            <itextId>static_instance-hab_type-4</itextId>
+            <name>juniper</name>
+          </item>
+          <item>
+            <itextId>static_instance-hab_type-5</itextId>
+            <name>mtn_shrub</name>
+          </item>
+          <item>
+            <itextId>static_instance-hab_type-6</itextId>
+            <name>sage_steppe</name>
+          </item>
+          <item>
+            <itextId>static_instance-hab_type-7</itextId>
+            <name>grass-mdw</name>
+          </item>
+          <item>
+            <itextId>static_instance-hab_type-8</itextId>
+            <name>other</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="region">
+        <root>
+          <item>
+            <itextId>static_instance-region-0</itextId>
+            <name>1</name>
+          </item>
+          <item>
+            <itextId>static_instance-region-1</itextId>
+            <name>2</name>
+          </item>
+          <item>
+            <itextId>static_instance-region-2</itextId>
+            <name>3</name>
+          </item>
+          <item>
+            <itextId>static_instance-region-3</itextId>
+            <name>4</name>
+          </item>
+          <item>
+            <itextId>static_instance-region-4</itextId>
+            <name>5</name>
+          </item>
+          <item>
+            <itextId>static_instance-region-5</itextId>
+            <name>6</name>
+          </item>
+          <item>
+            <itextId>static_instance-region-6</itextId>
+            <name>7</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="ung_loc_check">
+        <root>
+          <item>
+            <itextId>static_instance-ung_loc_check-0</itextId>
+            <name>30m_point</name>
+          </item>
+          <item>
+            <itextId>static_instance-ung_loc_check-1</itextId>
+            <name>30m_view</name>
+          </item>
+          <item>
+            <itextId>static_instance-ung_loc_check-2</itextId>
+            <name>topo_consistent</name>
+          </item>
+          <item>
+            <itextId>static_instance-ung_loc_check-3</itextId>
+            <name>veg_minimal</name>
+          </item>
+          <item>
+            <itextId>static_instance-ung_loc_check-4</itextId>
+            <name>tree_sturdy</name>
+          </item>
+          <item>
+            <itextId>static_instance-ung_loc_check-5</itextId>
+            <name>view_bearing</name>
+          </item>
+          <item>
+            <itextId>static_instance-ung_loc_check-6</itextId>
+            <name>not_trail</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="project">
+        <root>
+          <item>
+            <itextId>static_instance-project-0</itextId>
+            <name>EOE2020</name>
+          </item>
+          <item>
+            <itextId>static_instance-project-1</itextId>
+            <name>CAMLN2020</name>
+          </item>
+          <item>
+            <itextId>static_instance-project-2</itextId>
+            <name>SWWLF2020</name>
+          </item>
+          <item>
+            <itextId>static_instance-project-3</itextId>
+            <name>SWUNG2020</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="topo">
+        <root>
+          <item>
+            <itextId>static_instance-topo-0</itextId>
+            <name>ridge</name>
+          </item>
+          <item>
+            <itextId>static_instance-topo-1</itextId>
+            <name>hill</name>
+          </item>
+          <item>
+            <itextId>static_instance-topo-2</itextId>
+            <name>flat</name>
+          </item>
+          <item>
+            <itextId>static_instance-topo-3</itextId>
+            <name>drain</name>
+          </item>
+          <item>
+            <itextId>static_instance-topo-4</itextId>
+            <name>other</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="wolf_type">
+        <root>
+          <item>
+            <itextId>static_instance-wolf_type-0</itextId>
+            <name>wolf_a</name>
+          </item>
+          <item>
+            <itextId>static_instance-wolf_type-1</itextId>
+            <name>wolf_o</name>
+          </item>
+          <item>
+            <itextId>static_instance-wolf_type-2</itextId>
+            <name>wolf_b</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="key">
+        <root>
+          <item>
+            <itextId>static_instance-key-0</itextId>
+            <name>3918</name>
+          </item>
+          <item>
+            <itextId>static_instance-key-1</itextId>
+            <name>2264</name>
+          </item>
+          <item>
+            <itextId>static_instance-key-2</itextId>
+            <name>small_lock</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="mark_type">
+        <root>
+          <item>
+            <itextId>static_instance-mark_type-0</itextId>
+            <name>flag_tree</name>
+          </item>
+          <item>
+            <itextId>static_instance-mark_type-1</itextId>
+            <name>flag_shrub</name>
+          </item>
+          <item>
+            <itextId>static_instance-mark_type-2</itextId>
+            <name>paint_x</name>
+          </item>
+          <item>
+            <itextId>static_instance-mark_type-3</itextId>
+            <name>stake</name>
+          </item>
+          <item>
+            <itextId>static_instance-mark_type-4</itextId>
+            <name>other</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="units">
+        <root>
+          <item>
+            <itextId>static_instance-units-0</itextId>
+            <name>meters</name>
+          </item>
+          <item>
+            <itextId>static_instance-units-1</itextId>
+            <name>feet</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="pred_loc_check">
+        <root>
+          <item>
+            <itextId>static_instance-pred_loc_check-0</itextId>
+            <name>500m_point</name>
+          </item>
+          <item>
+            <itextId>static_instance-pred_loc_check-1</itextId>
+            <name>off_road</name>
+          </item>
+          <item>
+            <itextId>static_instance-pred_loc_check-2</itextId>
+            <name>perp</name>
+          </item>
+          <item>
+            <itextId>static_instance-pred_loc_check-3</itextId>
+            <name>sensor_zone</name>
+          </item>
+          <item>
+            <itextId>static_instance-pred_loc_check-4</itextId>
+            <name>tree_height</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="canopy">
+        <root>
+          <item>
+            <itextId>static_instance-canopy-0</itextId>
+            <name>25</name>
+          </item>
+          <item>
+            <itextId>static_instance-canopy-1</itextId>
+            <name>50</name>
+          </item>
+          <item>
+            <itextId>static_instance-canopy-2</itextId>
+            <name>75</name>
+          </item>
+          <item>
+            <itextId>static_instance-canopy-3</itextId>
+            <name>100</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="rsf">
+        <root>
+          <item>
+            <itextId>static_instance-rsf-0</itextId>
+            <name>low</name>
+          </item>
+          <item>
+            <itextId>static_instance-rsf-1</itextId>
+            <name>high</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="gmu">
+        <root>
+          <item>
+            <itextId>static_instance-gmu-0</itextId>
+            <reg>1</reg>
+            <name>1</name>
+          </item>
+          <item>
+            <itextId>static_instance-gmu-1</itextId>
+            <reg>1</reg>
+            <name>2</name>
+          </item>
+          <item>
+            <itextId>static_instance-gmu-2</itextId>
+            <reg>1</reg>
+            <name>3</name>
+          </item>
+          <item>
+            <itextId>static_instance-gmu-3</itextId>
+            <reg>1</reg>
+            <name>4</name>
+          </item>
+          <item>
+            <itextId>static_instance-gmu-4</itextId>
+            <reg>1</reg>
+            <name>4a</name>
+          </item>
+          <item>
+            <itextId>static_instance-gmu-5</itextId>
+            <reg>1</reg>
+            <name>5</name>
+          </item>
+          <item>
+            <itextId>static_instance-gmu-6</itextId>
+            <reg>1</reg>
+            <name>6</name>
+          </item>
+          <item>
+            <itextId>static_instance-gmu-7</itextId>
+            <reg>1</reg>
+            <name>7</name>
+          </item>
+          <item>
+            <itextId>static_instance-gmu-8</itextId>
+            <reg>1</reg>
+            <name>8</name>
+          </item>
+          <item>
+            <itextId>static_instance-gmu-9</itextId>
+            <reg>2</reg>
+            <name>8</name>
+          </item>
+          <item>
+            <itextId>static_instance-gmu-10</itextId>
+            <reg>2</reg>
+            <name>8a</name>
+          </item>
+          <item>
+            <itextId>static_instance-gmu-11</itextId>
+            <reg>2</reg>
+            <name>10</name>
+          </item>
+          <item>
+            <itextId>static_instance-gmu-12</itextId>
+            <reg>2</reg>
+            <name>10a</name>
+          </item>
+          <item>
+            <itextId>static_instance-gmu-13</itextId>
+            <reg>2</reg>
+            <name>11</name>
+          </item>
+          <item>
+            <itextId>static_instance-gmu-14</itextId>
+            <reg>2</reg>
+            <name>11a</name>
+          </item>
+          <item>
+            <itextId>static_instance-gmu-15</itextId>
+            <reg>2</reg>
+            <name>12</name>
+          </item>
+          <item>
+            <itextId>static_instance-gmu-16</itextId>
+            <reg>2</reg>
+            <name>13</name>
+          </item>
+          <item>
+            <itextId>static_instance-gmu-17</itextId>
+            <reg>2</reg>
+            <name>14</name>
+          </item>
+          <item>
+            <itextId>static_instance-gmu-18</itextId>
+            <reg>2</reg>
+            <name>15</name>
+          </item>
+          <item>
+            <itextId>static_instance-gmu-19</itextId>
+            <reg>2</reg>
+            <name>16</name>
+          </item>
+          <item>
+            <itextId>static_instance-gmu-20</itextId>
+            <reg>2</reg>
+            <name>16a</name>
+          </item>
+          <item>
+            <itextId>static_instance-gmu-21</itextId>
+            <reg>2</reg>
+            <name>17</name>
+          </item>
+          <item>
+            <itextId>static_instance-gmu-22</itextId>
+            <reg>2</reg>
+            <name>18</name>
+          </item>
+          <item>
+            <itextId>static_instance-gmu-23</itextId>
+            <reg>2</reg>
+            <name>19</name>
+          </item>
+          <item>
+            <itextId>static_instance-gmu-24</itextId>
+            <reg>2</reg>
+            <name>20</name>
+          </item>
+          <item>
+            <itextId>static_instance-gmu-25</itextId>
+            <reg>3</reg>
+            <name>19a</name>
+          </item>
+          <item>
+            <itextId>static_instance-gmu-26</itextId>
+            <reg>3</reg>
+            <name>20a</name>
+          </item>
+          <item>
+            <itextId>static_instance-gmu-27</itextId>
+            <reg>3</reg>
+            <name>22</name>
+          </item>
+          <item>
+            <itextId>static_instance-gmu-28</itextId>
+            <reg>3</reg>
+            <name>23</name>
+          </item>
+          <item>
+            <itextId>static_instance-gmu-29</itextId>
+            <reg>3</reg>
+            <name>24</name>
+          </item>
+          <item>
+            <itextId>static_instance-gmu-30</itextId>
+            <reg>3</reg>
+            <name>25</name>
+          </item>
+          <item>
+            <itextId>static_instance-gmu-31</itextId>
+            <reg>3</reg>
+            <name>26</name>
+          </item>
+          <item>
+            <itextId>static_instance-gmu-32</itextId>
+            <reg>3</reg>
+            <name>31</name>
+          </item>
+          <item>
+            <itextId>static_instance-gmu-33</itextId>
+            <reg>3</reg>
+            <name>32</name>
+          </item>
+          <item>
+            <itextId>static_instance-gmu-34</itextId>
+            <reg>3</reg>
+            <name>32a</name>
+          </item>
+          <item>
+            <itextId>static_instance-gmu-35</itextId>
+            <reg>3</reg>
+            <name>33</name>
+          </item>
+          <item>
+            <itextId>static_instance-gmu-36</itextId>
+            <reg>3</reg>
+            <name>34</name>
+          </item>
+          <item>
+            <itextId>static_instance-gmu-37</itextId>
+            <reg>3</reg>
+            <name>35</name>
+          </item>
+          <item>
+            <itextId>static_instance-gmu-38</itextId>
+            <reg>3</reg>
+            <name>38</name>
+          </item>
+          <item>
+            <itextId>static_instance-gmu-39</itextId>
+            <reg>3</reg>
+            <name>39</name>
+          </item>
+          <item>
+            <itextId>static_instance-gmu-40</itextId>
+            <reg>3</reg>
+            <name>40</name>
+          </item>
+          <item>
+            <itextId>static_instance-gmu-41</itextId>
+            <reg>3</reg>
+            <name>41</name>
+          </item>
+          <item>
+            <itextId>static_instance-gmu-42</itextId>
+            <reg>3</reg>
+            <name>42</name>
+          </item>
+          <item>
+            <itextId>static_instance-gmu-43</itextId>
+            <reg>4</reg>
+            <name>43</name>
+          </item>
+          <item>
+            <itextId>static_instance-gmu-44</itextId>
+            <reg>4</reg>
+            <name>44</name>
+          </item>
+          <item>
+            <itextId>static_instance-gmu-45</itextId>
+            <reg>4</reg>
+            <name>45</name>
+          </item>
+          <item>
+            <itextId>static_instance-gmu-46</itextId>
+            <reg>4</reg>
+            <name>46</name>
+          </item>
+          <item>
+            <itextId>static_instance-gmu-47</itextId>
+            <reg>4</reg>
+            <name>47</name>
+          </item>
+          <item>
+            <itextId>static_instance-gmu-48</itextId>
+            <reg>4</reg>
+            <name>48</name>
+          </item>
+          <item>
+            <itextId>static_instance-gmu-49</itextId>
+            <reg>4</reg>
+            <name>49</name>
+          </item>
+          <item>
+            <itextId>static_instance-gmu-50</itextId>
+            <reg>4</reg>
+            <name>52</name>
+          </item>
+          <item>
+            <itextId>static_instance-gmu-51</itextId>
+            <reg>4</reg>
+            <name>52a</name>
+          </item>
+          <item>
+            <itextId>static_instance-gmu-52</itextId>
+            <reg>4</reg>
+            <name>53</name>
+          </item>
+          <item>
+            <itextId>static_instance-gmu-53</itextId>
+            <reg>4</reg>
+            <name>54</name>
+          </item>
+          <item>
+            <itextId>static_instance-gmu-54</itextId>
+            <reg>4</reg>
+            <name>55</name>
+          </item>
+          <item>
+            <itextId>static_instance-gmu-55</itextId>
+            <reg>4</reg>
+            <name>56</name>
+          </item>
+          <item>
+            <itextId>static_instance-gmu-56</itextId>
+            <reg>4</reg>
+            <name>57</name>
+          </item>
+          <item>
+            <itextId>static_instance-gmu-57</itextId>
+            <reg>5</reg>
+            <name>66a</name>
+          </item>
+          <item>
+            <itextId>static_instance-gmu-58</itextId>
+            <reg>5</reg>
+            <name>68</name>
+          </item>
+          <item>
+            <itextId>static_instance-gmu-59</itextId>
+            <reg>5</reg>
+            <name>68a</name>
+          </item>
+          <item>
+            <itextId>static_instance-gmu-60</itextId>
+            <reg>5</reg>
+            <name>70</name>
+          </item>
+          <item>
+            <itextId>static_instance-gmu-61</itextId>
+            <reg>5</reg>
+            <name>71</name>
+          </item>
+          <item>
+            <itextId>static_instance-gmu-62</itextId>
+            <reg>5</reg>
+            <name>72</name>
+          </item>
+          <item>
+            <itextId>static_instance-gmu-63</itextId>
+            <reg>5</reg>
+            <name>73</name>
+          </item>
+          <item>
+            <itextId>static_instance-gmu-64</itextId>
+            <reg>5</reg>
+            <name>73a</name>
+          </item>
+          <item>
+            <itextId>static_instance-gmu-65</itextId>
+            <reg>5</reg>
+            <name>74</name>
+          </item>
+          <item>
+            <itextId>static_instance-gmu-66</itextId>
+            <reg>5</reg>
+            <name>75</name>
+          </item>
+          <item>
+            <itextId>static_instance-gmu-67</itextId>
+            <reg>5</reg>
+            <name>76</name>
+          </item>
+          <item>
+            <itextId>static_instance-gmu-68</itextId>
+            <reg>5</reg>
+            <name>77</name>
+          </item>
+          <item>
+            <itextId>static_instance-gmu-69</itextId>
+            <reg>5</reg>
+            <name>78</name>
+          </item>
+          <item>
+            <itextId>static_instance-gmu-70</itextId>
+            <reg>6</reg>
+            <name>50</name>
+          </item>
+          <item>
+            <itextId>static_instance-gmu-71</itextId>
+            <reg>6</reg>
+            <name>51</name>
+          </item>
+          <item>
+            <itextId>static_instance-gmu-72</itextId>
+            <reg>6</reg>
+            <name>58</name>
+          </item>
+          <item>
+            <itextId>static_instance-gmu-73</itextId>
+            <reg>6</reg>
+            <name>59</name>
+          </item>
+          <item>
+            <itextId>static_instance-gmu-74</itextId>
+            <reg>6</reg>
+            <name>59a</name>
+          </item>
+          <item>
+            <itextId>static_instance-gmu-75</itextId>
+            <reg>6</reg>
+            <name>60</name>
+          </item>
+          <item>
+            <itextId>static_instance-gmu-76</itextId>
+            <reg>6</reg>
+            <name>60a</name>
+          </item>
+          <item>
+            <itextId>static_instance-gmu-77</itextId>
+            <reg>6</reg>
+            <name>61</name>
+          </item>
+          <item>
+            <itextId>static_instance-gmu-78</itextId>
+            <reg>6</reg>
+            <name>62</name>
+          </item>
+          <item>
+            <itextId>static_instance-gmu-79</itextId>
+            <reg>6</reg>
+            <name>62a</name>
+          </item>
+          <item>
+            <itextId>static_instance-gmu-80</itextId>
+            <reg>6</reg>
+            <name>63</name>
+          </item>
+          <item>
+            <itextId>static_instance-gmu-81</itextId>
+            <reg>6</reg>
+            <name>63a</name>
+          </item>
+          <item>
+            <itextId>static_instance-gmu-82</itextId>
+            <reg>6</reg>
+            <name>64</name>
+          </item>
+          <item>
+            <itextId>static_instance-gmu-83</itextId>
+            <reg>6</reg>
+            <name>65</name>
+          </item>
+          <item>
+            <itextId>static_instance-gmu-84</itextId>
+            <reg>6</reg>
+            <name>66</name>
+          </item>
+          <item>
+            <itextId>static_instance-gmu-85</itextId>
+            <reg>6</reg>
+            <name>67</name>
+          </item>
+          <item>
+            <itextId>static_instance-gmu-86</itextId>
+            <reg>6</reg>
+            <name>68</name>
+          </item>
+          <item>
+            <itextId>static_instance-gmu-87</itextId>
+            <reg>6</reg>
+            <name>69</name>
+          </item>
+          <item>
+            <itextId>static_instance-gmu-88</itextId>
+            <reg>7</reg>
+            <name>21</name>
+          </item>
+          <item>
+            <itextId>static_instance-gmu-89</itextId>
+            <reg>7</reg>
+            <name>21a</name>
+          </item>
+          <item>
+            <itextId>static_instance-gmu-90</itextId>
+            <reg>7</reg>
+            <name>27</name>
+          </item>
+          <item>
+            <itextId>static_instance-gmu-91</itextId>
+            <reg>7</reg>
+            <name>28</name>
+          </item>
+          <item>
+            <itextId>static_instance-gmu-92</itextId>
+            <reg>7</reg>
+            <name>29</name>
+          </item>
+          <item>
+            <itextId>static_instance-gmu-93</itextId>
+            <reg>7</reg>
+            <name>30</name>
+          </item>
+          <item>
+            <itextId>static_instance-gmu-94</itextId>
+            <reg>7</reg>
+            <name>30a</name>
+          </item>
+          <item>
+            <itextId>static_instance-gmu-95</itextId>
+            <reg>7</reg>
+            <name>36</name>
+          </item>
+          <item>
+            <itextId>static_instance-gmu-96</itextId>
+            <reg>7</reg>
+            <name>36a</name>
+          </item>
+          <item>
+            <itextId>static_instance-gmu-97</itextId>
+            <reg>7</reg>
+            <name>36b</name>
+          </item>
+          <item>
+            <itextId>static_instance-gmu-98</itextId>
+            <reg>7</reg>
+            <name>37</name>
+          </item>
+          <item>
+            <itextId>static_instance-gmu-99</itextId>
+            <reg>7</reg>
+            <name>37a</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="yes_no">
+        <root>
+          <item>
+            <itextId>static_instance-yes_no-0</itextId>
+            <name>yes</name>
+          </item>
+          <item>
+            <itextId>static_instance-yes_no-1</itextId>
+            <name>no</name>
+          </item>
+        </root>
+      </instance>
+      <bind jr:requiredMsg="Please select Project" nodeset="/IDFGCamDeployment_2020/deploy_info/project" required="true()" type="select1"/>
+      <bind jr:requiredMsg="Please select Camera Type" nodeset="/IDFGCamDeployment_2020/deploy_info/wolf_type" relevant="selected( /IDFGCamDeployment_2020/deploy_info/project ,'SWWLF2020')" required="true()" type="select1"/>
+      <bind jr:requiredMsg="Please select Camera Style" nodeset="/IDFGCamDeployment_2020/deploy_info/eoe_style" relevant="selected( /IDFGCamDeployment_2020/deploy_info/project ,'EOE2020')" required="true()" type="select1"/>
+      <bind calculate="if(selected( /IDFGCamDeployment_2020/deploy_info/project ,'SWUNG2020') or selected( /IDFGCamDeployment_2020/deploy_info/eoe_style , 'ung'), &quot;ungulate&quot;,if(selected( /IDFGCamDeployment_2020/deploy_info/project ,'SWWLF2020') or selected( /IDFGCamDeployment_2020/deploy_info/project ,'CAMLN2020') or selected( /IDFGCamDeployment_2020/deploy_info/eoe_style , 'neo_pred'), &quot;predator&quot;,&quot;&quot;))" nodeset="/IDFGCamDeployment_2020/deploy_info/cam_style" type="string"/>
+      <bind nodeset="/IDFGCamDeployment_2020/deploy_info/photo_batch" relevant="selected( /IDFGCamDeployment_2020/deploy_info/project ,'EOE2020')" type="int"/>
+      <bind nodeset="/IDFGCamDeployment_2020/deploy_info/generated_note_name_9" readonly="true()" relevant=" /IDFGCamDeployment_2020/deploy_info/cam_style =&quot;ungulate&quot;" type="string"/>
+      <bind nodeset="/IDFGCamDeployment_2020/deploy_info/generated_note_name_10" readonly="true()" relevant=" /IDFGCamDeployment_2020/deploy_info/cam_style =&quot;predator&quot; and not(selected( /IDFGCamDeployment_2020/deploy_info/project ,'SWWLF2020'))" type="string"/>
+      <bind nodeset="/IDFGCamDeployment_2020/deploy_info/generated_note_name_11" readonly="true()" relevant="selected( /IDFGCamDeployment_2020/deploy_info/project ,'SWWLF2020')" type="string"/>
+      <bind nodeset="/IDFGCamDeployment_2020/deploy_info/cam_info" relevant="not( /IDFGCamDeployment_2020/deploy_info/cam_style =&quot;&quot;)"/>
+      <bind jr:requiredMsg="Please enter Deployment Date" nodeset="/IDFGCamDeployment_2020/deploy_info/cam_info/dep_date" relevant="count-selected( /IDFGCamDeployment_2020/deploy_info/project )=1" required="true()" type="date"/>
+      <bind jr:requiredMsg="Please enter Deployer's Last Name(s)" nodeset="/IDFGCamDeployment_2020/deploy_info/cam_info/deployer" relevant="count-selected( /IDFGCamDeployment_2020/deploy_info/project )=1" required="true()" type="string"/>
+      <bind jr:requiredMsg="Please select Region" nodeset="/IDFGCamDeployment_2020/deploy_info/cam_info/region" relevant="count-selected( /IDFGCamDeployment_2020/deploy_info/project )=1" required="true()" type="select1"/>
+      <bind jr:requiredMsg="Please select GMU" nodeset="/IDFGCamDeployment_2020/deploy_info/cam_info/gmu" relevant="count-selected( /IDFGCamDeployment_2020/deploy_info/project )=1" required="true()" type="select1"/>
+      <bind jr:requiredMsg="Please select RSF Level" nodeset="/IDFGCamDeployment_2020/deploy_info/cam_info/rsf" relevant="selected( /IDFGCamDeployment_2020/deploy_info/project ,'SWUNG2020')" required="true()" type="select1"/>
+      <bind jr:requiredMsg="Please enter Cell ID" nodeset="/IDFGCamDeployment_2020/deploy_info/cam_info/cellid_number" relevant="count-selected( /IDFGCamDeployment_2020/deploy_info/project )=1" required="true()" type="int"/>
+      <bind calculate="if(selected( /IDFGCamDeployment_2020/deploy_info/wolf_type ,'wolf_a'),concat(&quot;A_&quot;, /IDFGCamDeployment_2020/deploy_info/cam_info/cellid_number ),if(selected( /IDFGCamDeployment_2020/deploy_info/wolf_type ,'wolf_o'), concat(&quot;O_&quot;, /IDFGCamDeployment_2020/deploy_info/cam_info/cellid_number ), if(selected( /IDFGCamDeployment_2020/deploy_info/wolf_type ,'wolf_b'), concat(&quot;B_&quot;, /IDFGCamDeployment_2020/deploy_info/cam_info/cellid_number ),if(selected( /IDFGCamDeployment_2020/deploy_info/project ,'CAMLN2020'),  /IDFGCamDeployment_2020/deploy_info/cam_info/cellid_number , if(selected( /IDFGCamDeployment_2020/deploy_info/project ,'SWUNG2020'), concat(&quot;R&quot;, /IDFGCamDeployment_2020/deploy_info/cam_info/region ,&quot;_&quot;, /IDFGCamDeployment_2020/deploy_info/cam_info/rsf ,&quot;_&quot;, /IDFGCamDeployment_2020/deploy_info/cam_info/cellid_number ),if(selected( /IDFGCamDeployment_2020/deploy_info/eoe_style ,'neo_pred'),concat(&quot;P_&quot;, /IDFGCamDeployment_2020/deploy_info/cam_info/cellid_number ),if(selected( /IDFGCamDeployment_2020/deploy_info/eoe_style ,'ung'),concat(&quot;U_&quot;, /IDFGCamDeployment_2020/deploy_info/cam_info/cellid_number ), &quot;&quot;)))))))" nodeset="/IDFGCamDeployment_2020/deploy_info/cam_info/cell_id" readonly="true()" type="string"/>
+      <bind constraint=".&gt;0 and .&lt;=9999 and (string-length(.!=4))" esri:fieldLength="4" jr:constraintMsg="ID should be 4 numbers" jr:requiredMsg="Please enter Camera ID" nodeset="/IDFGCamDeployment_2020/deploy_info/cam_info/cam_id" relevant="count-selected( /IDFGCamDeployment_2020/deploy_info/project )=1" required="true()" type="string"/>
+      <bind nodeset="/IDFGCamDeployment_2020/deploy_info/cam_info/generated_note_name_21" readonly="true()" relevant="count-selected( /IDFGCamDeployment_2020/deploy_info/project )=1 and not(regex( /IDFGCamDeployment_2020/deploy_info/cam_info/cam_id , '^\d{4}$'))" type="string"/>
+      <bind jr:requiredMsg="Please select Python Lock(s) Key Number" nodeset="/IDFGCamDeployment_2020/deploy_info/cam_info/lock_id" relevant="count-selected( /IDFGCamDeployment_2020/deploy_info/project )=1" required="true()" type="select1"/>
+      <bind jr:requiredMsg="Please enter Small Lock Combo" nodeset="/IDFGCamDeployment_2020/deploy_info/cam_info/sm_lck_cmbo" relevant="selected( /IDFGCamDeployment_2020/deploy_info/cam_info/lock_id ,'small_lock')" required="true()" type="string"/>
+      <bind jr:requiredMsg="Pleas record Mobile Device Geopoint (automatic)" nodeset="/IDFGCamDeployment_2020/deploy_info/cam_info/gps_auto" relevant="count-selected( /IDFGCamDeployment_2020/deploy_info/project )=1" required="true()" type="geopoint"/>
+      <bind nodeset="/IDFGCamDeployment_2020/deploy_info/cam_info/generated_note_name_25" readonly="true()" relevant="0.2 &lt; pulldata(&quot;@geopoint&quot;,  /IDFGCamDeployment_2020/deploy_info/cam_info/gps_auto , &quot;speed&quot;)" type="string"/>
+      <bind calculate="pulldata(&quot;@geopoint&quot;,  /IDFGCamDeployment_2020/deploy_info/cam_info/gps_auto , &quot;y&quot;)" nodeset="/IDFGCamDeployment_2020/deploy_info/cam_info/lat_auto" readonly="true()" relevant="count-selected( /IDFGCamDeployment_2020/deploy_info/project )=1" type="string"/>
+      <bind calculate="pulldata(&quot;@geopoint&quot;,  /IDFGCamDeployment_2020/deploy_info/cam_info/gps_auto , &quot;x&quot;)" nodeset="/IDFGCamDeployment_2020/deploy_info/cam_info/lon_auto" readonly="true()" relevant="count-selected( /IDFGCamDeployment_2020/deploy_info/project )=1" type="string"/>
+      <bind calculate="pulldata(&quot;@geopoint&quot;,  /IDFGCamDeployment_2020/deploy_info/cam_info/gps_auto , &quot;horizontalAccuracy&quot;)" nodeset="/IDFGCamDeployment_2020/deploy_info/cam_info/gps_accuracy" relevant="count-selected( /IDFGCamDeployment_2020/deploy_info/project )=1" type="decimal"/>
+      <bind calculate="pulldata(&quot;@geopoint&quot;,  /IDFGCamDeployment_2020/deploy_info/cam_info/gps_auto , &quot;y&quot;)" constraint="30&lt;. and .&lt;60 and string-length( /IDFGCamDeployment_2020/deploy_info/cam_info/lat_manual &gt;=8)" jr:constraintMsg="Latitude is outside expected range" nodeset="/IDFGCamDeployment_2020/deploy_info/cam_info/lat_manual" relevant="count-selected( /IDFGCamDeployment_2020/deploy_info/project )=1" type="decimal"/>
+      <bind calculate="pulldata(&quot;@geopoint&quot;,  /IDFGCamDeployment_2020/deploy_info/cam_info/gps_auto , &quot;x&quot;)" constraint="-120 &lt; . and . &lt; -90 and string-length( /IDFGCamDeployment_2020/deploy_info/cam_info/lon_manual &gt;=9)" jr:constraintMsg="Longitude is outside expected range" nodeset="/IDFGCamDeployment_2020/deploy_info/cam_info/lon_manual" relevant="count-selected( /IDFGCamDeployment_2020/deploy_info/project )=1" type="decimal"/>
+      <bind nodeset="/IDFGCamDeployment_2020/deploy_info/cam_info/generated_note_name_31" readonly="true()" relevant="string-length( /IDFGCamDeployment_2020/deploy_info/cam_info/lat_manual &gt;3) and ( /IDFGCamDeployment_2020/deploy_info/cam_info/lat_manual &lt;30 or  /IDFGCamDeployment_2020/deploy_info/cam_info/lat_manual &gt;60 or  /IDFGCamDeployment_2020/deploy_info/cam_info/lon_manual &lt;(-120) or  /IDFGCamDeployment_2020/deploy_info/cam_info/lon_manual &gt;(-60))" type="string"/>
+      <bind nodeset="/IDFGCamDeployment_2020/deploy_info/cam_info/generated_note_name_32" readonly="true()" relevant="string-length( /IDFGCamDeployment_2020/deploy_info/cam_info/lon_manual )&gt;=1 and (string-length( /IDFGCamDeployment_2020/deploy_info/cam_info/lat_manual )&lt;8 or string-length( /IDFGCamDeployment_2020/deploy_info/cam_info/lon_manual )&lt;8)" type="string"/>
+      <bind esri:fieldLength="100" jr:requiredMsg="Please describe General Location" nodeset="/IDFGCamDeployment_2020/deploy_info/cam_info/gen_loc" relevant="count-selected( /IDFGCamDeployment_2020/deploy_info/project )=1" required="true()" type="string"/>
+      <bind nodeset="/IDFGCamDeployment_2020/deploy_info/cam_info/nav_notes" relevant="count-selected( /IDFGCamDeployment_2020/deploy_info/project )=1" type="string"/>
+      <bind nodeset="/IDFGCamDeployment_2020/view_info" relevant="count-selected( /IDFGCamDeployment_2020/deploy_info/project )=1"/>
+      <bind nodeset="/IDFGCamDeployment_2020/view_info/generated_note_name_39" readonly="true()" relevant=" /IDFGCamDeployment_2020/deploy_info/cam_style  = &quot;ungulate&quot;" type="string"/>
+      <bind nodeset="/IDFGCamDeployment_2020/view_info/generated_note_name_40" readonly="true()" relevant=" /IDFGCamDeployment_2020/deploy_info/cam_style  = &quot;predator&quot;" type="string"/>
+      <bind jr:requiredMsg="Please measure Camera Height off Ground" nodeset="/IDFGCamDeployment_2020/view_info/cam_height" required="true()" type="decimal"/>
+      <bind jr:requiredMsg="Please measure Max Distance Left" nodeset="/IDFGCamDeployment_2020/view_info/dist_a" relevant=" /IDFGCamDeployment_2020/deploy_info/cam_style  = &quot;ungulate&quot;" required="true()" type="decimal"/>
+      <bind jr:requiredMsg="Please record Type of Marker Left" nodeset="/IDFGCamDeployment_2020/view_info/type_a" relevant=" /IDFGCamDeployment_2020/deploy_info/cam_style  = &quot;ungulate&quot;" required="true()" type="select1"/>
+      <bind jr:requiredMsg="Please measure Max Distance Center" nodeset="/IDFGCamDeployment_2020/view_info/dist_b" relevant=" /IDFGCamDeployment_2020/deploy_info/cam_style  = &quot;ungulate&quot;" required="true()" type="decimal"/>
+      <bind jr:requiredMsg="Please record Type of Marker Center" nodeset="/IDFGCamDeployment_2020/view_info/type_b" relevant=" /IDFGCamDeployment_2020/deploy_info/cam_style  = &quot;ungulate&quot;" required="true()" type="select1"/>
+      <bind jr:requiredMsg="Please measure Max Distance Right" nodeset="/IDFGCamDeployment_2020/view_info/dist_c" relevant=" /IDFGCamDeployment_2020/deploy_info/cam_style  = &quot;ungulate&quot;" required="true()" type="decimal"/>
+      <bind jr:requiredMsg="Please record Type of Marker Right" nodeset="/IDFGCamDeployment_2020/view_info/type_c" relevant=" /IDFGCamDeployment_2020/deploy_info/cam_style  = &quot;ungulate&quot;" required="true()" type="select1"/>
+      <bind jr:requiredMsg="Please measure Distance to Road/Trail Center" nodeset="/IDFGCamDeployment_2020/view_info/dist_near" relevant=" /IDFGCamDeployment_2020/deploy_info/cam_style  = &quot;predator&quot;" required="true()" type="decimal"/>
+      <bind jr:requiredMsg="Please measure Width of Road/Trail" nodeset="/IDFGCamDeployment_2020/view_info/dist_far" relevant=" /IDFGCamDeployment_2020/deploy_info/cam_style  = &quot;predator&quot;" required="true()" type="decimal"/>
+      <bind jr:requiredMsg="Please measure Width of Walk Test" nodeset="/IDFGCamDeployment_2020/view_info/walk_width" relevant=" /IDFGCamDeployment_2020/deploy_info/cam_style  = &quot;predator&quot;" required="true()" type="decimal"/>
+      <bind jr:requiredMsg="Please measure Depth of Walk Test" nodeset="/IDFGCamDeployment_2020/view_info/walk_depth" relevant=" /IDFGCamDeployment_2020/deploy_info/cam_style  = &quot;predator&quot;" required="true()" type="decimal"/>
+      <bind jr:requiredMsg="Please identify what the camera is facing" nodeset="/IDFGCamDeployment_2020/view_info/cam_facing" relevant=" /IDFGCamDeployment_2020/deploy_info/cam_style  = &quot;predator&quot;" required="true()" type="select1"/>
+      <bind jr:requiredMsg="Please identify other viewshed feature" nodeset="/IDFGCamDeployment_2020/view_info/cam_facing_other" relevant="selected( /IDFGCamDeployment_2020/view_info/cam_facing ,'other')" required="true()" type="string"/>
+      <bind jr:requiredMsg="Please select Dominant Habitat Type" nodeset="/IDFGCamDeployment_2020/view_info/habitat_type" required="true()" type="select1"/>
+      <bind esri:fieldLength="50" jr:requiredMsg="Please describe Other Habitat Type" nodeset="/IDFGCamDeployment_2020/view_info/habitat_other" relevant="selected( /IDFGCamDeployment_2020/view_info/habitat_type ,'other')" required="true()" type="string"/>
+      <bind jr:requiredMsg="Please select Topography" nodeset="/IDFGCamDeployment_2020/view_info/topography" required="true()" type="select1"/>
+      <bind esri:fieldLength="50" jr:requiredMsg="Please describe Other Topography" nodeset="/IDFGCamDeployment_2020/view_info/topo_other" relevant="selected( /IDFGCamDeployment_2020/view_info/topography ,'other')" required="true()" type="string"/>
+      <bind jr:requiredMsg="Please select value for Canopy Cover" nodeset="/IDFGCamDeployment_2020/view_info/canopy_cover" required="true()" type="select1"/>
+      <bind nodeset="/IDFGCamDeployment_2020/view_info/cam_diagram" type="binary"/>
+      <bind nodeset="/IDFGCamDeployment_2020/view_info/comments" type="string"/>
+      <bind nodeset="/IDFGCamDeployment_2020/end_dep" relevant="count-selected( /IDFGCamDeployment_2020/deploy_info/project )=1"/>
+      <bind nodeset="/IDFGCamDeployment_2020/end_dep/generated_note_name_64" readonly="true()" relevant="selected( /IDFGCamDeployment_2020/deploy_info/project ,&quot;EOE2020&quot;)" type="string"/>
+      <bind nodeset="/IDFGCamDeployment_2020/end_dep/generated_note_name_65" readonly="true()" relevant="selected( /IDFGCamDeployment_2020/deploy_info/project ,&quot;SWWLF2020&quot;)" type="string"/>
+      <bind nodeset="/IDFGCamDeployment_2020/end_dep/generated_note_name_66" readonly="true()" relevant="not(selected( /IDFGCamDeployment_2020/deploy_info/project ,&quot;EOE2020&quot;)) and not(selected( /IDFGCamDeployment_2020/deploy_info/project ,&quot;SWWLF2020&quot;))" type="string"/>
+      <bind nodeset="/IDFGCamDeployment_2020/end_dep/generated_note_name_67" readonly="true()" type="string"/>
+      <bind calculate="concat('uuid:', uuid())" nodeset="/IDFGCamDeployment_2020/meta/instanceID" readonly="true()" type="string"/>
+    </model>
+  </h:head>
+  <h:body class="pages">
+    <group appearance="field-list" ref="/IDFGCamDeployment_2020/deploy_info">
+      <label>Project Information</label>
+      <select1 appearance="minimal" ref="/IDFGCamDeployment_2020/deploy_info/project">
+        <label>Camera Project</label>
+        <hint>If you do not see your project in the list, please select a different survey</hint>
+        <item>
+          <label>EOE2020 (Ecology of everything)</label>
+          <value>EOE2020</value>
+        </item>
+        <item>
+          <label>CAMLN2020 (Caribou mountain lions)</label>
+          <value>CAMLN2020</value>
+        </item>
+        <item>
+          <label>SWWLF2020 (Statewide wolf)</label>
+          <value>SWWLF2020</value>
+        </item>
+        <item>
+          <label>SWUNG2020 (Statewide ungulate)</label>
+          <value>SWUNG2020</value>
+        </item>
+      </select1>
+      <select1 appearance="minimal" ref="/IDFGCamDeployment_2020/deploy_info/wolf_type">
+        <label>Type of Camera</label>
+        <item>
+          <label>Wolf abundance</label>
+          <value>wolf_a</value>
+        </item>
+        <item>
+          <label>Wolf occupancy</label>
+          <value>wolf_o</value>
+        </item>
+        <item>
+          <label>Wolf abundance and occupancy (combination camera)</label>
+          <value>wolf_b</value>
+        </item>
+      </select1>
+      <select1 appearance="minimal" ref="/IDFGCamDeployment_2020/deploy_info/eoe_style">
+        <label>Style of Setup</label>
+        <item>
+          <label>Predator/neonate</label>
+          <value>neo_pred</value>
+        </item>
+        <item>
+          <label>Ungulate</label>
+          <value>ung</value>
+        </item>
+      </select1>
+      <input appearance="spinner" ref="/IDFGCamDeployment_2020/deploy_info/photo_batch">
+        <label>Photo Batch</label>
+        <hint>If this is the first deployment, Photo Batch = 1. If you're swapping out an SD card or re-deploying a camera as part of an existing deployment, add 1 to previous Photo Batch.</hint>
+      </input>
+      <input ref="/IDFGCamDeployment_2020/deploy_info/generated_note_name_9">
+        <label ref="jr:itext('/IDFGCamDeployment_2020/deploy_info/generated_note_name_9:label')"/>
+      </input>
+      <input ref="/IDFGCamDeployment_2020/deploy_info/generated_note_name_10">
+        <label ref="jr:itext('/IDFGCamDeployment_2020/deploy_info/generated_note_name_10:label')"/>
+      </input>
+      <input ref="/IDFGCamDeployment_2020/deploy_info/generated_note_name_11">
+        <label>&lt;font size=2&gt;&lt;b&gt;SETUP INSTRUCTIONS:&lt;/b&gt;&lt;ol&gt;
+&lt;li&gt;Same location as previous year&lt;/li&gt;
+&lt;li&gt;Optimal height: ~3 m high, depends on situation&lt;/li&gt;
+&lt;li&gt;Perpendicular to trail&lt;/li&gt;
+&lt;li&gt;Angled so trail is in bottom ½ -⅓ of image&lt;/li&gt;
+&lt;li&gt;WALK TEST&lt;/li&gt;
+&lt;li&gt;Placard photo with CAM ID and CELL ID&lt;/li&gt;&lt;/ol&gt;
+&lt;em&gt;*No flagging necessary&lt;/em&gt;&lt;/font&gt;</label>
+      </input>
+      <group ref="/IDFGCamDeployment_2020/deploy_info/cam_info">
+        <label>Camera Information</label>
+        <input ref="/IDFGCamDeployment_2020/deploy_info/cam_info/dep_date">
+          <label>Deployment Date</label>
+        </input>
+        <input ref="/IDFGCamDeployment_2020/deploy_info/cam_info/deployer">
+          <label>Deployer's Last Name(s)</label>
+        </input>
+        <select1 appearance="minimal" ref="/IDFGCamDeployment_2020/deploy_info/cam_info/region">
+          <label>Region</label>
+          <item>
+            <label>1</label>
+            <value>1</value>
+          </item>
+          <item>
+            <label>2</label>
+            <value>2</value>
+          </item>
+          <item>
+            <label>3</label>
+            <value>3</value>
+          </item>
+          <item>
+            <label>4</label>
+            <value>4</value>
+          </item>
+          <item>
+            <label>5</label>
+            <value>5</value>
+          </item>
+          <item>
+            <label>6</label>
+            <value>6</value>
+          </item>
+          <item>
+            <label>7</label>
+            <value>7</value>
+          </item>
+        </select1>
+        <select1 appearance="minimal" ref="/IDFGCamDeployment_2020/deploy_info/cam_info/gmu">
+          <label>Game Management Unit</label>
+          <itemset nodeset="instance('gmu')/root/item[reg= /IDFGCamDeployment_2020/deploy_info/cam_info/region ]">
+            <value ref="name"/>
+            <label ref="jr:itext(itextId)"/>
+          </itemset>
+        </select1>
+        <select1 appearance="minimal" ref="/IDFGCamDeployment_2020/deploy_info/cam_info/rsf">
+          <label>RSF Level</label>
+          <item>
+            <label>Low</label>
+            <value>low</value>
+          </item>
+          <item>
+            <label>High</label>
+            <value>high</value>
+          </item>
+        </select1>
+        <input ref="/IDFGCamDeployment_2020/deploy_info/cam_info/cellid_number">
+          <label>Cell ID</label>
+        </input>
+        <input appearance="minimal" ref="/IDFGCamDeployment_2020/deploy_info/cam_info/cell_id">
+          <label>Formatted Cell ID:</label>
+        </input>
+        <input ref="/IDFGCamDeployment_2020/deploy_info/cam_info/cam_id">
+          <label>Camera ID</label>
+          <hint>4 digits from IDFG label ("IDFGxxxx") inside camera</hint>
+        </input>
+        <input ref="/IDFGCamDeployment_2020/deploy_info/cam_info/generated_note_name_21">
+          <label>&lt;font color="red"&gt;ID should be 4 numbers&lt;/font&gt;</label>
+        </input>
+        <select1 appearance="minimal" ref="/IDFGCamDeployment_2020/deploy_info/cam_info/lock_id">
+          <label>Python Lock(s) Key Number</label>
+          <item>
+            <label>3918</label>
+            <value>3918</value>
+          </item>
+          <item>
+            <label>2264</label>
+            <value>2264</value>
+          </item>
+          <item>
+            <label>Small lock combo (enter below)</label>
+            <value>small_lock</value>
+          </item>
+        </select1>
+        <input ref="/IDFGCamDeployment_2020/deploy_info/cam_info/sm_lck_cmbo">
+          <label>Small Lock Combo</label>
+        </input>
+        <input ref="/IDFGCamDeployment_2020/deploy_info/cam_info/gps_auto">
+          <label>Geographic Coordinates (decimal degrees, WGS84)</label>
+          <hint>Device will automatically grab coordinates of &lt;u&gt;current&lt;/u&gt; location. Please verify coordinates using handheld GPS device, and manually change if necessary</hint>
+        </input>
+        <input ref="/IDFGCamDeployment_2020/deploy_info/cam_info/generated_note_name_25">
+          <label>Do not move while fixing location!</label>
+        </input>
+        <input ref="/IDFGCamDeployment_2020/deploy_info/cam_info/gps_accuracy">
+          <label>GPS Accuracy (m)</label>
+          <hint>If you change the latitude and longitude based on external handheld GPS reading, leave GPS Accuracy field &lt;u&gt;blank&lt;/u&gt;</hint>
+        </input>
+        <input ref="/IDFGCamDeployment_2020/deploy_info/cam_info/lat_manual">
+          <label>Latitude (manual)</label>
+        </input>
+        <input ref="/IDFGCamDeployment_2020/deploy_info/cam_info/lon_manual">
+          <label>Longitude (manual)</label>
+        </input>
+        <input ref="/IDFGCamDeployment_2020/deploy_info/cam_info/generated_note_name_31">
+          <label>&lt;font color="red"&gt;Coordinates are not in expected range (latitude 30º to 60º, longitude &lt;b&gt;-&lt;/b&gt;120º to &lt;b&gt;-&lt;/b&gt;90º). Are they in WGS84 decimal degrees?&lt;/font&gt;</label>
+        </input>
+        <input ref="/IDFGCamDeployment_2020/deploy_info/cam_info/generated_note_name_32">
+          <label>&lt;font color="red"&gt;Please record latitude and longitude to at least 5 decimal places&lt;/font&gt;</label>
+        </input>
+        <input ref="/IDFGCamDeployment_2020/deploy_info/cam_info/gen_loc">
+          <label>General Location</label>
+          <hint>Name of creek, mountain, etc.</hint>
+        </input>
+        <input appearance="multiline" ref="/IDFGCamDeployment_2020/deploy_info/cam_info/nav_notes">
+          <label>Notes on navigation to site</label>
+          <hint>(i.e., roads and trails used with distances)</hint>
+        </input>
+      </group>
+    </group>
+    <group appearance="field-list" ref="/IDFGCamDeployment_2020/view_info">
+      <label>Viewshed Information</label>
+      <input ref="/IDFGCamDeployment_2020/view_info/generated_note_name_39">
+        <label ref="jr:itext('/IDFGCamDeployment_2020/view_info/generated_note_name_39:label')"/>
+      </input>
+      <input ref="/IDFGCamDeployment_2020/view_info/generated_note_name_40">
+        <label ref="jr:itext('/IDFGCamDeployment_2020/view_info/generated_note_name_40:label')"/>
+      </input>
+      <input ref="/IDFGCamDeployment_2020/view_info/cam_height">
+        <label>Camera Height (m)</label>
+      </input>
+      <input ref="/IDFGCamDeployment_2020/view_info/dist_a">
+        <label>Distance to Marker A (m)</label>
+      </input>
+      <select1 appearance="minimal" ref="/IDFGCamDeployment_2020/view_info/type_a">
+        <label>Type of Marker A</label>
+        <item>
+          <label>Flagging on tree</label>
+          <value>flag_tree</value>
+        </item>
+        <item>
+          <label>Flagging on shrub</label>
+          <value>flag_shrub</value>
+        </item>
+        <item>
+          <label>Painted X</label>
+          <value>paint_x</value>
+        </item>
+        <item>
+          <label>Reflective stake</label>
+          <value>stake</value>
+        </item>
+        <item>
+          <label>Other (describe in comments section)</label>
+          <value>other</value>
+        </item>
+      </select1>
+      <input ref="/IDFGCamDeployment_2020/view_info/dist_b">
+        <label>Distance to Marker B (m)</label>
+      </input>
+      <select1 appearance="minimal" ref="/IDFGCamDeployment_2020/view_info/type_b">
+        <label>Type of Marker B</label>
+        <item>
+          <label>Flagging on tree</label>
+          <value>flag_tree</value>
+        </item>
+        <item>
+          <label>Flagging on shrub</label>
+          <value>flag_shrub</value>
+        </item>
+        <item>
+          <label>Painted X</label>
+          <value>paint_x</value>
+        </item>
+        <item>
+          <label>Reflective stake</label>
+          <value>stake</value>
+        </item>
+        <item>
+          <label>Other (describe in comments section)</label>
+          <value>other</value>
+        </item>
+      </select1>
+      <input ref="/IDFGCamDeployment_2020/view_info/dist_c">
+        <label>Distance to Marker C (m)</label>
+      </input>
+      <select1 appearance="minimal" ref="/IDFGCamDeployment_2020/view_info/type_c">
+        <label>Type of Marker C</label>
+        <item>
+          <label>Flagging on tree</label>
+          <value>flag_tree</value>
+        </item>
+        <item>
+          <label>Flagging on shrub</label>
+          <value>flag_shrub</value>
+        </item>
+        <item>
+          <label>Painted X</label>
+          <value>paint_x</value>
+        </item>
+        <item>
+          <label>Reflective stake</label>
+          <value>stake</value>
+        </item>
+        <item>
+          <label>Other (describe in comments section)</label>
+          <value>other</value>
+        </item>
+      </select1>
+      <input ref="/IDFGCamDeployment_2020/view_info/dist_near">
+        <label>Distance to NEAR EDGE of road/trail (m)</label>
+      </input>
+      <input ref="/IDFGCamDeployment_2020/view_info/dist_far">
+        <label>Distance to FAR EDGE of road/trail (m)</label>
+      </input>
+      <input ref="/IDFGCamDeployment_2020/view_info/walk_width">
+        <label>WIDTH of Walk Test (m)</label>
+        <hint>Left to right (center of road/trail)</hint>
+      </input>
+      <input ref="/IDFGCamDeployment_2020/view_info/walk_depth">
+        <label>DEPTH of Walk Test (m)</label>
+        <hint>Front to back (center of view)</hint>
+      </input>
+      <select1 appearance="minimal" ref="/IDFGCamDeployment_2020/view_info/cam_facing">
+        <label>What is the camera facing?</label>
+        <item>
+          <label>Game trail</label>
+          <value>game</value>
+        </item>
+        <item>
+          <label>Established hiking trail</label>
+          <value>hiking</value>
+        </item>
+        <item>
+          <label>ATV trail</label>
+          <value>atv</value>
+        </item>
+        <item>
+          <label>Lightly used dirt road</label>
+          <value>road</value>
+        </item>
+        <item>
+          <label>Other (describe briefly)</label>
+          <value>other</value>
+        </item>
+      </select1>
+      <input ref="/IDFGCamDeployment_2020/view_info/cam_facing_other">
+        <label>Other viewshed feature</label>
+      </input>
+      <select1 appearance="minimal" ref="/IDFGCamDeployment_2020/view_info/habitat_type">
+        <label>Dominant Habitat Type</label>
+        <hint>Within 10m of camera</hint>
+        <item>
+          <label>Wet forest (cedar/hemlock/fir)</label>
+          <value>wet_forest</value>
+        </item>
+        <item>
+          <label>Dry forest (Douglas fir/pine/larch)</label>
+          <value>dry_forest</value>
+        </item>
+        <item>
+          <label>Riparian (willow/hydrophilic vegetation)</label>
+          <value>riparian</value>
+        </item>
+        <item>
+          <label>Aspen</label>
+          <value>aspen</value>
+        </item>
+        <item>
+          <label>Juniper</label>
+          <value>juniper</value>
+        </item>
+        <item>
+          <label>Mountain shrub (maple, mahogany, ceanothus, etc.)</label>
+          <value>mtn_shrub</value>
+        </item>
+        <item>
+          <label>Sagebrush-steppe</label>
+          <value>sage_steppe</value>
+        </item>
+        <item>
+          <label>Grassland/meadow</label>
+          <value>grass-mdw</value>
+        </item>
+        <item>
+          <label>Other (describe briefly)</label>
+          <value>other</value>
+        </item>
+      </select1>
+      <input ref="/IDFGCamDeployment_2020/view_info/habitat_other">
+        <label>Other Habitat Type</label>
+      </input>
+      <select1 appearance="minimal" ref="/IDFGCamDeployment_2020/view_info/topography">
+        <label>Topography</label>
+        <item>
+          <label>Ridge/saddle</label>
+          <value>ridge</value>
+        </item>
+        <item>
+          <label>Hillside</label>
+          <value>hill</value>
+        </item>
+        <item>
+          <label>Flat ground</label>
+          <value>flat</value>
+        </item>
+        <item>
+          <label>Drainage bottom</label>
+          <value>drain</value>
+        </item>
+        <item>
+          <label>Other (describe briefly)</label>
+          <value>other</value>
+        </item>
+      </select1>
+      <input ref="/IDFGCamDeployment_2020/view_info/topo_other">
+        <label>Other Topography</label>
+      </input>
+      <select1 appearance="likert" ref="/IDFGCamDeployment_2020/view_info/canopy_cover">
+        <label>Canopy Cover</label>
+        <hint>Estimate for entire viewshed</hint>
+        <item>
+          <label>0-25%</label>
+          <value>25</value>
+        </item>
+        <item>
+          <label>26-50%</label>
+          <value>50</value>
+        </item>
+        <item>
+          <label>51-75%</label>
+          <value>75</value>
+        </item>
+        <item>
+          <label>76-100%</label>
+          <value>100</value>
+        </item>
+      </select1>
+      <upload appearance="signature" mediatype="image/*" ref="/IDFGCamDeployment_2020/view_info/cam_diagram">
+        <label>Camera Location Diagram (optional)</label>
+        <hint>In the space below, draw a picture of the camera location, including the camera detection zone. Include any prominent boulders, stumps, or other objects that will aid finding the camera during retrieval. Include a north/directional arrow.</hint>
+      </upload>
+      <input appearance="multiline" ref="/IDFGCamDeployment_2020/view_info/comments">
+        <label>Comments</label>
+      </input>
+    </group>
+    <group appearance="field-list" ref="/IDFGCamDeployment_2020/end_dep">
+      <label>Final Checklist</label>
+      <input ref="/IDFGCamDeployment_2020/end_dep/generated_note_name_64">
+        <label>&lt;ol&gt;&lt;li&gt;Check SD card for viewshed &amp; flagging (ungulate cams only), reference item, and placard photos&lt;/li&gt;
+&lt;li&gt;Arm and set delay start to 2020-05-20&lt;/li&gt;
+&lt;li&gt;Lock up camera&lt;/li&gt;&lt;/ol&gt;</label>
+      </input>
+      <input ref="/IDFGCamDeployment_2020/end_dep/generated_note_name_65">
+        <label>&lt;ol&gt;&lt;li&gt;Check SD card for viewshed and placard photos&lt;/li&gt;
+&lt;li&gt;Arm and set delay start to 2020-07-01&lt;/li&gt;
+&lt;li&gt;Lock up camera&lt;/li&gt;&lt;/ol&gt;</label>
+      </input>
+      <input ref="/IDFGCamDeployment_2020/end_dep/generated_note_name_66">
+        <label>&lt;ol&gt;&lt;li&gt;Check SD card for viewshed &amp; flagging (if relevant), reference item, and placard photos&lt;/li&gt;
+&lt;li&gt;Arm and set delay start (if relevant)&lt;/li&gt;
+&lt;li&gt;Lock up camera&lt;/li&gt;&lt;/ol&gt;</label>
+      </input>
+      <input ref="/IDFGCamDeployment_2020/end_dep/generated_note_name_67">
+        <label>&lt;h3&gt;&lt;b&gt;Ready to submit?&lt;/b&gt;&lt;/h3&gt;
+Tap checkmark in bottom right</label>
+      </input>
+    </group>
+  </h:body>
+</h:html>

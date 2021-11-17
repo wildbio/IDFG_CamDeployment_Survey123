@@ -1,0 +1,1928 @@
+{
+  "form": "<form autocomplete=\"off\" novalidate=\"novalidate\" class=\"or clearfix pages\" dir=\"ltr\" id=\"title_idfg_cam_dep\">\n<!--This form was created by transforming a OpenRosa-flavored (X)Form using an XSL stylesheet created by Enketo LLC.--><section class=\"form-logo\"> </section><h3 dir=\"auto\" id=\"form-title\">IDFG Camera Deployment</h3><select id=\"form-languages\" style=\"display:none;\" data-default-lang=\"default\"><option value=\"default\" data-dir=\"ltr\">default</option> </select>\n  \n  \n    <section class=\"or-group or-appearance-field-list \" name=\"/IDFGCamDeployment_2020/deploy_info\"><h4><span lang=\"\" class=\"question-label active\">Project Information</span></h4><label class=\"question or-appearance-minimal \"><span lang=\"\" class=\"question-label active\">Camera Project</span><span class=\"required\">*</span><span lang=\"\" class=\"or-hint active\">If you do not see your project in the list, please select a different survey</span><select name=\"/IDFGCamDeployment_2020/deploy_info/project\" data-name=\"/IDFGCamDeployment_2020/deploy_info/project\" data-required=\"true()\" data-type-xml=\"select1\"><option value=\"\">...</option><option value=\"EOE2020\">EOE2020 (Ecology of everything)</option><option value=\"CAMLN2020\">CAMLN2020 (Caribou mountain lions)</option><option value=\"SWWLF2020\">SWWLF2020 (Statewide wolf)</option><option value=\"SWUNG2020\">SWUNG2020 (Statewide ungulate)</option></select><span class=\"or-option-translations\" style=\"display:none;\">\n                </span><span lang=\"\" class=\"or-required-msg active\">Please select Project</span></label><label class=\"question or-appearance-minimal  or-branch pre-init \"><span lang=\"\" class=\"question-label active\">Type of Camera</span><span class=\"required\">*</span><select name=\"/IDFGCamDeployment_2020/deploy_info/wolf_type\" data-name=\"/IDFGCamDeployment_2020/deploy_info/wolf_type\" data-required=\"true()\" data-relevant=\"selected( /IDFGCamDeployment_2020/deploy_info/project ,'SWWLF2020')\" data-type-xml=\"select1\"><option value=\"\">...</option><option value=\"wolf_a\">Wolf abundance</option><option value=\"wolf_o\">Wolf occupancy</option><option value=\"wolf_b\">Wolf abundance and occupancy (combination camera)</option></select><span class=\"or-option-translations\" style=\"display:none;\">\n                </span><span lang=\"\" class=\"or-required-msg active\">Please select Camera Type</span></label><label class=\"question or-appearance-minimal  or-branch pre-init \"><span lang=\"\" class=\"question-label active\">Style of Setup</span><span class=\"required\">*</span><select name=\"/IDFGCamDeployment_2020/deploy_info/eoe_style\" data-name=\"/IDFGCamDeployment_2020/deploy_info/eoe_style\" data-required=\"true()\" data-relevant=\"selected( /IDFGCamDeployment_2020/deploy_info/project ,'EOE2020')\" data-type-xml=\"select1\"><option value=\"\">...</option><option value=\"neo_pred\">Predator/neonate</option><option value=\"ung\">Ungulate</option></select><span class=\"or-option-translations\" style=\"display:none;\">\n                </span><span lang=\"\" class=\"or-required-msg active\">Please select Camera Style</span></label><label class=\"question or-branch pre-init non-select or-appearance-spinner \"><span lang=\"\" class=\"question-label active\">Photo Batch</span><span lang=\"\" class=\"or-hint active\">If this is the first deployment, Photo Batch = 1. If you're swapping out an SD card or re-deploying a camera as part of an existing deployment, add 1 to previous Photo Batch.</span><input type=\"number\" name=\"/IDFGCamDeployment_2020/deploy_info/photo_batch\" data-relevant=\"selected( /IDFGCamDeployment_2020/deploy_info/project ,'EOE2020')\" data-type-xml=\"int\"/></label><label class=\"question or-branch pre-init non-select \"><span lang=\"default\" class=\"question-label active\" data-itext-id=\"/IDFGCamDeployment_2020/deploy_info/generated_note_name_9:label\">&lt;font size=2&gt;&lt;b&gt;UNGULATE SETUP INSTRUCTIONS:&lt;/b&gt;&lt;ol&gt;\n&lt;li&gt;Go to Navigation Point&lt;/li&gt;\n&lt;li&gt;Determine habitat comp of 10 m Reference Area&lt;/li&gt;\n&lt;li&gt;Select tree (or T-post location) within 30 m of Navigation Point where camera will point toward habitat similar to Reference Area&lt;/li&gt;\n&lt;li&gt;Clear vegetation, tree limbs and nearby shrubs&lt;/li&gt;\n&lt;li&gt;Position camera, pointing in any direction, about 2 m high (elk eye level)&lt;/li&gt;\n&lt;li&gt;Aim parallel to topography&lt;/li&gt;\n&lt;li&gt;DISTANCE-REFERENCE flagging along center line&lt;/li&gt;\n&lt;li&gt;REFERENCE-ITEM PHOTO at 10 m&lt;/li&gt;\n&lt;li&gt;Placard photo with CAM ID &amp; SITE Number&lt;/li&gt;&lt;/ol&gt;\n&lt;em&gt;*NO WALK TEST (only predator cams)&lt;/em&gt;&lt;/font&gt;</span><img lang=\"default\" class=\"active\" src=\"jr://images/ungulate_setup.PNG\" data-itext-id=\"/IDFGCamDeployment_2020/deploy_info/generated_note_name_9:label\" alt=\"image\"/><input type=\"text\" name=\"/IDFGCamDeployment_2020/deploy_info/generated_note_name_9\" data-relevant=\" /IDFGCamDeployment_2020/deploy_info/cam_style =&quot;ungulate&quot;\" data-type-xml=\"string\" readonly=\"readonly\"/></label><label class=\"question or-branch pre-init non-select \"><span lang=\"default\" class=\"question-label active\" data-itext-id=\"/IDFGCamDeployment_2020/deploy_info/generated_note_name_10:label\">&lt;font size=2&gt;&lt;b&gt;PREDATOR/NEONATE SETUP INSTRUCTIONS:&lt;/b&gt;&lt;ol&gt;\n&lt;li&gt;Sturdy tree within 2000 m of navigation point&lt;/li&gt;\n&lt;li&gt;Jeep/ATV/closed-road &gt; hiking trail &gt; well-used game trail&lt;/li&gt;\n&lt;li&gt;Optimal height: ~3 m high, depends on situation&lt;/li&gt;\n&lt;li&gt;Optimal distance: 11 m from trail, 8 m from edge of road (min 5 m, max 20)&lt;/li&gt;\n&lt;li&gt;Perpendicular to trail&lt;/li&gt;\n&lt;li&gt;Angled so trail is in bottom ½ -⅓ of image&lt;/li&gt;\n&lt;li&gt;Similar surrounding habitat as ungulate cam (EOE paired cameras only)&lt;/li&gt;\n&lt;li&gt;WALK TEST&lt;/li&gt;\n&lt;li&gt;REFERENCE-ITEM PHOTO at NEAR EDGE of trail/road&lt;/li&gt;\n&lt;li&gt;Placard photo with CAM ID and SITE Number&lt;/li&gt;&lt;/ol&gt;\n&lt;em&gt;*No flagging necessary (only ungulate cams)&lt;/em&gt;&lt;/font&gt;</span><img lang=\"default\" class=\"active\" src=\"jr://images/neopred_setup.PNG\" data-itext-id=\"/IDFGCamDeployment_2020/deploy_info/generated_note_name_10:label\" alt=\"image\"/><input type=\"text\" name=\"/IDFGCamDeployment_2020/deploy_info/generated_note_name_10\" data-relevant=\" /IDFGCamDeployment_2020/deploy_info/cam_style =&quot;predator&quot; and not(selected( /IDFGCamDeployment_2020/deploy_info/project ,'SWWLF2020'))\" data-type-xml=\"string\" readonly=\"readonly\"/></label><label class=\"question or-branch pre-init non-select \"><span lang=\"\" class=\"question-label active\">&lt;font size=2&gt;&lt;b&gt;SETUP INSTRUCTIONS:&lt;/b&gt;&lt;ol&gt;\n&lt;li&gt;Same location as previous year&lt;/li&gt;\n&lt;li&gt;Optimal height: ~3 m high, depends on situation&lt;/li&gt;\n&lt;li&gt;Perpendicular to trail&lt;/li&gt;\n&lt;li&gt;Angled so trail is in bottom ½ -⅓ of image&lt;/li&gt;\n&lt;li&gt;WALK TEST&lt;/li&gt;\n&lt;li&gt;Placard photo with CAM ID and CELL ID&lt;/li&gt;&lt;/ol&gt;\n&lt;em&gt;*No flagging necessary&lt;/em&gt;&lt;/font&gt;</span><input type=\"text\" name=\"/IDFGCamDeployment_2020/deploy_info/generated_note_name_11\" data-relevant=\"selected( /IDFGCamDeployment_2020/deploy_info/project ,'SWWLF2020')\" data-type-xml=\"string\" readonly=\"readonly\"/></label><section class=\"or-group or-branch pre-init \" name=\"/IDFGCamDeployment_2020/deploy_info/cam_info\" data-relevant=\"not( /IDFGCamDeployment_2020/deploy_info/cam_style =&quot;&quot;)\"><h4><span lang=\"\" class=\"question-label active\">Camera Information</span></h4><label class=\"question or-branch pre-init non-select \"><span lang=\"\" class=\"question-label active\">Deployment Date</span><span class=\"required\">*</span><input type=\"date\" name=\"/IDFGCamDeployment_2020/deploy_info/cam_info/dep_date\" data-required=\"true()\" data-relevant=\"count-selected( /IDFGCamDeployment_2020/deploy_info/project )=1\" data-type-xml=\"date\"/><span lang=\"\" class=\"or-required-msg active\">Please enter Deployment Date</span></label><label class=\"question or-branch pre-init non-select \"><span lang=\"\" class=\"question-label active\">Deployer's Last Name(s)</span><span class=\"required\">*</span><input type=\"text\" name=\"/IDFGCamDeployment_2020/deploy_info/cam_info/deployer\" data-required=\"true()\" data-relevant=\"count-selected( /IDFGCamDeployment_2020/deploy_info/project )=1\" data-type-xml=\"string\"/><span lang=\"\" class=\"or-required-msg active\">Please enter Deployer's Last Name(s)</span></label><label class=\"question or-appearance-minimal  or-branch pre-init \"><span lang=\"\" class=\"question-label active\">Region</span><span class=\"required\">*</span><select name=\"/IDFGCamDeployment_2020/deploy_info/cam_info/region\" data-name=\"/IDFGCamDeployment_2020/deploy_info/cam_info/region\" data-required=\"true()\" data-relevant=\"count-selected( /IDFGCamDeployment_2020/deploy_info/project )=1\" data-type-xml=\"select1\"><option value=\"\">...</option><option value=\"1\">1</option><option value=\"2\">2</option><option value=\"3\">3</option><option value=\"4\">4</option><option value=\"5\">5</option><option value=\"6\">6</option><option value=\"7\">7</option></select><span class=\"or-option-translations\" style=\"display:none;\">\n                </span><span lang=\"\" class=\"or-required-msg active\">Please select Region</span></label><label class=\"question or-appearance-minimal  or-branch pre-init \"><span lang=\"\" class=\"question-label active\">Game Management Unit</span><span class=\"required\">*</span><select name=\"/IDFGCamDeployment_2020/deploy_info/cam_info/gmu\" data-name=\"/IDFGCamDeployment_2020/deploy_info/cam_info/gmu\" data-required=\"true()\" data-relevant=\"count-selected( /IDFGCamDeployment_2020/deploy_info/project )=1\" data-type-xml=\"select1\"><option class=\"itemset-template\" value=\"\" data-items-path=\"instance('gmu')/root/item[reg= /IDFGCamDeployment_2020/deploy_info/cam_info/region ]\">...</option></select><span class=\"or-option-translations\" style=\"display:none;\">\n                </span><span class=\"itemset-labels\" data-value-ref=\"name\" data-label-type=\"itext\" data-label-ref=\"itextId\"><span lang=\"default\" class=\"option-label active\" data-itext-id=\"static_instance-gmu-0\">1</span><span lang=\"default\" class=\"option-label active\" data-itext-id=\"static_instance-gmu-1\">2</span><span lang=\"default\" class=\"option-label active\" data-itext-id=\"static_instance-gmu-2\">3</span><span lang=\"default\" class=\"option-label active\" data-itext-id=\"static_instance-gmu-3\">4</span><span lang=\"default\" class=\"option-label active\" data-itext-id=\"static_instance-gmu-4\">4A</span><span lang=\"default\" class=\"option-label active\" data-itext-id=\"static_instance-gmu-5\">5</span><span lang=\"default\" class=\"option-label active\" data-itext-id=\"static_instance-gmu-6\">6</span><span lang=\"default\" class=\"option-label active\" data-itext-id=\"static_instance-gmu-7\">7</span><span lang=\"default\" class=\"option-label active\" data-itext-id=\"static_instance-gmu-8\">8</span><span lang=\"default\" class=\"option-label active\" data-itext-id=\"static_instance-gmu-9\">8</span><span lang=\"default\" class=\"option-label active\" data-itext-id=\"static_instance-gmu-10\">8A</span><span lang=\"default\" class=\"option-label active\" data-itext-id=\"static_instance-gmu-11\">10</span><span lang=\"default\" class=\"option-label active\" data-itext-id=\"static_instance-gmu-12\">10A</span><span lang=\"default\" class=\"option-label active\" data-itext-id=\"static_instance-gmu-13\">11</span><span lang=\"default\" class=\"option-label active\" data-itext-id=\"static_instance-gmu-14\">11A</span><span lang=\"default\" class=\"option-label active\" data-itext-id=\"static_instance-gmu-15\">12</span><span lang=\"default\" class=\"option-label active\" data-itext-id=\"static_instance-gmu-16\">13</span><span lang=\"default\" class=\"option-label active\" data-itext-id=\"static_instance-gmu-17\">14</span><span lang=\"default\" class=\"option-label active\" data-itext-id=\"static_instance-gmu-18\">15</span><span lang=\"default\" class=\"option-label active\" data-itext-id=\"static_instance-gmu-19\">16</span><span lang=\"default\" class=\"option-label active\" data-itext-id=\"static_instance-gmu-20\">16A</span><span lang=\"default\" class=\"option-label active\" data-itext-id=\"static_instance-gmu-21\">17</span><span lang=\"default\" class=\"option-label active\" data-itext-id=\"static_instance-gmu-22\">18</span><span lang=\"default\" class=\"option-label active\" data-itext-id=\"static_instance-gmu-23\">19</span><span lang=\"default\" class=\"option-label active\" data-itext-id=\"static_instance-gmu-24\">20</span><span lang=\"default\" class=\"option-label active\" data-itext-id=\"static_instance-gmu-25\">19A</span><span lang=\"default\" class=\"option-label active\" data-itext-id=\"static_instance-gmu-26\">20A</span><span lang=\"default\" class=\"option-label active\" data-itext-id=\"static_instance-gmu-27\">22</span><span lang=\"default\" class=\"option-label active\" data-itext-id=\"static_instance-gmu-28\">23</span><span lang=\"default\" class=\"option-label active\" data-itext-id=\"static_instance-gmu-29\">24</span><span lang=\"default\" class=\"option-label active\" data-itext-id=\"static_instance-gmu-30\">25</span><span lang=\"default\" class=\"option-label active\" data-itext-id=\"static_instance-gmu-31\">26</span><span lang=\"default\" class=\"option-label active\" data-itext-id=\"static_instance-gmu-32\">32</span><span lang=\"default\" class=\"option-label active\" data-itext-id=\"static_instance-gmu-33\">32</span><span lang=\"default\" class=\"option-label active\" data-itext-id=\"static_instance-gmu-34\">32A</span><span lang=\"default\" class=\"option-label active\" data-itext-id=\"static_instance-gmu-35\">33</span><span lang=\"default\" class=\"option-label active\" data-itext-id=\"static_instance-gmu-36\">34</span><span lang=\"default\" class=\"option-label active\" data-itext-id=\"static_instance-gmu-37\">35</span><span lang=\"default\" class=\"option-label active\" data-itext-id=\"static_instance-gmu-38\">38</span><span lang=\"default\" class=\"option-label active\" data-itext-id=\"static_instance-gmu-39\">39</span><span lang=\"default\" class=\"option-label active\" data-itext-id=\"static_instance-gmu-40\">40</span><span lang=\"default\" class=\"option-label active\" data-itext-id=\"static_instance-gmu-41\">41</span><span lang=\"default\" class=\"option-label active\" data-itext-id=\"static_instance-gmu-42\">42</span><span lang=\"default\" class=\"option-label active\" data-itext-id=\"static_instance-gmu-43\">43</span><span lang=\"default\" class=\"option-label active\" data-itext-id=\"static_instance-gmu-44\">44</span><span lang=\"default\" class=\"option-label active\" data-itext-id=\"static_instance-gmu-45\">45</span><span lang=\"default\" class=\"option-label active\" data-itext-id=\"static_instance-gmu-46\">46</span><span lang=\"default\" class=\"option-label active\" data-itext-id=\"static_instance-gmu-47\">47</span><span lang=\"default\" class=\"option-label active\" data-itext-id=\"static_instance-gmu-48\">48</span><span lang=\"default\" class=\"option-label active\" data-itext-id=\"static_instance-gmu-49\">49</span><span lang=\"default\" class=\"option-label active\" data-itext-id=\"static_instance-gmu-50\">52</span><span lang=\"default\" class=\"option-label active\" data-itext-id=\"static_instance-gmu-51\">52A</span><span lang=\"default\" class=\"option-label active\" data-itext-id=\"static_instance-gmu-52\">53</span><span lang=\"default\" class=\"option-label active\" data-itext-id=\"static_instance-gmu-53\">54</span><span lang=\"default\" class=\"option-label active\" data-itext-id=\"static_instance-gmu-54\">55</span><span lang=\"default\" class=\"option-label active\" data-itext-id=\"static_instance-gmu-55\">56</span><span lang=\"default\" class=\"option-label active\" data-itext-id=\"static_instance-gmu-56\">57</span><span lang=\"default\" class=\"option-label active\" data-itext-id=\"static_instance-gmu-57\">66A</span><span lang=\"default\" class=\"option-label active\" data-itext-id=\"static_instance-gmu-58\">68</span><span lang=\"default\" class=\"option-label active\" data-itext-id=\"static_instance-gmu-59\">68A</span><span lang=\"default\" class=\"option-label active\" data-itext-id=\"static_instance-gmu-60\">70</span><span lang=\"default\" class=\"option-label active\" data-itext-id=\"static_instance-gmu-61\">71</span><span lang=\"default\" class=\"option-label active\" data-itext-id=\"static_instance-gmu-62\">72</span><span lang=\"default\" class=\"option-label active\" data-itext-id=\"static_instance-gmu-63\">73</span><span lang=\"default\" class=\"option-label active\" data-itext-id=\"static_instance-gmu-64\">73A</span><span lang=\"default\" class=\"option-label active\" data-itext-id=\"static_instance-gmu-65\">74</span><span lang=\"default\" class=\"option-label active\" data-itext-id=\"static_instance-gmu-66\">75</span><span lang=\"default\" class=\"option-label active\" data-itext-id=\"static_instance-gmu-67\">76</span><span lang=\"default\" class=\"option-label active\" data-itext-id=\"static_instance-gmu-68\">77</span><span lang=\"default\" class=\"option-label active\" data-itext-id=\"static_instance-gmu-69\">78</span><span lang=\"default\" class=\"option-label active\" data-itext-id=\"static_instance-gmu-70\">50</span><span lang=\"default\" class=\"option-label active\" data-itext-id=\"static_instance-gmu-71\">51</span><span lang=\"default\" class=\"option-label active\" data-itext-id=\"static_instance-gmu-72\">58</span><span lang=\"default\" class=\"option-label active\" data-itext-id=\"static_instance-gmu-73\">59</span><span lang=\"default\" class=\"option-label active\" data-itext-id=\"static_instance-gmu-74\">59A</span><span lang=\"default\" class=\"option-label active\" data-itext-id=\"static_instance-gmu-75\">60</span><span lang=\"default\" class=\"option-label active\" data-itext-id=\"static_instance-gmu-76\">60a</span><span lang=\"default\" class=\"option-label active\" data-itext-id=\"static_instance-gmu-77\">61</span><span lang=\"default\" class=\"option-label active\" data-itext-id=\"static_instance-gmu-78\">62</span><span lang=\"default\" class=\"option-label active\" data-itext-id=\"static_instance-gmu-79\">62A</span><span lang=\"default\" class=\"option-label active\" data-itext-id=\"static_instance-gmu-80\">63</span><span lang=\"default\" class=\"option-label active\" data-itext-id=\"static_instance-gmu-81\">63A</span><span lang=\"default\" class=\"option-label active\" data-itext-id=\"static_instance-gmu-82\">64</span><span lang=\"default\" class=\"option-label active\" data-itext-id=\"static_instance-gmu-83\">65</span><span lang=\"default\" class=\"option-label active\" data-itext-id=\"static_instance-gmu-84\">66</span><span lang=\"default\" class=\"option-label active\" data-itext-id=\"static_instance-gmu-85\">67</span><span lang=\"default\" class=\"option-label active\" data-itext-id=\"static_instance-gmu-86\">68</span><span lang=\"default\" class=\"option-label active\" data-itext-id=\"static_instance-gmu-87\">69</span><span lang=\"default\" class=\"option-label active\" data-itext-id=\"static_instance-gmu-88\">21</span><span lang=\"default\" class=\"option-label active\" data-itext-id=\"static_instance-gmu-89\">21A</span><span lang=\"default\" class=\"option-label active\" data-itext-id=\"static_instance-gmu-90\">27</span><span lang=\"default\" class=\"option-label active\" data-itext-id=\"static_instance-gmu-91\">28</span><span lang=\"default\" class=\"option-label active\" data-itext-id=\"static_instance-gmu-92\">29</span><span lang=\"default\" class=\"option-label active\" data-itext-id=\"static_instance-gmu-93\">30</span><span lang=\"default\" class=\"option-label active\" data-itext-id=\"static_instance-gmu-94\">30A</span><span lang=\"default\" class=\"option-label active\" data-itext-id=\"static_instance-gmu-95\">36</span><span lang=\"default\" class=\"option-label active\" data-itext-id=\"static_instance-gmu-96\">36A</span><span lang=\"default\" class=\"option-label active\" data-itext-id=\"static_instance-gmu-97\">36B</span><span lang=\"default\" class=\"option-label active\" data-itext-id=\"static_instance-gmu-98\">37</span><span lang=\"default\" class=\"option-label active\" data-itext-id=\"static_instance-gmu-99\">37A</span>\n            </span><span lang=\"\" class=\"or-required-msg active\">Please select GMU</span></label><label class=\"question or-appearance-minimal  or-branch pre-init \"><span lang=\"\" class=\"question-label active\">RSF Level</span><span class=\"required\">*</span><select name=\"/IDFGCamDeployment_2020/deploy_info/cam_info/rsf\" data-name=\"/IDFGCamDeployment_2020/deploy_info/cam_info/rsf\" data-required=\"true()\" data-relevant=\"selected( /IDFGCamDeployment_2020/deploy_info/project ,'SWUNG2020')\" data-type-xml=\"select1\"><option value=\"\">...</option><option value=\"low\">Low</option><option value=\"high\">High</option></select><span class=\"or-option-translations\" style=\"display:none;\">\n                </span><span lang=\"\" class=\"or-required-msg active\">Please select RSF Level</span></label><label class=\"question or-branch pre-init non-select \"><span lang=\"\" class=\"question-label active\">Cell ID</span><span class=\"required\">*</span><input type=\"number\" name=\"/IDFGCamDeployment_2020/deploy_info/cam_info/cellid_number\" data-required=\"true()\" data-relevant=\"count-selected( /IDFGCamDeployment_2020/deploy_info/project )=1\" data-type-xml=\"int\"/><span lang=\"\" class=\"or-required-msg active\">Please enter Cell ID</span></label><label class=\"question non-select or-appearance-minimal \"><span lang=\"\" class=\"question-label active\">Formatted Cell ID:</span><input type=\"text\" name=\"/IDFGCamDeployment_2020/deploy_info/cam_info/cell_id\" data-calculate=\"if(selected( /IDFGCamDeployment_2020/deploy_info/wolf_type ,'wolf_a'),concat(&quot;A_&quot;, /IDFGCamDeployment_2020/deploy_info/cam_info/cellid_number ),if(selected( /IDFGCamDeployment_2020/deploy_info/wolf_type ,'wolf_o'), concat(&quot;O_&quot;, /IDFGCamDeployment_2020/deploy_info/cam_info/cellid_number ), if(selected( /IDFGCamDeployment_2020/deploy_info/wolf_type ,'wolf_b'), concat(&quot;B_&quot;, /IDFGCamDeployment_2020/deploy_info/cam_info/cellid_number ),if(selected( /IDFGCamDeployment_2020/deploy_info/project ,'CAMLN2020'),  /IDFGCamDeployment_2020/deploy_info/cam_info/cellid_number , if(selected( /IDFGCamDeployment_2020/deploy_info/project ,'SWUNG2020'), concat(&quot;R&quot;, /IDFGCamDeployment_2020/deploy_info/cam_info/region ,&quot;_&quot;, /IDFGCamDeployment_2020/deploy_info/cam_info/rsf ,&quot;_&quot;, /IDFGCamDeployment_2020/deploy_info/cam_info/cellid_number ),if(selected( /IDFGCamDeployment_2020/deploy_info/eoe_style ,'neo_pred'),concat(&quot;P_&quot;, /IDFGCamDeployment_2020/deploy_info/cam_info/cellid_number ),if(selected( /IDFGCamDeployment_2020/deploy_info/eoe_style ,'ung'),concat(&quot;U_&quot;, /IDFGCamDeployment_2020/deploy_info/cam_info/cellid_number ), &quot;&quot;)))))))\" data-type-xml=\"string\" readonly=\"readonly\"/></label><label class=\"question or-branch pre-init non-select \"><span lang=\"\" class=\"question-label active\">Camera ID</span><span class=\"required\">*</span><span lang=\"\" class=\"or-hint active\">4 digits from IDFG label (\"IDFGxxxx\") inside camera</span><input type=\"text\" name=\"/IDFGCamDeployment_2020/deploy_info/cam_info/cam_id\" data-required=\"true()\" data-constraint=\".&gt;0 and .&lt;=9999 and (string-length(.!=4))\" data-relevant=\"count-selected( /IDFGCamDeployment_2020/deploy_info/project )=1\" data-type-xml=\"string\"/><span lang=\"\" class=\"or-constraint-msg active\">ID should be 4 numbers</span><span lang=\"\" class=\"or-required-msg active\">Please enter Camera ID</span></label><label class=\"question or-branch pre-init non-select \"><span lang=\"\" class=\"question-label active\">&lt;font color=\"red\"&gt;ID should be 4 numbers&lt;/font&gt;</span><input type=\"text\" name=\"/IDFGCamDeployment_2020/deploy_info/cam_info/generated_note_name_21\" data-relevant=\"count-selected( /IDFGCamDeployment_2020/deploy_info/project )=1 and not(regex( /IDFGCamDeployment_2020/deploy_info/cam_info/cam_id , '^\\d{4}$'))\" data-type-xml=\"string\" readonly=\"readonly\"/></label><label class=\"question or-appearance-minimal  or-branch pre-init \"><span lang=\"\" class=\"question-label active\">Python Lock(s) Key Number</span><span class=\"required\">*</span><select name=\"/IDFGCamDeployment_2020/deploy_info/cam_info/lock_id\" data-name=\"/IDFGCamDeployment_2020/deploy_info/cam_info/lock_id\" data-required=\"true()\" data-relevant=\"count-selected( /IDFGCamDeployment_2020/deploy_info/project )=1\" data-type-xml=\"select1\"><option value=\"\">...</option><option value=\"3918\">3918</option><option value=\"2264\">2264</option><option value=\"small_lock\">Small lock combo (enter below)</option></select><span class=\"or-option-translations\" style=\"display:none;\">\n                </span><span lang=\"\" class=\"or-required-msg active\">Please select Python Lock(s) Key Number</span></label><label class=\"question or-branch pre-init non-select \"><span lang=\"\" class=\"question-label active\">Small Lock Combo</span><span class=\"required\">*</span><input type=\"text\" name=\"/IDFGCamDeployment_2020/deploy_info/cam_info/sm_lck_cmbo\" data-required=\"true()\" data-relevant=\"selected( /IDFGCamDeployment_2020/deploy_info/cam_info/lock_id ,'small_lock')\" data-type-xml=\"string\"/><span lang=\"\" class=\"or-required-msg active\">Please enter Small Lock Combo</span></label><label class=\"question or-branch pre-init non-select \"><span lang=\"\" class=\"question-label active\">Geographic Coordinates (decimal degrees, WGS84)</span><span class=\"required\">*</span><span lang=\"\" class=\"or-hint active\">Device will automatically grab coordinates of &lt;u&gt;current&lt;/u&gt; location. Please verify coordinates using handheld GPS device, and manually change if necessary</span><input type=\"text\" name=\"/IDFGCamDeployment_2020/deploy_info/cam_info/gps_auto\" data-required=\"true()\" data-relevant=\"count-selected( /IDFGCamDeployment_2020/deploy_info/project )=1\" data-type-xml=\"geopoint\"/><span lang=\"\" class=\"or-required-msg active\">Pleas record Mobile Device Geopoint (automatic)</span></label><label class=\"question or-branch pre-init non-select \"><span lang=\"\" class=\"question-label active\">Do not move while fixing location!</span><input type=\"text\" name=\"/IDFGCamDeployment_2020/deploy_info/cam_info/generated_note_name_25\" data-relevant=\"0.2 &lt; pulldata(&quot;@geopoint&quot;,  /IDFGCamDeployment_2020/deploy_info/cam_info/gps_auto , &quot;speed&quot;)\" data-type-xml=\"string\" readonly=\"readonly\"/></label><label class=\"question or-branch pre-init non-select \"><span lang=\"\" class=\"question-label active\">GPS Accuracy (m)</span><span lang=\"\" class=\"or-hint active\">If you change the latitude and longitude based on external handheld GPS reading, leave GPS Accuracy field &lt;u&gt;blank&lt;/u&gt;</span><input type=\"number\" name=\"/IDFGCamDeployment_2020/deploy_info/cam_info/gps_accuracy\" data-relevant=\"count-selected( /IDFGCamDeployment_2020/deploy_info/project )=1\" data-calculate=\"pulldata(&quot;@geopoint&quot;,  /IDFGCamDeployment_2020/deploy_info/cam_info/gps_auto , &quot;horizontalAccuracy&quot;)\" data-type-xml=\"decimal\" step=\"any\"/></label><label class=\"question or-branch pre-init non-select \"><span lang=\"\" class=\"question-label active\">Latitude (manual)</span><input type=\"number\" name=\"/IDFGCamDeployment_2020/deploy_info/cam_info/lat_manual\" data-constraint=\"30&lt;. and .&lt;60 and string-length( /IDFGCamDeployment_2020/deploy_info/cam_info/lat_manual &gt;=8)\" data-relevant=\"count-selected( /IDFGCamDeployment_2020/deploy_info/project )=1\" data-calculate=\"pulldata(&quot;@geopoint&quot;,  /IDFGCamDeployment_2020/deploy_info/cam_info/gps_auto , &quot;y&quot;)\" data-type-xml=\"decimal\" step=\"any\"/><span lang=\"\" class=\"or-constraint-msg active\">Latitude is outside expected range</span></label><label class=\"question or-branch pre-init non-select \"><span lang=\"\" class=\"question-label active\">Longitude (manual)</span><input type=\"number\" name=\"/IDFGCamDeployment_2020/deploy_info/cam_info/lon_manual\" data-constraint=\"-120 &lt; . and . &lt; -90 and string-length( /IDFGCamDeployment_2020/deploy_info/cam_info/lon_manual &gt;=9)\" data-relevant=\"count-selected( /IDFGCamDeployment_2020/deploy_info/project )=1\" data-calculate=\"pulldata(&quot;@geopoint&quot;,  /IDFGCamDeployment_2020/deploy_info/cam_info/gps_auto , &quot;x&quot;)\" data-type-xml=\"decimal\" step=\"any\"/><span lang=\"\" class=\"or-constraint-msg active\">Longitude is outside expected range</span></label><label class=\"question or-branch pre-init non-select \"><span lang=\"\" class=\"question-label active\">&lt;font color=\"red\"&gt;Coordinates are not in expected range (latitude 30º to 60º, longitude &lt;b&gt;-&lt;/b&gt;120º to &lt;b&gt;-&lt;/b&gt;90º). Are they in WGS84 decimal degrees?&lt;/font&gt;</span><input type=\"text\" name=\"/IDFGCamDeployment_2020/deploy_info/cam_info/generated_note_name_31\" data-relevant=\"string-length( /IDFGCamDeployment_2020/deploy_info/cam_info/lat_manual &gt;3) and ( /IDFGCamDeployment_2020/deploy_info/cam_info/lat_manual &lt;30 or  /IDFGCamDeployment_2020/deploy_info/cam_info/lat_manual &gt;60 or  /IDFGCamDeployment_2020/deploy_info/cam_info/lon_manual &lt;(-120) or  /IDFGCamDeployment_2020/deploy_info/cam_info/lon_manual &gt;(-60))\" data-type-xml=\"string\" readonly=\"readonly\"/></label><label class=\"question or-branch pre-init non-select \"><span lang=\"\" class=\"question-label active\">&lt;font color=\"red\"&gt;Please record latitude and longitude to at least 5 decimal places&lt;/font&gt;</span><input type=\"text\" name=\"/IDFGCamDeployment_2020/deploy_info/cam_info/generated_note_name_32\" data-relevant=\"string-length( /IDFGCamDeployment_2020/deploy_info/cam_info/lon_manual )&gt;=1 and (string-length( /IDFGCamDeployment_2020/deploy_info/cam_info/lat_manual )&lt;8 or string-length( /IDFGCamDeployment_2020/deploy_info/cam_info/lon_manual )&lt;8)\" data-type-xml=\"string\" readonly=\"readonly\"/></label><label class=\"question or-branch pre-init non-select \"><span lang=\"\" class=\"question-label active\">General Location</span><span class=\"required\">*</span><span lang=\"\" class=\"or-hint active\">Name of creek, mountain, etc.</span><input type=\"text\" name=\"/IDFGCamDeployment_2020/deploy_info/cam_info/gen_loc\" data-required=\"true()\" data-relevant=\"count-selected( /IDFGCamDeployment_2020/deploy_info/project )=1\" data-type-xml=\"string\"/><span lang=\"\" class=\"or-required-msg active\">Please describe General Location</span></label><label class=\"question or-branch pre-init non-select or-appearance-multiline \"><span lang=\"\" class=\"question-label active\">Notes on navigation to site</span><span lang=\"\" class=\"or-hint active\">(i.e., roads and trails used with distances)</span><textarea name=\"/IDFGCamDeployment_2020/deploy_info/cam_info/nav_notes\" data-relevant=\"count-selected( /IDFGCamDeployment_2020/deploy_info/project )=1\" data-type-xml=\"string\"> </textarea></label>\n            </section><!--end of group -->\n            </section><!--end of group -->\n    <section class=\"or-group or-branch pre-init or-appearance-field-list \" name=\"/IDFGCamDeployment_2020/view_info\" data-relevant=\"count-selected( /IDFGCamDeployment_2020/deploy_info/project )=1\"><h4><span lang=\"\" class=\"question-label active\">Viewshed Information</span></h4><label class=\"question or-branch pre-init non-select \"><span lang=\"default\" class=\"option-label active\">\n                 </span><img lang=\"default\" class=\"active\" src=\"jr://images/viewcone_measurements.PNG\" data-itext-id=\"/IDFGCamDeployment_2020/view_info/generated_note_name_39:label\" alt=\"image\"/><input type=\"text\" name=\"/IDFGCamDeployment_2020/view_info/generated_note_name_39\" data-relevant=\" /IDFGCamDeployment_2020/deploy_info/cam_style  = &quot;ungulate&quot;\" data-type-xml=\"string\" readonly=\"readonly\"/></label><label class=\"question or-branch pre-init non-select \"><span lang=\"default\" class=\"option-label active\">\n                 </span><img lang=\"default\" class=\"active\" src=\"jr://images/pred_measurements.PNG\" data-itext-id=\"/IDFGCamDeployment_2020/view_info/generated_note_name_40:label\" alt=\"image\"/><input type=\"text\" name=\"/IDFGCamDeployment_2020/view_info/generated_note_name_40\" data-relevant=\" /IDFGCamDeployment_2020/deploy_info/cam_style  = &quot;predator&quot;\" data-type-xml=\"string\" readonly=\"readonly\"/></label><label class=\"question non-select \"><span lang=\"\" class=\"question-label active\">Camera Height (m)</span><span class=\"required\">*</span><input type=\"number\" name=\"/IDFGCamDeployment_2020/view_info/cam_height\" data-required=\"true()\" data-type-xml=\"decimal\" step=\"any\"/><span lang=\"\" class=\"or-required-msg active\">Please measure Camera Height off Ground</span></label><label class=\"question or-branch pre-init non-select \"><span lang=\"\" class=\"question-label active\">Distance to Marker A (m)</span><span class=\"required\">*</span><input type=\"number\" name=\"/IDFGCamDeployment_2020/view_info/dist_a\" data-required=\"true()\" data-relevant=\" /IDFGCamDeployment_2020/deploy_info/cam_style  = &quot;ungulate&quot;\" data-type-xml=\"decimal\" step=\"any\"/><span lang=\"\" class=\"or-required-msg active\">Please measure Max Distance Left</span></label><label class=\"question or-appearance-minimal  or-branch pre-init \"><span lang=\"\" class=\"question-label active\">Type of Marker A</span><span class=\"required\">*</span><select name=\"/IDFGCamDeployment_2020/view_info/type_a\" data-name=\"/IDFGCamDeployment_2020/view_info/type_a\" data-required=\"true()\" data-relevant=\" /IDFGCamDeployment_2020/deploy_info/cam_style  = &quot;ungulate&quot;\" data-type-xml=\"select1\"><option value=\"\">...</option><option value=\"flag_tree\">Flagging on tree</option><option value=\"flag_shrub\">Flagging on shrub</option><option value=\"paint_x\">Painted X</option><option value=\"stake\">Reflective stake</option><option value=\"other\">Other (describe in comments section)</option></select><span class=\"or-option-translations\" style=\"display:none;\">\n                </span><span lang=\"\" class=\"or-required-msg active\">Please record Type of Marker Left</span></label><label class=\"question or-branch pre-init non-select \"><span lang=\"\" class=\"question-label active\">Distance to Marker B (m)</span><span class=\"required\">*</span><input type=\"number\" name=\"/IDFGCamDeployment_2020/view_info/dist_b\" data-required=\"true()\" data-relevant=\" /IDFGCamDeployment_2020/deploy_info/cam_style  = &quot;ungulate&quot;\" data-type-xml=\"decimal\" step=\"any\"/><span lang=\"\" class=\"or-required-msg active\">Please measure Max Distance Center</span></label><label class=\"question or-appearance-minimal  or-branch pre-init \"><span lang=\"\" class=\"question-label active\">Type of Marker B</span><span class=\"required\">*</span><select name=\"/IDFGCamDeployment_2020/view_info/type_b\" data-name=\"/IDFGCamDeployment_2020/view_info/type_b\" data-required=\"true()\" data-relevant=\" /IDFGCamDeployment_2020/deploy_info/cam_style  = &quot;ungulate&quot;\" data-type-xml=\"select1\"><option value=\"\">...</option><option value=\"flag_tree\">Flagging on tree</option><option value=\"flag_shrub\">Flagging on shrub</option><option value=\"paint_x\">Painted X</option><option value=\"stake\">Reflective stake</option><option value=\"other\">Other (describe in comments section)</option></select><span class=\"or-option-translations\" style=\"display:none;\">\n                </span><span lang=\"\" class=\"or-required-msg active\">Please record Type of Marker Center</span></label><label class=\"question or-branch pre-init non-select \"><span lang=\"\" class=\"question-label active\">Distance to Marker C (m)</span><span class=\"required\">*</span><input type=\"number\" name=\"/IDFGCamDeployment_2020/view_info/dist_c\" data-required=\"true()\" data-relevant=\" /IDFGCamDeployment_2020/deploy_info/cam_style  = &quot;ungulate&quot;\" data-type-xml=\"decimal\" step=\"any\"/><span lang=\"\" class=\"or-required-msg active\">Please measure Max Distance Right</span></label><label class=\"question or-appearance-minimal  or-branch pre-init \"><span lang=\"\" class=\"question-label active\">Type of Marker C</span><span class=\"required\">*</span><select name=\"/IDFGCamDeployment_2020/view_info/type_c\" data-name=\"/IDFGCamDeployment_2020/view_info/type_c\" data-required=\"true()\" data-relevant=\" /IDFGCamDeployment_2020/deploy_info/cam_style  = &quot;ungulate&quot;\" data-type-xml=\"select1\"><option value=\"\">...</option><option value=\"flag_tree\">Flagging on tree</option><option value=\"flag_shrub\">Flagging on shrub</option><option value=\"paint_x\">Painted X</option><option value=\"stake\">Reflective stake</option><option value=\"other\">Other (describe in comments section)</option></select><span class=\"or-option-translations\" style=\"display:none;\">\n                </span><span lang=\"\" class=\"or-required-msg active\">Please record Type of Marker Right</span></label><label class=\"question or-branch pre-init non-select \"><span lang=\"\" class=\"question-label active\">Distance to NEAR EDGE of road/trail (m)</span><span class=\"required\">*</span><input type=\"number\" name=\"/IDFGCamDeployment_2020/view_info/dist_near\" data-required=\"true()\" data-relevant=\" /IDFGCamDeployment_2020/deploy_info/cam_style  = &quot;predator&quot;\" data-type-xml=\"decimal\" step=\"any\"/><span lang=\"\" class=\"or-required-msg active\">Please measure Distance to Road/Trail Center</span></label><label class=\"question or-branch pre-init non-select \"><span lang=\"\" class=\"question-label active\">Distance to FAR EDGE of road/trail (m)</span><span class=\"required\">*</span><input type=\"number\" name=\"/IDFGCamDeployment_2020/view_info/dist_far\" data-required=\"true()\" data-relevant=\" /IDFGCamDeployment_2020/deploy_info/cam_style  = &quot;predator&quot;\" data-type-xml=\"decimal\" step=\"any\"/><span lang=\"\" class=\"or-required-msg active\">Please measure Width of Road/Trail</span></label><label class=\"question or-branch pre-init non-select \"><span lang=\"\" class=\"question-label active\">WIDTH of Walk Test (m)</span><span class=\"required\">*</span><span lang=\"\" class=\"or-hint active\">Left to right (center of road/trail)</span><input type=\"number\" name=\"/IDFGCamDeployment_2020/view_info/walk_width\" data-required=\"true()\" data-relevant=\" /IDFGCamDeployment_2020/deploy_info/cam_style  = &quot;predator&quot;\" data-type-xml=\"decimal\" step=\"any\"/><span lang=\"\" class=\"or-required-msg active\">Please measure Width of Walk Test</span></label><label class=\"question or-branch pre-init non-select \"><span lang=\"\" class=\"question-label active\">DEPTH of Walk Test (m)</span><span class=\"required\">*</span><span lang=\"\" class=\"or-hint active\">Front to back (center of view)</span><input type=\"number\" name=\"/IDFGCamDeployment_2020/view_info/walk_depth\" data-required=\"true()\" data-relevant=\" /IDFGCamDeployment_2020/deploy_info/cam_style  = &quot;predator&quot;\" data-type-xml=\"decimal\" step=\"any\"/><span lang=\"\" class=\"or-required-msg active\">Please measure Depth of Walk Test</span></label><label class=\"question or-appearance-minimal  or-branch pre-init \"><span lang=\"\" class=\"question-label active\">What is the camera facing?</span><span class=\"required\">*</span><select name=\"/IDFGCamDeployment_2020/view_info/cam_facing\" data-name=\"/IDFGCamDeployment_2020/view_info/cam_facing\" data-required=\"true()\" data-relevant=\" /IDFGCamDeployment_2020/deploy_info/cam_style  = &quot;predator&quot;\" data-type-xml=\"select1\"><option value=\"\">...</option><option value=\"game\">Game trail</option><option value=\"hiking\">Established hiking trail</option><option value=\"atv\">ATV trail</option><option value=\"road\">Lightly used dirt road</option><option value=\"other\">Other (describe briefly)</option></select><span class=\"or-option-translations\" style=\"display:none;\">\n                </span><span lang=\"\" class=\"or-required-msg active\">Please identify what the camera is facing</span></label><label class=\"question or-branch pre-init non-select \"><span lang=\"\" class=\"question-label active\">Other viewshed feature</span><span class=\"required\">*</span><input type=\"text\" name=\"/IDFGCamDeployment_2020/view_info/cam_facing_other\" data-required=\"true()\" data-relevant=\"selected( /IDFGCamDeployment_2020/view_info/cam_facing ,'other')\" data-type-xml=\"string\"/><span lang=\"\" class=\"or-required-msg active\">Please identify other viewshed feature</span></label><label class=\"question or-appearance-minimal \"><span lang=\"\" class=\"question-label active\">Dominant Habitat Type</span><span class=\"required\">*</span><span lang=\"\" class=\"or-hint active\">Within 10m of camera</span><select name=\"/IDFGCamDeployment_2020/view_info/habitat_type\" data-name=\"/IDFGCamDeployment_2020/view_info/habitat_type\" data-required=\"true()\" data-type-xml=\"select1\"><option value=\"\">...</option><option value=\"wet_forest\">Wet forest (cedar/hemlock/fir)</option><option value=\"dry_forest\">Dry forest (Douglas fir/pine/larch)</option><option value=\"riparian\">Riparian (willow/hydrophilic vegetation)</option><option value=\"aspen\">Aspen</option><option value=\"juniper\">Juniper</option><option value=\"mtn_shrub\">Mountain shrub (maple, mahogany, ceanothus, etc.)</option><option value=\"sage_steppe\">Sagebrush-steppe</option><option value=\"grass-mdw\">Grassland/meadow</option><option value=\"other\">Other (describe briefly)</option></select><span class=\"or-option-translations\" style=\"display:none;\">\n                </span><span lang=\"\" class=\"or-required-msg active\">Please select Dominant Habitat Type</span></label><label class=\"question or-branch pre-init non-select \"><span lang=\"\" class=\"question-label active\">Other Habitat Type</span><span class=\"required\">*</span><input type=\"text\" name=\"/IDFGCamDeployment_2020/view_info/habitat_other\" data-required=\"true()\" data-relevant=\"selected( /IDFGCamDeployment_2020/view_info/habitat_type ,'other')\" data-type-xml=\"string\"/><span lang=\"\" class=\"or-required-msg active\">Please describe Other Habitat Type</span></label><label class=\"question or-appearance-minimal \"><span lang=\"\" class=\"question-label active\">Topography</span><span class=\"required\">*</span><select name=\"/IDFGCamDeployment_2020/view_info/topography\" data-name=\"/IDFGCamDeployment_2020/view_info/topography\" data-required=\"true()\" data-type-xml=\"select1\"><option value=\"\">...</option><option value=\"ridge\">Ridge/saddle</option><option value=\"hill\">Hillside</option><option value=\"flat\">Flat ground</option><option value=\"drain\">Drainage bottom</option><option value=\"other\">Other (describe briefly)</option></select><span class=\"or-option-translations\" style=\"display:none;\">\n                </span><span lang=\"\" class=\"or-required-msg active\">Please select Topography</span></label><label class=\"question or-branch pre-init non-select \"><span lang=\"\" class=\"question-label active\">Other Topography</span><span class=\"required\">*</span><input type=\"text\" name=\"/IDFGCamDeployment_2020/view_info/topo_other\" data-required=\"true()\" data-relevant=\"selected( /IDFGCamDeployment_2020/view_info/topography ,'other')\" data-type-xml=\"string\"/><span lang=\"\" class=\"or-required-msg active\">Please describe Other Topography</span></label><fieldset class=\"question or-appearance-likert \"><fieldset><legend><span lang=\"\" class=\"question-label active\">Canopy Cover</span><span class=\"required\">*</span><span lang=\"\" class=\"or-hint active\">Estimate for entire viewshed</span>\n                    </legend><div class=\"option-wrapper\"><label class=\"\"><input type=\"radio\" name=\"/IDFGCamDeployment_2020/view_info/canopy_cover\" data-name=\"/IDFGCamDeployment_2020/view_info/canopy_cover\" value=\"25\" data-required=\"true()\" data-type-xml=\"select1\"/><span lang=\"\" class=\"option-label active\">0-25%</span></label><label class=\"\"><input type=\"radio\" name=\"/IDFGCamDeployment_2020/view_info/canopy_cover\" data-name=\"/IDFGCamDeployment_2020/view_info/canopy_cover\" value=\"50\" data-required=\"true()\" data-type-xml=\"select1\"/><span lang=\"\" class=\"option-label active\">26-50%</span></label><label class=\"\"><input type=\"radio\" name=\"/IDFGCamDeployment_2020/view_info/canopy_cover\" data-name=\"/IDFGCamDeployment_2020/view_info/canopy_cover\" value=\"75\" data-required=\"true()\" data-type-xml=\"select1\"/><span lang=\"\" class=\"option-label active\">51-75%</span></label><label class=\"\"><input type=\"radio\" name=\"/IDFGCamDeployment_2020/view_info/canopy_cover\" data-name=\"/IDFGCamDeployment_2020/view_info/canopy_cover\" value=\"100\" data-required=\"true()\" data-type-xml=\"select1\"/><span lang=\"\" class=\"option-label active\">76-100%</span></label></div></fieldset><span lang=\"\" class=\"or-required-msg active\">Please select value for Canopy Cover</span></fieldset><label class=\"question non-select or-appearance-signature \"><span lang=\"\" class=\"question-label active\">Camera Location Diagram (optional)</span><span lang=\"\" class=\"or-hint active\">In the space below, draw a picture of the camera location, including the camera detection zone. Include any prominent boulders, stumps, or other objects that will aid finding the camera during retrieval. Include a north/directional arrow.</span><input type=\"file\" name=\"/IDFGCamDeployment_2020/view_info/cam_diagram\" data-type-xml=\"binary\" accept=\"image/*\"/></label><label class=\"question non-select or-appearance-multiline \"><span lang=\"\" class=\"question-label active\">Comments</span><textarea name=\"/IDFGCamDeployment_2020/view_info/comments\" data-type-xml=\"string\"> </textarea></label>\n            </section><!--end of group -->\n    <section class=\"or-group or-branch pre-init or-appearance-field-list \" name=\"/IDFGCamDeployment_2020/end_dep\" data-relevant=\"count-selected( /IDFGCamDeployment_2020/deploy_info/project )=1\"><h4><span lang=\"\" class=\"question-label active\">Final Checklist</span></h4><label class=\"question or-branch pre-init non-select \"><span lang=\"\" class=\"question-label active\">&lt;ol&gt;&lt;li&gt;Check SD card for viewshed &amp; flagging (ungulate cams only), reference item, and placard photos&lt;/li&gt;\n&lt;li&gt;Arm and set delay start to 2020-05-20&lt;/li&gt;\n&lt;li&gt;Lock up camera&lt;/li&gt;&lt;/ol&gt;</span><input type=\"text\" name=\"/IDFGCamDeployment_2020/end_dep/generated_note_name_64\" data-relevant=\"selected( /IDFGCamDeployment_2020/deploy_info/project ,&quot;EOE2020&quot;)\" data-type-xml=\"string\" readonly=\"readonly\"/></label><label class=\"question or-branch pre-init non-select \"><span lang=\"\" class=\"question-label active\">&lt;ol&gt;&lt;li&gt;Check SD card for viewshed and placard photos&lt;/li&gt;\n&lt;li&gt;Arm and set delay start to 2020-07-01&lt;/li&gt;\n&lt;li&gt;Lock up camera&lt;/li&gt;&lt;/ol&gt;</span><input type=\"text\" name=\"/IDFGCamDeployment_2020/end_dep/generated_note_name_65\" data-relevant=\"selected( /IDFGCamDeployment_2020/deploy_info/project ,&quot;SWWLF2020&quot;)\" data-type-xml=\"string\" readonly=\"readonly\"/></label><label class=\"question or-branch pre-init non-select \"><span lang=\"\" class=\"question-label active\">&lt;ol&gt;&lt;li&gt;Check SD card for viewshed &amp; flagging (if relevant), reference item, and placard photos&lt;/li&gt;\n&lt;li&gt;Arm and set delay start (if relevant)&lt;/li&gt;\n&lt;li&gt;Lock up camera&lt;/li&gt;&lt;/ol&gt;</span><input type=\"text\" name=\"/IDFGCamDeployment_2020/end_dep/generated_note_name_66\" data-relevant=\"not(selected( /IDFGCamDeployment_2020/deploy_info/project ,&quot;EOE2020&quot;)) and not(selected( /IDFGCamDeployment_2020/deploy_info/project ,&quot;SWWLF2020&quot;))\" data-type-xml=\"string\" readonly=\"readonly\"/></label><label class=\"question non-select \"><span lang=\"\" class=\"question-label active\">&lt;h3&gt;&lt;b&gt;Ready to submit?&lt;/b&gt;&lt;/h3&gt;\nTap checkmark in bottom right</span><input type=\"text\" name=\"/IDFGCamDeployment_2020/end_dep/generated_note_name_67\" data-type-xml=\"string\" readonly=\"readonly\"/></label>\n            </section><!--end of group -->\n  \n<fieldset id=\"or-calculated-items\" style=\"display:none;\"><label class=\"calculation non-select \"><input type=\"hidden\" name=\"/IDFGCamDeployment_2020/deploy_info/cam_style\" data-calculate=\"if(selected( /IDFGCamDeployment_2020/deploy_info/project ,'SWUNG2020') or selected( /IDFGCamDeployment_2020/deploy_info/eoe_style , 'ung'), &quot;ungulate&quot;,if(selected( /IDFGCamDeployment_2020/deploy_info/project ,'SWWLF2020') or selected( /IDFGCamDeployment_2020/deploy_info/project ,'CAMLN2020') or selected( /IDFGCamDeployment_2020/deploy_info/eoe_style , 'neo_pred'), &quot;predator&quot;,&quot;&quot;))\" data-type-xml=\"string\"/></label><label class=\"or-branch pre-init calculation non-select \"><input type=\"hidden\" name=\"/IDFGCamDeployment_2020/deploy_info/cam_info/lat_auto\" data-relevant=\"count-selected( /IDFGCamDeployment_2020/deploy_info/project )=1\" data-calculate=\"pulldata(&quot;@geopoint&quot;,  /IDFGCamDeployment_2020/deploy_info/cam_info/gps_auto , &quot;y&quot;)\" data-type-xml=\"string\"/></label><label class=\"or-branch pre-init calculation non-select \"><input type=\"hidden\" name=\"/IDFGCamDeployment_2020/deploy_info/cam_info/lon_auto\" data-relevant=\"count-selected( /IDFGCamDeployment_2020/deploy_info/project )=1\" data-calculate=\"pulldata(&quot;@geopoint&quot;,  /IDFGCamDeployment_2020/deploy_info/cam_info/gps_auto , &quot;x&quot;)\" data-type-xml=\"string\"/></label><label class=\"calculation non-select \"><input type=\"hidden\" name=\"/IDFGCamDeployment_2020/meta/instanceID\" data-calculate=\"concat('uuid:', uuid())\" data-type-xml=\"string\"/></label></fieldset></form>",
+  "languageMap": {},
+  "model": "<model><instance>\n        <IDFGCamDeployment_2020 xmlns:esri=\"http://esri.com/xforms\" xmlns:jr=\"http://openrosa.org/javarosa\" xmlns:odk=\"http://www.opendatakit.org/xforms\" xmlns:orx=\"http://openrosa.org/xforms\" id=\"title_idfg_cam_dep\">\n          <deploy_info>\n            <project/>\n            <wolf_type/>\n            <eoe_style/>\n            <cam_style/>\n            <photo_batch>1</photo_batch>\n            <generated_note_name_9/>\n            <generated_note_name_10/>\n            <generated_note_name_11/>\n            <cam_info>\n              <dep_date>today()</dep_date>\n              <deployer/>\n              <region/>\n              <gmu/>\n              <rsf/>\n              <cellid_number/>\n              <cell_id/>\n              <cam_id>0000</cam_id>\n              <generated_note_name_21/>\n              <lock_id/>\n              <sm_lck_cmbo/>\n              <gps_auto/>\n              <generated_note_name_25/>\n              <lat_auto/>\n              <lon_auto/>\n              <gps_accuracy/>\n              <lat_manual/>\n              <lon_manual/>\n              <generated_note_name_31/>\n              <generated_note_name_32/>\n              <gen_loc/>\n              <nav_notes/>\n            </cam_info>\n          </deploy_info>\n          <view_info>\n            <generated_note_name_39/>\n            <generated_note_name_40/>\n            <cam_height/>\n            <dist_a/>\n            <type_a/>\n            <dist_b/>\n            <type_b/>\n            <dist_c/>\n            <type_c/>\n            <dist_near/>\n            <dist_far/>\n            <walk_width/>\n            <walk_depth/>\n            <cam_facing/>\n            <cam_facing_other/>\n            <habitat_type/>\n            <habitat_other/>\n            <topography/>\n            <topo_other/>\n            <canopy_cover/>\n            <cam_diagram/>\n            <comments/>\n          </view_info>\n          <end_dep>\n            <generated_note_name_64/>\n            <generated_note_name_65/>\n            <generated_note_name_66/>\n            <generated_note_name_67/>\n          </end_dep>\n          <meta>\n            <instanceID/>\n          </meta>\n        </IDFGCamDeployment_2020>\n      </instance><instance id=\"@geopoint\" src=\"jr://file-csv/@geopoint.csv\">\n        <root xmlns:esri=\"http://esri.com/xforms\" xmlns:jr=\"http://openrosa.org/javarosa\" xmlns:odk=\"http://www.opendatakit.org/xforms\" xmlns:orx=\"http://openrosa.org/xforms\">\n          <item>\n            <name>_</name>\n            <label>_</label>\n          </item>\n        </root>\n      </instance><instance id=\"facing\">\n        <root xmlns:esri=\"http://esri.com/xforms\" xmlns:jr=\"http://openrosa.org/javarosa\" xmlns:odk=\"http://www.opendatakit.org/xforms\" xmlns:orx=\"http://openrosa.org/xforms\">\n          <item>\n            <itextId>static_instance-facing-0</itextId>\n            <name>game</name>\n          </item>\n          <item>\n            <itextId>static_instance-facing-1</itextId>\n            <name>hiking</name>\n          </item>\n          <item>\n            <itextId>static_instance-facing-2</itextId>\n            <name>atv</name>\n          </item>\n          <item>\n            <itextId>static_instance-facing-3</itextId>\n            <name>road</name>\n          </item>\n          <item>\n            <itextId>static_instance-facing-4</itextId>\n            <name>other</name>\n          </item>\n        </root>\n      </instance><instance id=\"style\">\n        <root xmlns:esri=\"http://esri.com/xforms\" xmlns:jr=\"http://openrosa.org/javarosa\" xmlns:odk=\"http://www.opendatakit.org/xforms\" xmlns:orx=\"http://openrosa.org/xforms\">\n          <item>\n            <itextId>static_instance-style-0</itextId>\n            <name>neo_pred</name>\n          </item>\n          <item>\n            <itextId>static_instance-style-1</itextId>\n            <name>ung</name>\n          </item>\n        </root>\n      </instance><instance id=\"hab_type\">\n        <root xmlns:esri=\"http://esri.com/xforms\" xmlns:jr=\"http://openrosa.org/javarosa\" xmlns:odk=\"http://www.opendatakit.org/xforms\" xmlns:orx=\"http://openrosa.org/xforms\">\n          <item>\n            <itextId>static_instance-hab_type-0</itextId>\n            <name>wet_forest</name>\n          </item>\n          <item>\n            <itextId>static_instance-hab_type-1</itextId>\n            <name>dry_forest</name>\n          </item>\n          <item>\n            <itextId>static_instance-hab_type-2</itextId>\n            <name>riparian</name>\n          </item>\n          <item>\n            <itextId>static_instance-hab_type-3</itextId>\n            <name>aspen</name>\n          </item>\n          <item>\n            <itextId>static_instance-hab_type-4</itextId>\n            <name>juniper</name>\n          </item>\n          <item>\n            <itextId>static_instance-hab_type-5</itextId>\n            <name>mtn_shrub</name>\n          </item>\n          <item>\n            <itextId>static_instance-hab_type-6</itextId>\n            <name>sage_steppe</name>\n          </item>\n          <item>\n            <itextId>static_instance-hab_type-7</itextId>\n            <name>grass-mdw</name>\n          </item>\n          <item>\n            <itextId>static_instance-hab_type-8</itextId>\n            <name>other</name>\n          </item>\n        </root>\n      </instance><instance id=\"region\">\n        <root xmlns:esri=\"http://esri.com/xforms\" xmlns:jr=\"http://openrosa.org/javarosa\" xmlns:odk=\"http://www.opendatakit.org/xforms\" xmlns:orx=\"http://openrosa.org/xforms\">\n          <item>\n            <itextId>static_instance-region-0</itextId>\n            <name>1</name>\n          </item>\n          <item>\n            <itextId>static_instance-region-1</itextId>\n            <name>2</name>\n          </item>\n          <item>\n            <itextId>static_instance-region-2</itextId>\n            <name>3</name>\n          </item>\n          <item>\n            <itextId>static_instance-region-3</itextId>\n            <name>4</name>\n          </item>\n          <item>\n            <itextId>static_instance-region-4</itextId>\n            <name>5</name>\n          </item>\n          <item>\n            <itextId>static_instance-region-5</itextId>\n            <name>6</name>\n          </item>\n          <item>\n            <itextId>static_instance-region-6</itextId>\n            <name>7</name>\n          </item>\n        </root>\n      </instance><instance id=\"ung_loc_check\">\n        <root xmlns:esri=\"http://esri.com/xforms\" xmlns:jr=\"http://openrosa.org/javarosa\" xmlns:odk=\"http://www.opendatakit.org/xforms\" xmlns:orx=\"http://openrosa.org/xforms\">\n          <item>\n            <itextId>static_instance-ung_loc_check-0</itextId>\n            <name>30m_point</name>\n          </item>\n          <item>\n            <itextId>static_instance-ung_loc_check-1</itextId>\n            <name>30m_view</name>\n          </item>\n          <item>\n            <itextId>static_instance-ung_loc_check-2</itextId>\n            <name>topo_consistent</name>\n          </item>\n          <item>\n            <itextId>static_instance-ung_loc_check-3</itextId>\n            <name>veg_minimal</name>\n          </item>\n          <item>\n            <itextId>static_instance-ung_loc_check-4</itextId>\n            <name>tree_sturdy</name>\n          </item>\n          <item>\n            <itextId>static_instance-ung_loc_check-5</itextId>\n            <name>view_bearing</name>\n          </item>\n          <item>\n            <itextId>static_instance-ung_loc_check-6</itextId>\n            <name>not_trail</name>\n          </item>\n        </root>\n      </instance><instance id=\"project\">\n        <root xmlns:esri=\"http://esri.com/xforms\" xmlns:jr=\"http://openrosa.org/javarosa\" xmlns:odk=\"http://www.opendatakit.org/xforms\" xmlns:orx=\"http://openrosa.org/xforms\">\n          <item>\n            <itextId>static_instance-project-0</itextId>\n            <name>EOE2020</name>\n          </item>\n          <item>\n            <itextId>static_instance-project-1</itextId>\n            <name>CAMLN2020</name>\n          </item>\n          <item>\n            <itextId>static_instance-project-2</itextId>\n            <name>SWWLF2020</name>\n          </item>\n          <item>\n            <itextId>static_instance-project-3</itextId>\n            <name>SWUNG2020</name>\n          </item>\n        </root>\n      </instance><instance id=\"topo\">\n        <root xmlns:esri=\"http://esri.com/xforms\" xmlns:jr=\"http://openrosa.org/javarosa\" xmlns:odk=\"http://www.opendatakit.org/xforms\" xmlns:orx=\"http://openrosa.org/xforms\">\n          <item>\n            <itextId>static_instance-topo-0</itextId>\n            <name>ridge</name>\n          </item>\n          <item>\n            <itextId>static_instance-topo-1</itextId>\n            <name>hill</name>\n          </item>\n          <item>\n            <itextId>static_instance-topo-2</itextId>\n            <name>flat</name>\n          </item>\n          <item>\n            <itextId>static_instance-topo-3</itextId>\n            <name>drain</name>\n          </item>\n          <item>\n            <itextId>static_instance-topo-4</itextId>\n            <name>other</name>\n          </item>\n        </root>\n      </instance><instance id=\"wolf_type\">\n        <root xmlns:esri=\"http://esri.com/xforms\" xmlns:jr=\"http://openrosa.org/javarosa\" xmlns:odk=\"http://www.opendatakit.org/xforms\" xmlns:orx=\"http://openrosa.org/xforms\">\n          <item>\n            <itextId>static_instance-wolf_type-0</itextId>\n            <name>wolf_a</name>\n          </item>\n          <item>\n            <itextId>static_instance-wolf_type-1</itextId>\n            <name>wolf_o</name>\n          </item>\n          <item>\n            <itextId>static_instance-wolf_type-2</itextId>\n            <name>wolf_b</name>\n          </item>\n        </root>\n      </instance><instance id=\"key\">\n        <root xmlns:esri=\"http://esri.com/xforms\" xmlns:jr=\"http://openrosa.org/javarosa\" xmlns:odk=\"http://www.opendatakit.org/xforms\" xmlns:orx=\"http://openrosa.org/xforms\">\n          <item>\n            <itextId>static_instance-key-0</itextId>\n            <name>3918</name>\n          </item>\n          <item>\n            <itextId>static_instance-key-1</itextId>\n            <name>2264</name>\n          </item>\n          <item>\n            <itextId>static_instance-key-2</itextId>\n            <name>small_lock</name>\n          </item>\n        </root>\n      </instance><instance id=\"mark_type\">\n        <root xmlns:esri=\"http://esri.com/xforms\" xmlns:jr=\"http://openrosa.org/javarosa\" xmlns:odk=\"http://www.opendatakit.org/xforms\" xmlns:orx=\"http://openrosa.org/xforms\">\n          <item>\n            <itextId>static_instance-mark_type-0</itextId>\n            <name>flag_tree</name>\n          </item>\n          <item>\n            <itextId>static_instance-mark_type-1</itextId>\n            <name>flag_shrub</name>\n          </item>\n          <item>\n            <itextId>static_instance-mark_type-2</itextId>\n            <name>paint_x</name>\n          </item>\n          <item>\n            <itextId>static_instance-mark_type-3</itextId>\n            <name>stake</name>\n          </item>\n          <item>\n            <itextId>static_instance-mark_type-4</itextId>\n            <name>other</name>\n          </item>\n        </root>\n      </instance><instance id=\"units\">\n        <root xmlns:esri=\"http://esri.com/xforms\" xmlns:jr=\"http://openrosa.org/javarosa\" xmlns:odk=\"http://www.opendatakit.org/xforms\" xmlns:orx=\"http://openrosa.org/xforms\">\n          <item>\n            <itextId>static_instance-units-0</itextId>\n            <name>meters</name>\n          </item>\n          <item>\n            <itextId>static_instance-units-1</itextId>\n            <name>feet</name>\n          </item>\n        </root>\n      </instance><instance id=\"pred_loc_check\">\n        <root xmlns:esri=\"http://esri.com/xforms\" xmlns:jr=\"http://openrosa.org/javarosa\" xmlns:odk=\"http://www.opendatakit.org/xforms\" xmlns:orx=\"http://openrosa.org/xforms\">\n          <item>\n            <itextId>static_instance-pred_loc_check-0</itextId>\n            <name>500m_point</name>\n          </item>\n          <item>\n            <itextId>static_instance-pred_loc_check-1</itextId>\n            <name>off_road</name>\n          </item>\n          <item>\n            <itextId>static_instance-pred_loc_check-2</itextId>\n            <name>perp</name>\n          </item>\n          <item>\n            <itextId>static_instance-pred_loc_check-3</itextId>\n            <name>sensor_zone</name>\n          </item>\n          <item>\n            <itextId>static_instance-pred_loc_check-4</itextId>\n            <name>tree_height</name>\n          </item>\n        </root>\n      </instance><instance id=\"canopy\">\n        <root xmlns:esri=\"http://esri.com/xforms\" xmlns:jr=\"http://openrosa.org/javarosa\" xmlns:odk=\"http://www.opendatakit.org/xforms\" xmlns:orx=\"http://openrosa.org/xforms\">\n          <item>\n            <itextId>static_instance-canopy-0</itextId>\n            <name>25</name>\n          </item>\n          <item>\n            <itextId>static_instance-canopy-1</itextId>\n            <name>50</name>\n          </item>\n          <item>\n            <itextId>static_instance-canopy-2</itextId>\n            <name>75</name>\n          </item>\n          <item>\n            <itextId>static_instance-canopy-3</itextId>\n            <name>100</name>\n          </item>\n        </root>\n      </instance><instance id=\"rsf\">\n        <root xmlns:esri=\"http://esri.com/xforms\" xmlns:jr=\"http://openrosa.org/javarosa\" xmlns:odk=\"http://www.opendatakit.org/xforms\" xmlns:orx=\"http://openrosa.org/xforms\">\n          <item>\n            <itextId>static_instance-rsf-0</itextId>\n            <name>low</name>\n          </item>\n          <item>\n            <itextId>static_instance-rsf-1</itextId>\n            <name>high</name>\n          </item>\n        </root>\n      </instance><instance id=\"gmu\">\n        <root xmlns:esri=\"http://esri.com/xforms\" xmlns:jr=\"http://openrosa.org/javarosa\" xmlns:odk=\"http://www.opendatakit.org/xforms\" xmlns:orx=\"http://openrosa.org/xforms\">\n          <item>\n            <itextId>static_instance-gmu-0</itextId>\n            <reg>1</reg>\n            <name>1</name>\n          </item>\n          <item>\n            <itextId>static_instance-gmu-1</itextId>\n            <reg>1</reg>\n            <name>2</name>\n          </item>\n          <item>\n            <itextId>static_instance-gmu-2</itextId>\n            <reg>1</reg>\n            <name>3</name>\n          </item>\n          <item>\n            <itextId>static_instance-gmu-3</itextId>\n            <reg>1</reg>\n            <name>4</name>\n          </item>\n          <item>\n            <itextId>static_instance-gmu-4</itextId>\n            <reg>1</reg>\n            <name>4a</name>\n          </item>\n          <item>\n            <itextId>static_instance-gmu-5</itextId>\n            <reg>1</reg>\n            <name>5</name>\n          </item>\n          <item>\n            <itextId>static_instance-gmu-6</itextId>\n            <reg>1</reg>\n            <name>6</name>\n          </item>\n          <item>\n            <itextId>static_instance-gmu-7</itextId>\n            <reg>1</reg>\n            <name>7</name>\n          </item>\n          <item>\n            <itextId>static_instance-gmu-8</itextId>\n            <reg>1</reg>\n            <name>8</name>\n          </item>\n          <item>\n            <itextId>static_instance-gmu-9</itextId>\n            <reg>2</reg>\n            <name>8</name>\n          </item>\n          <item>\n            <itextId>static_instance-gmu-10</itextId>\n            <reg>2</reg>\n            <name>8a</name>\n          </item>\n          <item>\n            <itextId>static_instance-gmu-11</itextId>\n            <reg>2</reg>\n            <name>10</name>\n          </item>\n          <item>\n            <itextId>static_instance-gmu-12</itextId>\n            <reg>2</reg>\n            <name>10a</name>\n          </item>\n          <item>\n            <itextId>static_instance-gmu-13</itextId>\n            <reg>2</reg>\n            <name>11</name>\n          </item>\n          <item>\n            <itextId>static_instance-gmu-14</itextId>\n            <reg>2</reg>\n            <name>11a</name>\n          </item>\n          <item>\n            <itextId>static_instance-gmu-15</itextId>\n            <reg>2</reg>\n            <name>12</name>\n          </item>\n          <item>\n            <itextId>static_instance-gmu-16</itextId>\n            <reg>2</reg>\n            <name>13</name>\n          </item>\n          <item>\n            <itextId>static_instance-gmu-17</itextId>\n            <reg>2</reg>\n            <name>14</name>\n          </item>\n          <item>\n            <itextId>static_instance-gmu-18</itextId>\n            <reg>2</reg>\n            <name>15</name>\n          </item>\n          <item>\n            <itextId>static_instance-gmu-19</itextId>\n            <reg>2</reg>\n            <name>16</name>\n          </item>\n          <item>\n            <itextId>static_instance-gmu-20</itextId>\n            <reg>2</reg>\n            <name>16a</name>\n          </item>\n          <item>\n            <itextId>static_instance-gmu-21</itextId>\n            <reg>2</reg>\n            <name>17</name>\n          </item>\n          <item>\n            <itextId>static_instance-gmu-22</itextId>\n            <reg>2</reg>\n            <name>18</name>\n          </item>\n          <item>\n            <itextId>static_instance-gmu-23</itextId>\n            <reg>2</reg>\n            <name>19</name>\n          </item>\n          <item>\n            <itextId>static_instance-gmu-24</itextId>\n            <reg>2</reg>\n            <name>20</name>\n          </item>\n          <item>\n            <itextId>static_instance-gmu-25</itextId>\n            <reg>3</reg>\n            <name>19a</name>\n          </item>\n          <item>\n            <itextId>static_instance-gmu-26</itextId>\n            <reg>3</reg>\n            <name>20a</name>\n          </item>\n          <item>\n            <itextId>static_instance-gmu-27</itextId>\n            <reg>3</reg>\n            <name>22</name>\n          </item>\n          <item>\n            <itextId>static_instance-gmu-28</itextId>\n            <reg>3</reg>\n            <name>23</name>\n          </item>\n          <item>\n            <itextId>static_instance-gmu-29</itextId>\n            <reg>3</reg>\n            <name>24</name>\n          </item>\n          <item>\n            <itextId>static_instance-gmu-30</itextId>\n            <reg>3</reg>\n            <name>25</name>\n          </item>\n          <item>\n            <itextId>static_instance-gmu-31</itextId>\n            <reg>3</reg>\n            <name>26</name>\n          </item>\n          <item>\n            <itextId>static_instance-gmu-32</itextId>\n            <reg>3</reg>\n            <name>31</name>\n          </item>\n          <item>\n            <itextId>static_instance-gmu-33</itextId>\n            <reg>3</reg>\n            <name>32</name>\n          </item>\n          <item>\n            <itextId>static_instance-gmu-34</itextId>\n            <reg>3</reg>\n            <name>32a</name>\n          </item>\n          <item>\n            <itextId>static_instance-gmu-35</itextId>\n            <reg>3</reg>\n            <name>33</name>\n          </item>\n          <item>\n            <itextId>static_instance-gmu-36</itextId>\n            <reg>3</reg>\n            <name>34</name>\n          </item>\n          <item>\n            <itextId>static_instance-gmu-37</itextId>\n            <reg>3</reg>\n            <name>35</name>\n          </item>\n          <item>\n            <itextId>static_instance-gmu-38</itextId>\n            <reg>3</reg>\n            <name>38</name>\n          </item>\n          <item>\n            <itextId>static_instance-gmu-39</itextId>\n            <reg>3</reg>\n            <name>39</name>\n          </item>\n          <item>\n            <itextId>static_instance-gmu-40</itextId>\n            <reg>3</reg>\n            <name>40</name>\n          </item>\n          <item>\n            <itextId>static_instance-gmu-41</itextId>\n            <reg>3</reg>\n            <name>41</name>\n          </item>\n          <item>\n            <itextId>static_instance-gmu-42</itextId>\n            <reg>3</reg>\n            <name>42</name>\n          </item>\n          <item>\n            <itextId>static_instance-gmu-43</itextId>\n            <reg>4</reg>\n            <name>43</name>\n          </item>\n          <item>\n            <itextId>static_instance-gmu-44</itextId>\n            <reg>4</reg>\n            <name>44</name>\n          </item>\n          <item>\n            <itextId>static_instance-gmu-45</itextId>\n            <reg>4</reg>\n            <name>45</name>\n          </item>\n          <item>\n            <itextId>static_instance-gmu-46</itextId>\n            <reg>4</reg>\n            <name>46</name>\n          </item>\n          <item>\n            <itextId>static_instance-gmu-47</itextId>\n            <reg>4</reg>\n            <name>47</name>\n          </item>\n          <item>\n            <itextId>static_instance-gmu-48</itextId>\n            <reg>4</reg>\n            <name>48</name>\n          </item>\n          <item>\n            <itextId>static_instance-gmu-49</itextId>\n            <reg>4</reg>\n            <name>49</name>\n          </item>\n          <item>\n            <itextId>static_instance-gmu-50</itextId>\n            <reg>4</reg>\n            <name>52</name>\n          </item>\n          <item>\n            <itextId>static_instance-gmu-51</itextId>\n            <reg>4</reg>\n            <name>52a</name>\n          </item>\n          <item>\n            <itextId>static_instance-gmu-52</itextId>\n            <reg>4</reg>\n            <name>53</name>\n          </item>\n          <item>\n            <itextId>static_instance-gmu-53</itextId>\n            <reg>4</reg>\n            <name>54</name>\n          </item>\n          <item>\n            <itextId>static_instance-gmu-54</itextId>\n            <reg>4</reg>\n            <name>55</name>\n          </item>\n          <item>\n            <itextId>static_instance-gmu-55</itextId>\n            <reg>4</reg>\n            <name>56</name>\n          </item>\n          <item>\n            <itextId>static_instance-gmu-56</itextId>\n            <reg>4</reg>\n            <name>57</name>\n          </item>\n          <item>\n            <itextId>static_instance-gmu-57</itextId>\n            <reg>5</reg>\n            <name>66a</name>\n          </item>\n          <item>\n            <itextId>static_instance-gmu-58</itextId>\n            <reg>5</reg>\n            <name>68</name>\n          </item>\n          <item>\n            <itextId>static_instance-gmu-59</itextId>\n            <reg>5</reg>\n            <name>68a</name>\n          </item>\n          <item>\n            <itextId>static_instance-gmu-60</itextId>\n            <reg>5</reg>\n            <name>70</name>\n          </item>\n          <item>\n            <itextId>static_instance-gmu-61</itextId>\n            <reg>5</reg>\n            <name>71</name>\n          </item>\n          <item>\n            <itextId>static_instance-gmu-62</itextId>\n            <reg>5</reg>\n            <name>72</name>\n          </item>\n          <item>\n            <itextId>static_instance-gmu-63</itextId>\n            <reg>5</reg>\n            <name>73</name>\n          </item>\n          <item>\n            <itextId>static_instance-gmu-64</itextId>\n            <reg>5</reg>\n            <name>73a</name>\n          </item>\n          <item>\n            <itextId>static_instance-gmu-65</itextId>\n            <reg>5</reg>\n            <name>74</name>\n          </item>\n          <item>\n            <itextId>static_instance-gmu-66</itextId>\n            <reg>5</reg>\n            <name>75</name>\n          </item>\n          <item>\n            <itextId>static_instance-gmu-67</itextId>\n            <reg>5</reg>\n            <name>76</name>\n          </item>\n          <item>\n            <itextId>static_instance-gmu-68</itextId>\n            <reg>5</reg>\n            <name>77</name>\n          </item>\n          <item>\n            <itextId>static_instance-gmu-69</itextId>\n            <reg>5</reg>\n            <name>78</name>\n          </item>\n          <item>\n            <itextId>static_instance-gmu-70</itextId>\n            <reg>6</reg>\n            <name>50</name>\n          </item>\n          <item>\n            <itextId>static_instance-gmu-71</itextId>\n            <reg>6</reg>\n            <name>51</name>\n          </item>\n          <item>\n            <itextId>static_instance-gmu-72</itextId>\n            <reg>6</reg>\n            <name>58</name>\n          </item>\n          <item>\n            <itextId>static_instance-gmu-73</itextId>\n            <reg>6</reg>\n            <name>59</name>\n          </item>\n          <item>\n            <itextId>static_instance-gmu-74</itextId>\n            <reg>6</reg>\n            <name>59a</name>\n          </item>\n          <item>\n            <itextId>static_instance-gmu-75</itextId>\n            <reg>6</reg>\n            <name>60</name>\n          </item>\n          <item>\n            <itextId>static_instance-gmu-76</itextId>\n            <reg>6</reg>\n            <name>60a</name>\n          </item>\n          <item>\n            <itextId>static_instance-gmu-77</itextId>\n            <reg>6</reg>\n            <name>61</name>\n          </item>\n          <item>\n            <itextId>static_instance-gmu-78</itextId>\n            <reg>6</reg>\n            <name>62</name>\n          </item>\n          <item>\n            <itextId>static_instance-gmu-79</itextId>\n            <reg>6</reg>\n            <name>62a</name>\n          </item>\n          <item>\n            <itextId>static_instance-gmu-80</itextId>\n            <reg>6</reg>\n            <name>63</name>\n          </item>\n          <item>\n            <itextId>static_instance-gmu-81</itextId>\n            <reg>6</reg>\n            <name>63a</name>\n          </item>\n          <item>\n            <itextId>static_instance-gmu-82</itextId>\n            <reg>6</reg>\n            <name>64</name>\n          </item>\n          <item>\n            <itextId>static_instance-gmu-83</itextId>\n            <reg>6</reg>\n            <name>65</name>\n          </item>\n          <item>\n            <itextId>static_instance-gmu-84</itextId>\n            <reg>6</reg>\n            <name>66</name>\n          </item>\n          <item>\n            <itextId>static_instance-gmu-85</itextId>\n            <reg>6</reg>\n            <name>67</name>\n          </item>\n          <item>\n            <itextId>static_instance-gmu-86</itextId>\n            <reg>6</reg>\n            <name>68</name>\n          </item>\n          <item>\n            <itextId>static_instance-gmu-87</itextId>\n            <reg>6</reg>\n            <name>69</name>\n          </item>\n          <item>\n            <itextId>static_instance-gmu-88</itextId>\n            <reg>7</reg>\n            <name>21</name>\n          </item>\n          <item>\n            <itextId>static_instance-gmu-89</itextId>\n            <reg>7</reg>\n            <name>21a</name>\n          </item>\n          <item>\n            <itextId>static_instance-gmu-90</itextId>\n            <reg>7</reg>\n            <name>27</name>\n          </item>\n          <item>\n            <itextId>static_instance-gmu-91</itextId>\n            <reg>7</reg>\n            <name>28</name>\n          </item>\n          <item>\n            <itextId>static_instance-gmu-92</itextId>\n            <reg>7</reg>\n            <name>29</name>\n          </item>\n          <item>\n            <itextId>static_instance-gmu-93</itextId>\n            <reg>7</reg>\n            <name>30</name>\n          </item>\n          <item>\n            <itextId>static_instance-gmu-94</itextId>\n            <reg>7</reg>\n            <name>30a</name>\n          </item>\n          <item>\n            <itextId>static_instance-gmu-95</itextId>\n            <reg>7</reg>\n            <name>36</name>\n          </item>\n          <item>\n            <itextId>static_instance-gmu-96</itextId>\n            <reg>7</reg>\n            <name>36a</name>\n          </item>\n          <item>\n            <itextId>static_instance-gmu-97</itextId>\n            <reg>7</reg>\n            <name>36b</name>\n          </item>\n          <item>\n            <itextId>static_instance-gmu-98</itextId>\n            <reg>7</reg>\n            <name>37</name>\n          </item>\n          <item>\n            <itextId>static_instance-gmu-99</itextId>\n            <reg>7</reg>\n            <name>37a</name>\n          </item>\n        </root>\n      </instance><instance id=\"yes_no\">\n        <root xmlns:esri=\"http://esri.com/xforms\" xmlns:jr=\"http://openrosa.org/javarosa\" xmlns:odk=\"http://www.opendatakit.org/xforms\" xmlns:orx=\"http://openrosa.org/xforms\">\n          <item>\n            <itextId>static_instance-yes_no-0</itextId>\n            <name>yes</name>\n          </item>\n          <item>\n            <itextId>static_instance-yes_no-1</itextId>\n            <name>no</name>\n          </item>\n        </root>\n      </instance></model>",
+  "success": true,
+  "surveyFormJson": {
+    "footer": {
+      "content": "",
+      "isVisible": true
+    },
+    "header": {
+      "content": "%3Cp%20title%3D'IDFG%20Camera%20Deployment'%3EIDFG%20Camera%20Deployment%3C%2Fp%3E",
+      "isVisible": true
+    },
+    "layerName": "title_idfg_cam_dep",
+    "portalUrl": "https://www.arcgis.com",
+    "questions": [
+      {
+        "appearance": {
+          "layout": "expanded"
+        },
+        "id": "/IDFGCamDeployment_2020/deploy_info",
+        "label": "Project Information",
+        "name": "deploy_info",
+        "position": 0,
+        "questions": [
+          {
+            "appearance": {
+              "layout": "minimal"
+            },
+            "choices": {
+              "items": [
+                {
+                  "label": "EOE2020 (Ecology of everything)",
+                  "position": 0,
+                  "value": "EOE2020"
+                },
+                {
+                  "label": "CAMLN2020 (Caribou mountain lions)",
+                  "position": 1,
+                  "value": "CAMLN2020"
+                },
+                {
+                  "label": "SWWLF2020 (Statewide wolf)",
+                  "position": 2,
+                  "value": "SWWLF2020"
+                },
+                {
+                  "label": "SWUNG2020 (Statewide ungulate)",
+                  "position": 3,
+                  "value": "SWUNG2020"
+                }
+              ],
+              "other": {
+                "isEnabled": false
+              }
+            },
+            "choicesOrder": {
+              "type": "default"
+            },
+            "fieldName": "project",
+            "id": "/IDFGCamDeployment_2020/deploy_info/project",
+            "isReadOnly": false,
+            "isRequired": true,
+            "label": "Camera Project",
+            "name": "project",
+            "position": 1,
+            "type": "esriQuestionTypeSingleChoice"
+          },
+          {
+            "appearance": {
+              "layout": "minimal"
+            },
+            "choices": {
+              "items": [
+                {
+                  "label": "Wolf abundance",
+                  "position": 0,
+                  "value": "wolf_a"
+                },
+                {
+                  "label": "Wolf occupancy",
+                  "position": 1,
+                  "value": "wolf_o"
+                },
+                {
+                  "label": "Wolf abundance and occupancy (combination camera)",
+                  "position": 2,
+                  "value": "wolf_b"
+                }
+              ],
+              "other": {
+                "isEnabled": false
+              }
+            },
+            "choicesOrder": {
+              "type": "default"
+            },
+            "fieldName": "wolf_type",
+            "id": "/IDFGCamDeployment_2020/deploy_info/wolf_type",
+            "isReadOnly": false,
+            "isRequired": true,
+            "label": "Type of Camera",
+            "name": "wolf_type",
+            "position": 2,
+            "type": "esriQuestionTypeSingleChoice"
+          },
+          {
+            "appearance": {
+              "layout": "minimal"
+            },
+            "choices": {
+              "items": [
+                {
+                  "label": "Predator/neonate",
+                  "position": 0,
+                  "value": "neo_pred"
+                },
+                {
+                  "label": "Ungulate",
+                  "position": 1,
+                  "value": "ung"
+                }
+              ],
+              "other": {
+                "isEnabled": false
+              }
+            },
+            "choicesOrder": {
+              "type": "default"
+            },
+            "fieldName": "eoe_style",
+            "id": "/IDFGCamDeployment_2020/deploy_info/eoe_style",
+            "isReadOnly": false,
+            "isRequired": true,
+            "label": "Style of Setup",
+            "name": "eoe_style",
+            "position": 3,
+            "type": "esriQuestionTypeSingleChoice"
+          },
+          {
+            "calculation": "if(selected( /IDFGCamDeployment_2020/deploy_info/project ,'SWUNG2020') or selected( /IDFGCamDeployment_2020/deploy_info/eoe_style , 'ung'), \"ungulate\",if(selected( /IDFGCamDeployment_2020/deploy_info/project ,'SWWLF2020') or selected( /IDFGCamDeployment_2020/deploy_info/project ,'CAMLN2020') or selected( /IDFGCamDeployment_2020/deploy_info/eoe_style , 'neo_pred'), \"predator\",\"\"))",
+            "defaultValue": [
+              null
+            ],
+            "fieldName": "cam_style",
+            "id": "/IDFGCamDeployment_2020/deploy_info/cam_style",
+            "isHidden": true,
+            "isRequired": false,
+            "label": "cam_style",
+            "name": "cam_style",
+            "position": 4,
+            "type": "esriQuestionTypeText",
+            "validation": {
+              "valueRange": {
+                "isEnabled": false
+              }
+            }
+          },
+          {
+            "calculation": "",
+            "defaultValue": 1,
+            "fieldName": "photo_batch",
+            "id": "/IDFGCamDeployment_2020/deploy_info/photo_batch",
+            "isReadOnly": false,
+            "isRequired": false,
+            "label": "Photo Batch",
+            "name": "photo_batch",
+            "position": 5,
+            "type": "esriQuestionTypeNumber",
+            "validation": {
+              "isInteger": true,
+              "valueRange": {
+                "isEnabled": false
+              }
+            }
+          },
+          {
+            "calculation": "",
+            "defaultValue": "",
+            "fieldName": "generated_note_name_9",
+            "id": "/IDFGCamDeployment_2020/deploy_info/generated_note_name_9",
+            "isReadOnly": true,
+            "isRequired": false,
+            "label": "<font size=2><b>UNGULATE SETUP INSTRUCTIONS:</b><ol>\n<li>Go to Navigation Point</li>\n<li>Determine habitat comp of 10 m Reference Area</li>\n<li>Select tree (or T-post location) within 30 m of Navigation Point where camera will point toward habitat similar to Reference Area</li>\n<li>Clear vegetation, tree limbs and nearby shrubs</li>\n<li>Position camera, pointing in any direction, about 2 m high (elk eye level)</li>\n<li>Aim parallel to topography</li>\n<li>DISTANCE-REFERENCE flagging along center line</li>\n<li>REFERENCE-ITEM PHOTO at 10 m</li>\n<li>Placard photo with CAM ID & SITE Number</li></ol>\n<em>*NO WALK TEST (only predator cams)</em></font>",
+            "name": "generated_note_name_9",
+            "position": 6,
+            "type": "esriQuestionTypeText",
+            "validation": {
+              "valueRange": {
+                "isEnabled": false
+              }
+            }
+          },
+          {
+            "calculation": "",
+            "defaultValue": "",
+            "fieldName": "generated_note_name_10",
+            "id": "/IDFGCamDeployment_2020/deploy_info/generated_note_name_10",
+            "isReadOnly": true,
+            "isRequired": false,
+            "label": "<font size=2><b>PREDATOR/NEONATE SETUP INSTRUCTIONS:</b><ol>\n<li>Sturdy tree within 2000 m of navigation point</li>\n<li>Jeep/ATV/closed-road > hiking trail > well-used game trail</li>\n<li>Optimal height: ~3 m high, depends on situation</li>\n<li>Optimal distance: 11 m from trail, 8 m from edge of road (min 5 m, max 20)</li>\n<li>Perpendicular to trail</li>\n<li>Angled so trail is in bottom ½ -⅓ of image</li>\n<li>Similar surrounding habitat as ungulate cam (EOE paired cameras only)</li>\n<li>WALK TEST</li>\n<li>REFERENCE-ITEM PHOTO at NEAR EDGE of trail/road</li>\n<li>Placard photo with CAM ID and SITE Number</li></ol>\n<em>*No flagging necessary (only ungulate cams)</em></font>",
+            "name": "generated_note_name_10",
+            "position": 7,
+            "type": "esriQuestionTypeText",
+            "validation": {
+              "valueRange": {
+                "isEnabled": false
+              }
+            }
+          },
+          {
+            "calculation": "",
+            "defaultValue": "",
+            "fieldName": "generated_note_name_11",
+            "id": "/IDFGCamDeployment_2020/deploy_info/generated_note_name_11",
+            "isReadOnly": true,
+            "isRequired": false,
+            "label": "<font size=2><b>SETUP INSTRUCTIONS:</b><ol>\n<li>Same location as previous year</li>\n<li>Optimal height: ~3 m high, depends on situation</li>\n<li>Perpendicular to trail</li>\n<li>Angled so trail is in bottom ½ -⅓ of image</li>\n<li>WALK TEST</li>\n<li>Placard photo with CAM ID and CELL ID</li></ol>\n<em>*No flagging necessary</em></font>",
+            "name": "generated_note_name_11",
+            "position": 8,
+            "type": "esriQuestionTypeText",
+            "validation": {
+              "valueRange": {
+                "isEnabled": false
+              }
+            }
+          },
+          {
+            "appearance": {
+              "layout": "expanded"
+            },
+            "id": "/IDFGCamDeployment_2020/deploy_info/cam_info",
+            "label": "Camera Information",
+            "name": "cam_info",
+            "position": 9,
+            "questions": [
+              {
+                "appearance": {
+                  "layout": "day-month-year"
+                },
+                "calculation": "",
+                "defaultValue": "today()",
+                "fieldName": "dep_date",
+                "id": "/IDFGCamDeployment_2020/deploy_info/cam_info/dep_date",
+                "isReadOnly": false,
+                "isRequired": true,
+                "label": "Deployment Date",
+                "name": "dep_date",
+                "position": 10,
+                "type": "esriQuestionTypeDate",
+                "validation": {
+                  "valueRange": {
+                    "isEnabled": false
+                  }
+                }
+              },
+              {
+                "calculation": "",
+                "defaultValue": "",
+                "fieldName": "deployer",
+                "id": "/IDFGCamDeployment_2020/deploy_info/cam_info/deployer",
+                "isReadOnly": false,
+                "isRequired": true,
+                "label": "Deployer's Last Name(s)",
+                "name": "deployer",
+                "position": 11,
+                "type": "esriQuestionTypeText",
+                "validation": {
+                  "valueRange": {
+                    "isEnabled": false
+                  }
+                }
+              },
+              {
+                "appearance": {
+                  "layout": "minimal"
+                },
+                "choices": {
+                  "items": [
+                    {
+                      "label": "1",
+                      "position": 0,
+                      "value": "1"
+                    },
+                    {
+                      "label": "2",
+                      "position": 1,
+                      "value": "2"
+                    },
+                    {
+                      "label": "3",
+                      "position": 2,
+                      "value": "3"
+                    },
+                    {
+                      "label": "4",
+                      "position": 3,
+                      "value": "4"
+                    },
+                    {
+                      "label": "5",
+                      "position": 4,
+                      "value": "5"
+                    },
+                    {
+                      "label": "6",
+                      "position": 5,
+                      "value": "6"
+                    },
+                    {
+                      "label": "7",
+                      "position": 6,
+                      "value": "7"
+                    }
+                  ],
+                  "other": {
+                    "isEnabled": false
+                  }
+                },
+                "choicesOrder": {
+                  "type": "default"
+                },
+                "fieldName": "region",
+                "id": "/IDFGCamDeployment_2020/deploy_info/cam_info/region",
+                "isReadOnly": false,
+                "isRequired": true,
+                "label": "Region",
+                "name": "region",
+                "position": 12,
+                "type": "esriQuestionTypeSingleChoice"
+              },
+              {
+                "appearance": {
+                  "layout": "minimal"
+                },
+                "choices": {
+                  "items": [
+                    {
+                      "label": "1",
+                      "position": 0,
+                      "value": "1"
+                    },
+                    {
+                      "label": "2",
+                      "position": 1,
+                      "value": "2"
+                    },
+                    {
+                      "label": "3",
+                      "position": 2,
+                      "value": "3"
+                    },
+                    {
+                      "label": "4",
+                      "position": 3,
+                      "value": "4"
+                    },
+                    {
+                      "label": "4A",
+                      "position": 4,
+                      "value": "4a"
+                    },
+                    {
+                      "label": "5",
+                      "position": 5,
+                      "value": "5"
+                    },
+                    {
+                      "label": "6",
+                      "position": 6,
+                      "value": "6"
+                    },
+                    {
+                      "label": "7",
+                      "position": 7,
+                      "value": "7"
+                    },
+                    {
+                      "label": "8",
+                      "position": 8,
+                      "value": "8"
+                    },
+                    {
+                      "label": "8",
+                      "position": 9,
+                      "value": "8"
+                    },
+                    {
+                      "label": "8A",
+                      "position": 10,
+                      "value": "8a"
+                    },
+                    {
+                      "label": "10",
+                      "position": 11,
+                      "value": "10"
+                    },
+                    {
+                      "label": "10A",
+                      "position": 12,
+                      "value": "10a"
+                    },
+                    {
+                      "label": "11",
+                      "position": 13,
+                      "value": "11"
+                    },
+                    {
+                      "label": "11A",
+                      "position": 14,
+                      "value": "11a"
+                    },
+                    {
+                      "label": "12",
+                      "position": 15,
+                      "value": "12"
+                    },
+                    {
+                      "label": "13",
+                      "position": 16,
+                      "value": "13"
+                    },
+                    {
+                      "label": "14",
+                      "position": 17,
+                      "value": "14"
+                    },
+                    {
+                      "label": "15",
+                      "position": 18,
+                      "value": "15"
+                    },
+                    {
+                      "label": "16",
+                      "position": 19,
+                      "value": "16"
+                    },
+                    {
+                      "label": "16A",
+                      "position": 20,
+                      "value": "16a"
+                    },
+                    {
+                      "label": "17",
+                      "position": 21,
+                      "value": "17"
+                    },
+                    {
+                      "label": "18",
+                      "position": 22,
+                      "value": "18"
+                    },
+                    {
+                      "label": "19",
+                      "position": 23,
+                      "value": "19"
+                    },
+                    {
+                      "label": "20",
+                      "position": 24,
+                      "value": "20"
+                    },
+                    {
+                      "label": "19A",
+                      "position": 25,
+                      "value": "19a"
+                    },
+                    {
+                      "label": "20A",
+                      "position": 26,
+                      "value": "20a"
+                    },
+                    {
+                      "label": "22",
+                      "position": 27,
+                      "value": "22"
+                    },
+                    {
+                      "label": "23",
+                      "position": 28,
+                      "value": "23"
+                    },
+                    {
+                      "label": "24",
+                      "position": 29,
+                      "value": "24"
+                    },
+                    {
+                      "label": "25",
+                      "position": 30,
+                      "value": "25"
+                    },
+                    {
+                      "label": "26",
+                      "position": 31,
+                      "value": "26"
+                    },
+                    {
+                      "label": "32",
+                      "position": 32,
+                      "value": "31"
+                    },
+                    {
+                      "label": "32",
+                      "position": 33,
+                      "value": "32"
+                    },
+                    {
+                      "label": "32A",
+                      "position": 34,
+                      "value": "32a"
+                    },
+                    {
+                      "label": "33",
+                      "position": 35,
+                      "value": "33"
+                    },
+                    {
+                      "label": "34",
+                      "position": 36,
+                      "value": "34"
+                    },
+                    {
+                      "label": "35",
+                      "position": 37,
+                      "value": "35"
+                    },
+                    {
+                      "label": "38",
+                      "position": 38,
+                      "value": "38"
+                    },
+                    {
+                      "label": "39",
+                      "position": 39,
+                      "value": "39"
+                    },
+                    {
+                      "label": "40",
+                      "position": 40,
+                      "value": "40"
+                    },
+                    {
+                      "label": "41",
+                      "position": 41,
+                      "value": "41"
+                    },
+                    {
+                      "label": "42",
+                      "position": 42,
+                      "value": "42"
+                    },
+                    {
+                      "label": "43",
+                      "position": 43,
+                      "value": "43"
+                    },
+                    {
+                      "label": "44",
+                      "position": 44,
+                      "value": "44"
+                    },
+                    {
+                      "label": "45",
+                      "position": 45,
+                      "value": "45"
+                    },
+                    {
+                      "label": "46",
+                      "position": 46,
+                      "value": "46"
+                    },
+                    {
+                      "label": "47",
+                      "position": 47,
+                      "value": "47"
+                    },
+                    {
+                      "label": "48",
+                      "position": 48,
+                      "value": "48"
+                    },
+                    {
+                      "label": "49",
+                      "position": 49,
+                      "value": "49"
+                    },
+                    {
+                      "label": "52",
+                      "position": 50,
+                      "value": "52"
+                    },
+                    {
+                      "label": "52A",
+                      "position": 51,
+                      "value": "52a"
+                    },
+                    {
+                      "label": "53",
+                      "position": 52,
+                      "value": "53"
+                    },
+                    {
+                      "label": "54",
+                      "position": 53,
+                      "value": "54"
+                    },
+                    {
+                      "label": "55",
+                      "position": 54,
+                      "value": "55"
+                    },
+                    {
+                      "label": "56",
+                      "position": 55,
+                      "value": "56"
+                    },
+                    {
+                      "label": "57",
+                      "position": 56,
+                      "value": "57"
+                    },
+                    {
+                      "label": "66A",
+                      "position": 57,
+                      "value": "66a"
+                    },
+                    {
+                      "label": "68",
+                      "position": 58,
+                      "value": "68"
+                    },
+                    {
+                      "label": "68A",
+                      "position": 59,
+                      "value": "68a"
+                    },
+                    {
+                      "label": "70",
+                      "position": 60,
+                      "value": "70"
+                    },
+                    {
+                      "label": "71",
+                      "position": 61,
+                      "value": "71"
+                    },
+                    {
+                      "label": "72",
+                      "position": 62,
+                      "value": "72"
+                    },
+                    {
+                      "label": "73",
+                      "position": 63,
+                      "value": "73"
+                    },
+                    {
+                      "label": "73A",
+                      "position": 64,
+                      "value": "73a"
+                    },
+                    {
+                      "label": "74",
+                      "position": 65,
+                      "value": "74"
+                    },
+                    {
+                      "label": "75",
+                      "position": 66,
+                      "value": "75"
+                    },
+                    {
+                      "label": "76",
+                      "position": 67,
+                      "value": "76"
+                    },
+                    {
+                      "label": "77",
+                      "position": 68,
+                      "value": "77"
+                    },
+                    {
+                      "label": "78",
+                      "position": 69,
+                      "value": "78"
+                    },
+                    {
+                      "label": "50",
+                      "position": 70,
+                      "value": "50"
+                    },
+                    {
+                      "label": "51",
+                      "position": 71,
+                      "value": "51"
+                    },
+                    {
+                      "label": "58",
+                      "position": 72,
+                      "value": "58"
+                    },
+                    {
+                      "label": "59",
+                      "position": 73,
+                      "value": "59"
+                    },
+                    {
+                      "label": "59A",
+                      "position": 74,
+                      "value": "59a"
+                    },
+                    {
+                      "label": "60",
+                      "position": 75,
+                      "value": "60"
+                    },
+                    {
+                      "label": "60a",
+                      "position": 76,
+                      "value": "60a"
+                    },
+                    {
+                      "label": "61",
+                      "position": 77,
+                      "value": "61"
+                    },
+                    {
+                      "label": "62",
+                      "position": 78,
+                      "value": "62"
+                    },
+                    {
+                      "label": "62A",
+                      "position": 79,
+                      "value": "62a"
+                    },
+                    {
+                      "label": "63",
+                      "position": 80,
+                      "value": "63"
+                    },
+                    {
+                      "label": "63A",
+                      "position": 81,
+                      "value": "63a"
+                    },
+                    {
+                      "label": "64",
+                      "position": 82,
+                      "value": "64"
+                    },
+                    {
+                      "label": "65",
+                      "position": 83,
+                      "value": "65"
+                    },
+                    {
+                      "label": "66",
+                      "position": 84,
+                      "value": "66"
+                    },
+                    {
+                      "label": "67",
+                      "position": 85,
+                      "value": "67"
+                    },
+                    {
+                      "label": "68",
+                      "position": 86,
+                      "value": "68"
+                    },
+                    {
+                      "label": "69",
+                      "position": 87,
+                      "value": "69"
+                    },
+                    {
+                      "label": "21",
+                      "position": 88,
+                      "value": "21"
+                    },
+                    {
+                      "label": "21A",
+                      "position": 89,
+                      "value": "21a"
+                    },
+                    {
+                      "label": "27",
+                      "position": 90,
+                      "value": "27"
+                    },
+                    {
+                      "label": "28",
+                      "position": 91,
+                      "value": "28"
+                    },
+                    {
+                      "label": "29",
+                      "position": 92,
+                      "value": "29"
+                    },
+                    {
+                      "label": "30",
+                      "position": 93,
+                      "value": "30"
+                    },
+                    {
+                      "label": "30A",
+                      "position": 94,
+                      "value": "30a"
+                    },
+                    {
+                      "label": "36",
+                      "position": 95,
+                      "value": "36"
+                    },
+                    {
+                      "label": "36A",
+                      "position": 96,
+                      "value": "36a"
+                    },
+                    {
+                      "label": "36B",
+                      "position": 97,
+                      "value": "36b"
+                    },
+                    {
+                      "label": "37",
+                      "position": 98,
+                      "value": "37"
+                    },
+                    {
+                      "label": "37A",
+                      "position": 99,
+                      "value": "37a"
+                    }
+                  ],
+                  "other": {
+                    "isEnabled": false
+                  }
+                },
+                "choicesOrder": {
+                  "type": "default"
+                },
+                "fieldName": "gmu",
+                "id": "/IDFGCamDeployment_2020/deploy_info/cam_info/gmu",
+                "isReadOnly": false,
+                "isRequired": true,
+                "label": "Game Management Unit",
+                "name": "gmu",
+                "position": 13,
+                "type": "esriQuestionTypeSingleChoice"
+              },
+              {
+                "appearance": {
+                  "layout": "minimal"
+                },
+                "choices": {
+                  "items": [
+                    {
+                      "label": "Low",
+                      "position": 0,
+                      "value": "low"
+                    },
+                    {
+                      "label": "High",
+                      "position": 1,
+                      "value": "high"
+                    }
+                  ],
+                  "other": {
+                    "isEnabled": false
+                  }
+                },
+                "choicesOrder": {
+                  "type": "default"
+                },
+                "fieldName": "rsf",
+                "id": "/IDFGCamDeployment_2020/deploy_info/cam_info/rsf",
+                "isReadOnly": false,
+                "isRequired": true,
+                "label": "RSF Level",
+                "name": "rsf",
+                "position": 14,
+                "type": "esriQuestionTypeSingleChoice"
+              },
+              {
+                "calculation": "",
+                "defaultValue": "",
+                "fieldName": "cellid_number",
+                "id": "/IDFGCamDeployment_2020/deploy_info/cam_info/cellid_number",
+                "isReadOnly": false,
+                "isRequired": true,
+                "label": "Cell ID",
+                "name": "cellid_number",
+                "position": 15,
+                "type": "esriQuestionTypeNumber",
+                "validation": {
+                  "isInteger": true,
+                  "valueRange": {
+                    "isEnabled": false
+                  }
+                }
+              },
+              {
+                "calculation": "if(selected( /IDFGCamDeployment_2020/deploy_info/wolf_type ,'wolf_a'),concat(\"A_\", /IDFGCamDeployment_2020/deploy_info/cam_info/cellid_number ),if(selected( /IDFGCamDeployment_2020/deploy_info/wolf_type ,'wolf_o'), concat(\"O_\", /IDFGCamDeployment_2020/deploy_info/cam_info/cellid_number ), if(selected( /IDFGCamDeployment_2020/deploy_info/wolf_type ,'wolf_b'), concat(\"B_\", /IDFGCamDeployment_2020/deploy_info/cam_info/cellid_number ),if(selected( /IDFGCamDeployment_2020/deploy_info/project ,'CAMLN2020'),  /IDFGCamDeployment_2020/deploy_info/cam_info/cellid_number , if(selected( /IDFGCamDeployment_2020/deploy_info/project ,'SWUNG2020'), concat(\"R\", /IDFGCamDeployment_2020/deploy_info/cam_info/region ,\"_\", /IDFGCamDeployment_2020/deploy_info/cam_info/rsf ,\"_\", /IDFGCamDeployment_2020/deploy_info/cam_info/cellid_number ),if(selected( /IDFGCamDeployment_2020/deploy_info/eoe_style ,'neo_pred'),concat(\"P_\", /IDFGCamDeployment_2020/deploy_info/cam_info/cellid_number ),if(selected( /IDFGCamDeployment_2020/deploy_info/eoe_style ,'ung'),concat(\"U_\", /IDFGCamDeployment_2020/deploy_info/cam_info/cellid_number ), \"\")))))))",
+                "defaultValue": "",
+                "fieldName": "cell_id",
+                "id": "/IDFGCamDeployment_2020/deploy_info/cam_info/cell_id",
+                "isReadOnly": true,
+                "isRequired": false,
+                "label": "Formatted Cell ID:",
+                "name": "cell_id",
+                "position": 16,
+                "type": "esriQuestionTypeText",
+                "validation": {
+                  "valueRange": {
+                    "isEnabled": false
+                  }
+                }
+              },
+              {
+                "calculation": "",
+                "defaultValue": "0000",
+                "fieldLength": "4",
+                "fieldName": "cam_id",
+                "id": "/IDFGCamDeployment_2020/deploy_info/cam_info/cam_id",
+                "isReadOnly": false,
+                "isRequired": true,
+                "label": "Camera ID",
+                "name": "cam_id",
+                "position": 17,
+                "type": "esriQuestionTypeText",
+                "validation": {
+                  "valueRange": {
+                    "isEnabled": false
+                  }
+                }
+              },
+              {
+                "calculation": "",
+                "defaultValue": "",
+                "fieldName": "generated_note_name_21",
+                "id": "/IDFGCamDeployment_2020/deploy_info/cam_info/generated_note_name_21",
+                "isReadOnly": true,
+                "isRequired": false,
+                "label": "<font color=\"red\">ID should be 4 numbers</font>",
+                "name": "generated_note_name_21",
+                "position": 18,
+                "type": "esriQuestionTypeText",
+                "validation": {
+                  "valueRange": {
+                    "isEnabled": false
+                  }
+                }
+              },
+              {
+                "appearance": {
+                  "layout": "minimal"
+                },
+                "choices": {
+                  "items": [
+                    {
+                      "label": "3918",
+                      "position": 0,
+                      "value": "3918"
+                    },
+                    {
+                      "label": "2264",
+                      "position": 1,
+                      "value": "2264"
+                    },
+                    {
+                      "label": "Small lock combo (enter below)",
+                      "position": 2,
+                      "value": "small_lock"
+                    }
+                  ],
+                  "other": {
+                    "isEnabled": false
+                  }
+                },
+                "choicesOrder": {
+                  "type": "default"
+                },
+                "fieldName": "lock_id",
+                "id": "/IDFGCamDeployment_2020/deploy_info/cam_info/lock_id",
+                "isReadOnly": false,
+                "isRequired": true,
+                "label": "Python Lock(s) Key Number",
+                "name": "lock_id",
+                "position": 19,
+                "type": "esriQuestionTypeSingleChoice"
+              },
+              {
+                "calculation": "",
+                "defaultValue": "",
+                "fieldName": "sm_lck_cmbo",
+                "id": "/IDFGCamDeployment_2020/deploy_info/cam_info/sm_lck_cmbo",
+                "isReadOnly": false,
+                "isRequired": true,
+                "label": "Small Lock Combo",
+                "name": "sm_lck_cmbo",
+                "position": 20,
+                "type": "esriQuestionTypeText",
+                "validation": {
+                  "valueRange": {
+                    "isEnabled": false
+                  }
+                }
+              },
+              {
+                "calculation": "",
+                "defaultExtent": {
+                  "spatialReference": {}
+                },
+                "defaultValue": {
+                  "spatialReference": {}
+                },
+                "displayFormats": [
+                  "DD"
+                ],
+                "id": "/IDFGCamDeployment_2020/deploy_info/cam_info/gps_auto",
+                "inputTools": [
+                  "pin",
+                  "search",
+                  "locate"
+                ],
+                "isDeviceLocationRequired": false,
+                "isReadOnly": false,
+                "isRequired": true,
+                "label": "Geographic Coordinates (decimal degrees, WGS84)",
+                "maps": [],
+                "name": "gps_auto",
+                "position": 21,
+                "type": "esriQuestionTypeGeoPoint"
+              },
+              {
+                "calculation": "",
+                "defaultValue": "",
+                "fieldName": "generated_note_name_25",
+                "id": "/IDFGCamDeployment_2020/deploy_info/cam_info/generated_note_name_25",
+                "isReadOnly": true,
+                "isRequired": false,
+                "label": "Do not move while fixing location!",
+                "name": "generated_note_name_25",
+                "position": 22,
+                "type": "esriQuestionTypeText",
+                "validation": {
+                  "valueRange": {
+                    "isEnabled": false
+                  }
+                }
+              },
+              {
+                "calculation": "pulldata(\"@geopoint\",  /IDFGCamDeployment_2020/deploy_info/cam_info/gps_auto , \"y\")",
+                "defaultValue": [
+                  null
+                ],
+                "fieldName": "lat_auto",
+                "id": "/IDFGCamDeployment_2020/deploy_info/cam_info/lat_auto",
+                "isHidden": true,
+                "isRequired": false,
+                "label": "lat_auto",
+                "name": "lat_auto",
+                "position": 23,
+                "type": "esriQuestionTypeText",
+                "validation": {
+                  "valueRange": {
+                    "isEnabled": false
+                  }
+                }
+              },
+              {
+                "calculation": "pulldata(\"@geopoint\",  /IDFGCamDeployment_2020/deploy_info/cam_info/gps_auto , \"x\")",
+                "defaultValue": [
+                  null
+                ],
+                "fieldName": "lon_auto",
+                "id": "/IDFGCamDeployment_2020/deploy_info/cam_info/lon_auto",
+                "isHidden": true,
+                "isRequired": false,
+                "label": "lon_auto",
+                "name": "lon_auto",
+                "position": 24,
+                "type": "esriQuestionTypeText",
+                "validation": {
+                  "valueRange": {
+                    "isEnabled": false
+                  }
+                }
+              },
+              {
+                "calculation": "pulldata(\"@geopoint\",  /IDFGCamDeployment_2020/deploy_info/cam_info/gps_auto , \"horizontalAccuracy\")",
+                "defaultValue": "",
+                "fieldName": "gps_accuracy",
+                "id": "/IDFGCamDeployment_2020/deploy_info/cam_info/gps_accuracy",
+                "isReadOnly": false,
+                "isRequired": false,
+                "label": "GPS Accuracy (m)",
+                "name": "gps_accuracy",
+                "position": 25,
+                "type": "esriQuestionTypeNumber",
+                "validation": {
+                  "isInteger": false,
+                  "valueRange": {
+                    "isEnabled": false
+                  }
+                }
+              },
+              {
+                "calculation": "pulldata(\"@geopoint\",  /IDFGCamDeployment_2020/deploy_info/cam_info/gps_auto , \"y\")",
+                "defaultValue": "",
+                "fieldName": "lat_manual",
+                "id": "/IDFGCamDeployment_2020/deploy_info/cam_info/lat_manual",
+                "isReadOnly": false,
+                "isRequired": false,
+                "label": "Latitude (manual)",
+                "name": "lat_manual",
+                "position": 26,
+                "type": "esriQuestionTypeNumber",
+                "validation": {
+                  "isInteger": false,
+                  "valueRange": {
+                    "isEnabled": false
+                  }
+                }
+              },
+              {
+                "calculation": "pulldata(\"@geopoint\",  /IDFGCamDeployment_2020/deploy_info/cam_info/gps_auto , \"x\")",
+                "defaultValue": "",
+                "fieldName": "lon_manual",
+                "id": "/IDFGCamDeployment_2020/deploy_info/cam_info/lon_manual",
+                "isReadOnly": false,
+                "isRequired": false,
+                "label": "Longitude (manual)",
+                "name": "lon_manual",
+                "position": 27,
+                "type": "esriQuestionTypeNumber",
+                "validation": {
+                  "isInteger": false,
+                  "valueRange": {
+                    "isEnabled": false
+                  }
+                }
+              },
+              {
+                "calculation": "",
+                "defaultValue": "",
+                "fieldName": "generated_note_name_31",
+                "id": "/IDFGCamDeployment_2020/deploy_info/cam_info/generated_note_name_31",
+                "isReadOnly": true,
+                "isRequired": false,
+                "label": "<font color=\"red\">Coordinates are not in expected range (latitude 30º to 60º, longitude <b>-</b>120º to <b>-</b>90º). Are they in WGS84 decimal degrees?</font>",
+                "name": "generated_note_name_31",
+                "position": 28,
+                "type": "esriQuestionTypeText",
+                "validation": {
+                  "valueRange": {
+                    "isEnabled": false
+                  }
+                }
+              },
+              {
+                "calculation": "",
+                "defaultValue": "",
+                "fieldName": "generated_note_name_32",
+                "id": "/IDFGCamDeployment_2020/deploy_info/cam_info/generated_note_name_32",
+                "isReadOnly": true,
+                "isRequired": false,
+                "label": "<font color=\"red\">Please record latitude and longitude to at least 5 decimal places</font>",
+                "name": "generated_note_name_32",
+                "position": 29,
+                "type": "esriQuestionTypeText",
+                "validation": {
+                  "valueRange": {
+                    "isEnabled": false
+                  }
+                }
+              },
+              {
+                "calculation": "",
+                "defaultValue": "",
+                "fieldLength": "100",
+                "fieldName": "gen_loc",
+                "id": "/IDFGCamDeployment_2020/deploy_info/cam_info/gen_loc",
+                "isReadOnly": false,
+                "isRequired": true,
+                "label": "General Location",
+                "name": "gen_loc",
+                "position": 30,
+                "type": "esriQuestionTypeText",
+                "validation": {
+                  "valueRange": {
+                    "isEnabled": false
+                  }
+                }
+              },
+              {
+                "calculation": "",
+                "defaultValue": "",
+                "fieldName": "nav_notes",
+                "id": "/IDFGCamDeployment_2020/deploy_info/cam_info/nav_notes",
+                "isReadOnly": false,
+                "isRequired": false,
+                "label": "Notes on navigation to site",
+                "name": "nav_notes",
+                "position": 31,
+                "type": "esriQuestionTypeTextArea",
+                "validation": {
+                  "valueRange": {
+                    "isEnabled": false
+                  }
+                }
+              }
+            ],
+            "type": "esriQuestionTypeGroup"
+          }
+        ],
+        "type": "esriQuestionTypeGroup"
+      },
+      {
+        "appearance": {
+          "layout": "expanded"
+        },
+        "id": "/IDFGCamDeployment_2020/view_info",
+        "label": "Viewshed Information",
+        "name": "view_info",
+        "position": 32,
+        "questions": [
+          {
+            "calculation": "",
+            "defaultValue": "",
+            "fieldName": "generated_note_name_39",
+            "id": "/IDFGCamDeployment_2020/view_info/generated_note_name_39",
+            "isReadOnly": true,
+            "isRequired": false,
+            "label": "0",
+            "name": "generated_note_name_39",
+            "position": 33,
+            "type": "esriQuestionTypeText",
+            "validation": {
+              "valueRange": {
+                "isEnabled": false
+              }
+            }
+          },
+          {
+            "calculation": "",
+            "defaultValue": "",
+            "fieldName": "generated_note_name_40",
+            "id": "/IDFGCamDeployment_2020/view_info/generated_note_name_40",
+            "isReadOnly": true,
+            "isRequired": false,
+            "label": "0",
+            "name": "generated_note_name_40",
+            "position": 34,
+            "type": "esriQuestionTypeText",
+            "validation": {
+              "valueRange": {
+                "isEnabled": false
+              }
+            }
+          },
+          {
+            "calculation": "",
+            "defaultValue": "",
+            "fieldName": "cam_height",
+            "id": "/IDFGCamDeployment_2020/view_info/cam_height",
+            "isReadOnly": false,
+            "isRequired": true,
+            "label": "Camera Height (m)",
+            "name": "cam_height",
+            "position": 35,
+            "type": "esriQuestionTypeNumber",
+            "validation": {
+              "isInteger": false,
+              "valueRange": {
+                "isEnabled": false
+              }
+            }
+          },
+          {
+            "calculation": "",
+            "defaultValue": "",
+            "fieldName": "dist_a",
+            "id": "/IDFGCamDeployment_2020/view_info/dist_a",
+            "isReadOnly": false,
+            "isRequired": true,
+            "label": "Distance to Marker A (m)",
+            "name": "dist_a",
+            "position": 36,
+            "type": "esriQuestionTypeNumber",
+            "validation": {
+              "isInteger": false,
+              "valueRange": {
+                "isEnabled": false
+              }
+            }
+          },
+          {
+            "appearance": {
+              "layout": "minimal"
+            },
+            "choices": {
+              "items": [
+                {
+                  "label": "Flagging on tree",
+                  "position": 0,
+                  "value": "flag_tree"
+                },
+                {
+                  "label": "Flagging on shrub",
+                  "position": 1,
+                  "value": "flag_shrub"
+                },
+                {
+                  "label": "Painted X",
+                  "position": 2,
+                  "value": "paint_x"
+                },
+                {
+                  "label": "Reflective stake",
+                  "position": 3,
+                  "value": "stake"
+                },
+                {
+                  "label": "Other (describe in comments section)",
+                  "position": 4,
+                  "value": "other"
+                }
+              ],
+              "other": {
+                "isEnabled": false
+              }
+            },
+            "choicesOrder": {
+              "type": "default"
+            },
+            "fieldName": "type_a",
+            "id": "/IDFGCamDeployment_2020/view_info/type_a",
+            "isReadOnly": false,
+            "isRequired": true,
+            "label": "Type of Marker A",
+            "name": "type_a",
+            "position": 37,
+            "type": "esriQuestionTypeSingleChoice"
+          },
+          {
+            "calculation": "",
+            "defaultValue": "",
+            "fieldName": "dist_b",
+            "id": "/IDFGCamDeployment_2020/view_info/dist_b",
+            "isReadOnly": false,
+            "isRequired": true,
+            "label": "Distance to Marker B (m)",
+            "name": "dist_b",
+            "position": 38,
+            "type": "esriQuestionTypeNumber",
+            "validation": {
+              "isInteger": false,
+              "valueRange": {
+                "isEnabled": false
+              }
+            }
+          },
+          {
+            "appearance": {
+              "layout": "minimal"
+            },
+            "choices": {
+              "items": [
+                {
+                  "label": "Flagging on tree",
+                  "position": 0,
+                  "value": "flag_tree"
+                },
+                {
+                  "label": "Flagging on shrub",
+                  "position": 1,
+                  "value": "flag_shrub"
+                },
+                {
+                  "label": "Painted X",
+                  "position": 2,
+                  "value": "paint_x"
+                },
+                {
+                  "label": "Reflective stake",
+                  "position": 3,
+                  "value": "stake"
+                },
+                {
+                  "label": "Other (describe in comments section)",
+                  "position": 4,
+                  "value": "other"
+                }
+              ],
+              "other": {
+                "isEnabled": false
+              }
+            },
+            "choicesOrder": {
+              "type": "default"
+            },
+            "fieldName": "type_b",
+            "id": "/IDFGCamDeployment_2020/view_info/type_b",
+            "isReadOnly": false,
+            "isRequired": true,
+            "label": "Type of Marker B",
+            "name": "type_b",
+            "position": 39,
+            "type": "esriQuestionTypeSingleChoice"
+          },
+          {
+            "calculation": "",
+            "defaultValue": "",
+            "fieldName": "dist_c",
+            "id": "/IDFGCamDeployment_2020/view_info/dist_c",
+            "isReadOnly": false,
+            "isRequired": true,
+            "label": "Distance to Marker C (m)",
+            "name": "dist_c",
+            "position": 40,
+            "type": "esriQuestionTypeNumber",
+            "validation": {
+              "isInteger": false,
+              "valueRange": {
+                "isEnabled": false
+              }
+            }
+          },
+          {
+            "appearance": {
+              "layout": "minimal"
+            },
+            "choices": {
+              "items": [
+                {
+                  "label": "Flagging on tree",
+                  "position": 0,
+                  "value": "flag_tree"
+                },
+                {
+                  "label": "Flagging on shrub",
+                  "position": 1,
+                  "value": "flag_shrub"
+                },
+                {
+                  "label": "Painted X",
+                  "position": 2,
+                  "value": "paint_x"
+                },
+                {
+                  "label": "Reflective stake",
+                  "position": 3,
+                  "value": "stake"
+                },
+                {
+                  "label": "Other (describe in comments section)",
+                  "position": 4,
+                  "value": "other"
+                }
+              ],
+              "other": {
+                "isEnabled": false
+              }
+            },
+            "choicesOrder": {
+              "type": "default"
+            },
+            "fieldName": "type_c",
+            "id": "/IDFGCamDeployment_2020/view_info/type_c",
+            "isReadOnly": false,
+            "isRequired": true,
+            "label": "Type of Marker C",
+            "name": "type_c",
+            "position": 41,
+            "type": "esriQuestionTypeSingleChoice"
+          },
+          {
+            "calculation": "",
+            "defaultValue": "",
+            "fieldName": "dist_near",
+            "id": "/IDFGCamDeployment_2020/view_info/dist_near",
+            "isReadOnly": false,
+            "isRequired": true,
+            "label": "Distance to NEAR EDGE of road/trail (m)",
+            "name": "dist_near",
+            "position": 42,
+            "type": "esriQuestionTypeNumber",
+            "validation": {
+              "isInteger": false,
+              "valueRange": {
+                "isEnabled": false
+              }
+            }
+          },
+          {
+            "calculation": "",
+            "defaultValue": "",
+            "fieldName": "dist_far",
+            "id": "/IDFGCamDeployment_2020/view_info/dist_far",
+            "isReadOnly": false,
+            "isRequired": true,
+            "label": "Distance to FAR EDGE of road/trail (m)",
+            "name": "dist_far",
+            "position": 43,
+            "type": "esriQuestionTypeNumber",
+            "validation": {
+              "isInteger": false,
+              "valueRange": {
+                "isEnabled": false
+              }
+            }
+          },
+          {
+            "calculation": "",
+            "defaultValue": "",
+            "fieldName": "walk_width",
+            "id": "/IDFGCamDeployment_2020/view_info/walk_width",
+            "isReadOnly": false,
+            "isRequired": true,
+            "label": "WIDTH of Walk Test (m)",
+            "name": "walk_width",
+            "position": 44,
+            "type": "esriQuestionTypeNumber",
+            "validation": {
+              "isInteger": false,
+              "valueRange": {
+                "isEnabled": false
+              }
+            }
+          },
+          {
+            "calculation": "",
+            "defaultValue": "",
+            "fieldName": "walk_depth",
+            "id": "/IDFGCamDeployment_2020/view_info/walk_depth",
+            "isReadOnly": false,
+            "isRequired": true,
+            "label": "DEPTH of Walk Test (m)",
+            "name": "walk_depth",
+            "position": 45,
+            "type": "esriQuestionTypeNumber",
+            "validation": {
+              "isInteger": false,
+              "valueRange": {
+                "isEnabled": false
+              }
+            }
+          },
+          {
+            "appearance": {
+              "layout": "minimal"
+            },
+            "choices": {
+              "items": [
+                {
+                  "label": "Game trail",
+                  "position": 0,
+                  "value": "game"
+                },
+                {
+                  "label": "Established hiking trail",
+                  "position": 1,
+                  "value": "hiking"
+                },
+                {
+                  "label": "ATV trail",
+                  "position": 2,
+                  "value": "atv"
+                },
+                {
+                  "label": "Lightly used dirt road",
+                  "position": 3,
+                  "value": "road"
+                }
+              ],
+              "other": {
+                "fieldName": "cam_facing_other",
+                "isEnabled": true,
+                "label": "Other (describe briefly)",
+                "name": "cam_facing_other",
+                "value": "other"
+              }
+            },
+            "choicesOrder": {
+              "type": "default"
+            },
+            "fieldName": "cam_facing",
+            "id": "/IDFGCamDeployment_2020/view_info/cam_facing",
+            "isReadOnly": false,
+            "isRequired": true,
+            "label": "What is the camera facing?",
+            "name": "cam_facing",
+            "position": 46,
+            "type": "esriQuestionTypeSingleChoice"
+          },
+          {
+            "appearance": {
+              "layout": "minimal"
+            },
+            "choices": {
+              "items": [
+                {
+                  "label": "Wet forest (cedar/hemlock/fir)",
+                  "position": 0,
+                  "value": "wet_forest"
+                },
+                {
+                  "label": "Dry forest (Douglas fir/pine/larch)",
+                  "position": 1,
+                  "value": "dry_forest"
+                },
+                {
+                  "label": "Riparian (willow/hydrophilic vegetation)",
+                  "position": 2,
+                  "value": "riparian"
+                },
+                {
+                  "label": "Aspen",
+                  "position": 3,
+                  "value": "aspen"
+                },
+                {
+                  "label": "Juniper",
+                  "position": 4,
+                  "value": "juniper"
+                },
+                {
+                  "label": "Mountain shrub (maple, mahogany, ceanothus, etc.)",
+                  "position": 5,
+                  "value": "mtn_shrub"
+                },
+                {
+                  "label": "Sagebrush-steppe",
+                  "position": 6,
+                  "value": "sage_steppe"
+                },
+                {
+                  "label": "Grassland/meadow",
+                  "position": 7,
+                  "value": "grass-mdw"
+                }
+              ],
+              "other": {
+                "fieldName": "habitat_other",
+                "isEnabled": true,
+                "label": "Other (describe briefly)",
+                "name": "habitat_other",
+                "value": "other"
+              }
+            },
+            "choicesOrder": {
+              "type": "default"
+            },
+            "fieldName": "habitat_type",
+            "id": "/IDFGCamDeployment_2020/view_info/habitat_type",
+            "isReadOnly": false,
+            "isRequired": true,
+            "label": "Dominant Habitat Type",
+            "name": "habitat_type",
+            "position": 47,
+            "type": "esriQuestionTypeSingleChoice"
+          },
+          {
+            "appearance": {
+              "layout": "minimal"
+            },
+            "choices": {
+              "items": [
+                {
+                  "label": "Ridge/saddle",
+                  "position": 0,
+                  "value": "ridge"
+                },
+                {
+                  "label": "Hillside",
+                  "position": 1,
+                  "value": "hill"
+                },
+                {
+                  "label": "Flat ground",
+                  "position": 2,
+                  "value": "flat"
+                },
+                {
+                  "label": "Drainage bottom",
+                  "position": 3,
+                  "value": "drain"
+                }
+              ],
+              "other": {
+                "fieldName": "topo_other",
+                "isEnabled": true,
+                "label": "Other (describe briefly)",
+                "name": "topo_other",
+                "value": "other"
+              }
+            },
+            "choicesOrder": {
+              "type": "default"
+            },
+            "fieldName": "topography",
+            "id": "/IDFGCamDeployment_2020/view_info/topography",
+            "isReadOnly": false,
+            "isRequired": true,
+            "label": "Topography",
+            "name": "topography",
+            "position": 48,
+            "type": "esriQuestionTypeSingleChoice"
+          },
+          {
+            "appearance": {
+              "layout": "likert"
+            },
+            "choices": {
+              "items": [
+                {
+                  "label": "0-25%",
+                  "position": 0,
+                  "value": "25"
+                },
+                {
+                  "label": "26-50%",
+                  "position": 1,
+                  "value": "50"
+                },
+                {
+                  "label": "51-75%",
+                  "position": 2,
+                  "value": "75"
+                },
+                {
+                  "label": "76-100%",
+                  "position": 3,
+                  "value": "100"
+                }
+              ],
+              "other": {
+                "isEnabled": false
+              }
+            },
+            "choicesOrder": {
+              "type": "default"
+            },
+            "fieldName": "canopy_cover",
+            "id": "/IDFGCamDeployment_2020/view_info/canopy_cover",
+            "isReadOnly": false,
+            "isRequired": true,
+            "label": "Canopy Cover",
+            "name": "canopy_cover",
+            "position": 49,
+            "type": "esriQuestionTypeSingleChoice"
+          },
+          {
+            "id": "/IDFGCamDeployment_2020/view_info/cam_diagram",
+            "isReadOnly": false,
+            "isRequired": false,
+            "label": "Camera Location Diagram (optional)",
+            "name": "cam_diagram",
+            "position": 50,
+            "type": "esriQuestionTypeSignature"
+          },
+          {
+            "calculation": "",
+            "defaultValue": "",
+            "fieldName": "comments",
+            "id": "/IDFGCamDeployment_2020/view_info/comments",
+            "isReadOnly": false,
+            "isRequired": false,
+            "label": "Comments",
+            "name": "comments",
+            "position": 51,
+            "type": "esriQuestionTypeTextArea",
+            "validation": {
+              "valueRange": {
+                "isEnabled": false
+              }
+            }
+          }
+        ],
+        "type": "esriQuestionTypeGroup"
+      },
+      {
+        "appearance": {
+          "layout": "expanded"
+        },
+        "id": "/IDFGCamDeployment_2020/end_dep",
+        "label": "Final Checklist",
+        "name": "end_dep",
+        "position": 52,
+        "questions": [
+          {
+            "calculation": "",
+            "defaultValue": "",
+            "fieldName": "generated_note_name_64",
+            "id": "/IDFGCamDeployment_2020/end_dep/generated_note_name_64",
+            "isReadOnly": true,
+            "isRequired": false,
+            "label": "<ol><li>Check SD card for viewshed & flagging (ungulate cams only), reference item, and placard photos</li>\n<li>Arm and set delay start to 2020-05-20</li>\n<li>Lock up camera</li></ol>",
+            "name": "generated_note_name_64",
+            "position": 53,
+            "type": "esriQuestionTypeText",
+            "validation": {
+              "valueRange": {
+                "isEnabled": false
+              }
+            }
+          },
+          {
+            "calculation": "",
+            "defaultValue": "",
+            "fieldName": "generated_note_name_65",
+            "id": "/IDFGCamDeployment_2020/end_dep/generated_note_name_65",
+            "isReadOnly": true,
+            "isRequired": false,
+            "label": "<ol><li>Check SD card for viewshed and placard photos</li>\n<li>Arm and set delay start to 2020-07-01</li>\n<li>Lock up camera</li></ol>",
+            "name": "generated_note_name_65",
+            "position": 54,
+            "type": "esriQuestionTypeText",
+            "validation": {
+              "valueRange": {
+                "isEnabled": false
+              }
+            }
+          },
+          {
+            "calculation": "",
+            "defaultValue": "",
+            "fieldName": "generated_note_name_66",
+            "id": "/IDFGCamDeployment_2020/end_dep/generated_note_name_66",
+            "isReadOnly": true,
+            "isRequired": false,
+            "label": "<ol><li>Check SD card for viewshed & flagging (if relevant), reference item, and placard photos</li>\n<li>Arm and set delay start (if relevant)</li>\n<li>Lock up camera</li></ol>",
+            "name": "generated_note_name_66",
+            "position": 55,
+            "type": "esriQuestionTypeText",
+            "validation": {
+              "valueRange": {
+                "isEnabled": false
+              }
+            }
+          },
+          {
+            "calculation": "",
+            "defaultValue": "",
+            "fieldName": "generated_note_name_67",
+            "id": "/IDFGCamDeployment_2020/end_dep/generated_note_name_67",
+            "isReadOnly": true,
+            "isRequired": false,
+            "label": "<h3><b>Ready to submit?</b></h3>\nTap checkmark in bottom right",
+            "name": "generated_note_name_67",
+            "position": 56,
+            "type": "esriQuestionTypeText",
+            "validation": {
+              "valueRange": {
+                "isEnabled": false
+              }
+            }
+          }
+        ],
+        "type": "esriQuestionTypeGroup"
+      }
+    ],
+    "rules": [],
+    "settings": {
+      "draftInfo": {
+        "isEnabled": false
+      },
+      "instanceName": null,
+      "isVersionLocked": true,
+      "multiSubmissionInfo": {
+        "maxAllowed": 0,
+        "showSubmitAnotherTip": false
+      },
+      "notificationsInfo": {},
+      "openStatusInfo": {
+        "closedStatusContent": "",
+        "schedule": {
+          "end": null,
+          "start": null
+        },
+        "status": "open"
+      },
+      "recordStartEndTime": {
+        "fieldInfos": [],
+        "isEnabled": false
+      },
+      "thankYouScreenContent": ""
+    },
+    "subHeader": {
+      "content": "",
+      "isVisible": true
+    },
+    "submit": {
+      "buttonText": ""
+    },
+    "themes": [
+      {
+        "form": {
+          "backgroundColor": "#ffffff",
+          "backgroundOpacity": 1,
+          "inputBackgroundColor": "#ffffff",
+          "inputTextColor": "#505050",
+          "primaryColor": "#31872E",
+          "primaryTextColor": "#ffffff",
+          "textColor": "#505050"
+        },
+        "header": {
+          "backgroundColor": "#31872E",
+          "textColor": "#ffffff"
+        },
+        "id": null,
+        "isEnabled": true,
+        "name": "theme-color1",
+        "webpage": {
+          "backgroundColor": "#B7DCC7"
+        }
+      }
+    ],
+    "version": "3.9"
+  },
+  "transformerVersion": "1.34.0"
+}

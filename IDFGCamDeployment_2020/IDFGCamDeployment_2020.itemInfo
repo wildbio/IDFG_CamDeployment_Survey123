@@ -1,0 +1,58 @@
+{
+    "access": "public",
+    "accessInformation": null,
+    "appCategories": [
+    ],
+    "avgRating": 0,
+    "banner": null,
+    "categories": [
+    ],
+    "commentsEnabled": true,
+    "created": 1586479216000,
+    "culture": "en-us",
+    "description": null,
+    "documentation": null,
+    "extent": [
+    ],
+    "groupDesignations": null,
+    "guid": null,
+    "id": "fc820a9cb31f4612b622681cae270361",
+    "industries": [
+    ],
+    "isOrgItem": true,
+    "itemControl": "admin",
+    "languages": [
+    ],
+    "largeThumbnail": null,
+    "licenseInfo": null,
+    "listed": false,
+    "modified": 1588013413000,
+    "name": "IDFGCamDeployment_2020.zip",
+    "numComments": 0,
+    "numRatings": 0,
+    "numViews": 18,
+    "orgId": "FjJI5xHF2dUPVrgK",
+    "owner": "AmandaCarr_IDFG",
+    "ownerFolder": "de712323ba9a43abafe36fe02642f4f2",
+    "properties": null,
+    "protected": false,
+    "proxyFilter": null,
+    "scoreCompleteness": 33,
+    "screenshots": [
+    ],
+    "size": 344978,
+    "snippet": null,
+    "spatialReference": null,
+    "tags": [
+    ],
+    "thumbnail": "thumbnail/IDFGCamDeployment_2020.png",
+    "title": "IDFGCamDeployment_2020",
+    "type": "Form",
+    "typeKeywords": [
+        "Form",
+        "Survey123",
+        "Survey123 Connect",
+        "xForm"
+    ],
+    "url": null
+}
